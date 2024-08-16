@@ -8,3 +8,5 @@ The main goal of this project is to build a data engineering pipeline to regular
 A mock database of long-term canceled subscribers for Cademycode ( A Educational Company) Will be used. This database is regularly updated from multiple sources and needs to be cleaned and transformed into usable shapes with as little human intervention as possible.
 ## :bar_chart: Data
 The Dataset used will be based on a frictional education company called Cademycode.
+## :building_construction: Architecture
+
