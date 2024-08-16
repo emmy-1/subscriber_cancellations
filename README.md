@@ -5,9 +5,6 @@
   <b>
     Real-Time Datapipline for Cademycode customer subscription service 
   </b>
-  <div>
-    <sup>Visit <u>warp.dev</u> to learn more.</sup>
-  </div>
 </a>
 
 <hr />
