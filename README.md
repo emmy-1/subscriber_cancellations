@@ -1,4 +1,4 @@
-# subscriber_cancellations
+# Cademycode Subscriber Cancellations Data Pipeline
 ![Static Badge](https://img.shields.io/badge/Language-Python-blue)
 
 
