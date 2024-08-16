@@ -4,3 +4,4 @@
 
 ## :bulb: Overview
 The main goal of this project is to build a data engineering pipeline to regularly transform a messy database into a clean source of truth for an analytics team.
+## :scroll: Scenario
