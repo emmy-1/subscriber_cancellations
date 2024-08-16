@@ -1,5 +1,5 @@
 # Cademycode Subscriber Cancellations Data Pipeline
-![Static Badge](![Static Badge](https://img.shields.io/badge/Language-python-blue) ![Static Badge](https://img.shields.io/badge/Lakehouse-Databricks-red)
+![Static Badge](https://img.shields.io/badge/Language-python-blue) ![Static Badge](https://img.shields.io/badge/Lakehouse-Databricks-red)
 
 
 
