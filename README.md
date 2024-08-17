@@ -12,3 +12,4 @@ A mock database of long-term canceled subscribers for Cademycode ( A Educational
 The Dataset used will be based on a frictional education company called Cademycode.
 ## :building_construction: Architecture
 
+![Architecture - page 1](https://github.com/user-attachments/assets/bb1f07a9-16be-41dd-89a0-366c64835708)
