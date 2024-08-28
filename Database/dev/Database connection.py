@@ -105,3 +105,77 @@ processed_students = apply_transformations(students, transformations)
 
 # Display the processed DataFrame
 display(processed_students)
+
+# COMMAND ----------
+
+def get_missing_rows(df, column):
+    """
+    Returns a DataFrame with rows that have missing values in the specified column.
+    """
+    return df[df[column].isnull()]
+
+def drop_missing_rows(df, column):
+    """
+    Returns a DataFrame with rows that do not have missing values in the specified column.
+    """
+    return df.dropna(subset=[column])
+
+# Get the missing rows and cleaned DataFrame for 'num_course_taken'
+missing_students = get_missing_rows(students, 'num_course_taken')
+cleaned_students = drop_missing_rows(students, 'num_course_taken')
+
+# Get the missing rows and cleaned DataFrame for 'job_id'
+missing_job_id = get_missing_rows(cleaned_students, 'job_id')
+cleaned_student_id = drop_missing_rows(cleaned_students, 'job_id')
+
+# Display the cleaned DataFrame and the DataFrame with missing values
+display(cleaned_student_id)
+
+# COMMAND ----------
+
+cleaned_student_id.info()
+
+# COMMAND ----------
+
+job_idm = students[students[['job_id']].isnull().any(axis=1)]
+
+# COMMAND ----------
+
+def fill_np_zero(dataset, column_name):
+    dataset[column_name] = np.where(dataset[column_name].isnull(), 0, dataset[column_name]) 
+    return dataset
+
+# Apply the function to the 'current_career_path_id' column
+cleaned_students_carerid = fill_np_zero(cleaned_student_id, 'current_career_path_id')
+
+# Apply the function to the 'time_spent_hrs' column
+cleaned_students_timespent = fill_np_zero(cleaned_students_carerid, 'time_spent_hrs')
+
+# Display the updated DataFrame
+display(cleaned_students_timespent)
+
+# COMMAND ----------
+
+cleaned_students_timespent.info()
+
+# COMMAND ----------
+
+def concat_into(dataset, column_name):
+    return pd.concat([dataset, column_name], ignore_index=True)
+# Concatenate the missing job_id rows to missingDB
+missingDB = concat_into(missing_students, job_idm)
+
+# COMMAND ----------
+
+#creating a dictionary and append.
+not_applicatble = {'career_path_id':0, 'career_path_name':'Not Applicable', 'hours_to_complete':0}
+courses.loc[len(courses)] = not_applicatble
+
+# COMMAND ----------
+
+display(courses)
+
+# COMMAND ----------
+
+jobs.drop_duplicates(inplace=True)
+display(jobs)
