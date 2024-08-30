@@ -170,7 +170,7 @@ def Run_Transfomer(Dataset):
     return join_missing_tables, final_dataset
 
 # Run the transformer and get all three DataFrames
-join_missing_tables, cleaned_students_timespent = Run_Transfomer(students)
+join_missing_tables, final_dataset = Run_Transfomer(students)
 
 # Update the courses table
 Courese_updated = not_applicable(courses, 0, 'Not Applicable', 0)
@@ -181,6 +181,20 @@ jobs.drop_duplicates(inplace=True)
 
 # Display the DataFrames
 display(join_missing_tables)
-display(cleaned_students_timespent)
+display(final_dataset)
 display(Courese_updated)
 display(jobs)
+
+# COMMAND ----------
+
+New_SQllitconnection = sqlite3.connect('cademycode_cleaned.db')
+join_missing_tables.to_sql('join_missing_tables', New_SQllitconnection, if_exists='replace', index=False)
+final_dataset.to_sql('cleaned_students_timespent', New_SQllitconnection, if_exists='replace', index=False)
+Courese_updated.to_sql('Courese_updated', New_SQllitconnection, if_exists='replace', index=False)
+jobs.to_sql('jobs', New_SQllitconnection, if_exists='replace', index=False)
+
+
+# COMMAND ----------
+
+Test1 = pd.read_sql_query("SELECT * FROM jobs", New_SQllitconnection)
+display(Test1)
