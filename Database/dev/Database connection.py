@@ -1,21 +1,28 @@
 # Databricks notebook source
-import sqlite3
-import os
-import pandas as pd
-import numpy as np
-import json
-working_Dir = "/Workspace/Users/ade@gentechorg.onmicrosoft.com/subscriber_cancellations/Database/dev/"
+# MAGIC %md
+# MAGIC # Import Necessary Libaries 
 
 # COMMAND ----------
 
-import sqlite3
 import os
 import pandas as pd
 import numpy as np
 import json
+from dotenv import load_dotenv
+import sqlite3
 
-# Set the working directory
-working_Dir = "/Workspace/Users/ade@gentechorg.onmicrosoft.com/subscriber_cancellations/Database/dev/"
+# Load environment variables from a .env file
+load_dotenv()
+
+# Set the working directory from environment variable
+working_Dir = os.getenv("WORKING_DIR")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # Define Connection Functions
+
+# COMMAND ----------
 
 def change_directory(file_path):
     """Change the current working directory to the specified file path."""
@@ -37,6 +44,7 @@ def create_connection(db_name):
     except sqlite3.Error as e:
         print(f"Error creating connection: {e}")
         return None
+    
 
 def connect_to_database():
     """Connect to the SQLite database and return the connection."""
@@ -46,6 +54,7 @@ def connect_to_database():
         print(f"Error: {e}")
         return None
 
+    
 def read_tables(table_name, con_name):
     """Read the specified table from the database and return a Pandas DataFrame."""
     try:
@@ -53,33 +62,6 @@ def read_tables(table_name, con_name):
     except Exception as e:
         print(f"Error reading table {table_name}: {e}")
         return pd.DataFrame()
-
-def apply_transformations(df, transformations):
-    """Apply a list of transformation functions to a DataFrame."""
-    try:
-        for transform in transformations:
-            df = transform(df)
-        return df
-    except Exception as e:
-        print(f"Error applying transformations: {e}")
-        return df
-
-def replace_na(df, value_to_replace):
-    """Replace NA values in a DataFrame with the specified value."""
-    try:
-        return df.fillna(value=value_to_replace)
-    except Exception as e:
-        print(f"Error replacing NA values: {e}")
-        return df
-
-def parse_contact_info(df, column_name, char1, char2):
-    """Parse JSON-like strings in the specified column and create new columns."""
-    try:
-        df[[char1, char2]] = df[column_name].apply(lambda x: pd.Series(json.loads(x)))
-        return df
-    except Exception as e:
-        print(f"Error parsing contact info: {e}")
-        return df
 
 # Create a single connection to the database
 connection = connect_to_database()
@@ -89,93 +71,116 @@ students = read_tables("cademycode_students", connection)
 courses = read_tables("cademycode_courses", connection)
 jobs = read_tables("cademycode_student_jobs", connection)
 
-# Define the transformations to be applied
-transformations = [
-    lambda df: replace_na(df, {'job_id': 0}),
-    lambda df: df.drop_duplicates(),
-    lambda df: parse_contact_info(df, 'contact_info', 'mailing_address', 'email'),
-    lambda df: df.drop(['contact_info'], axis=1),
-    lambda df: replace_na(df, {'num_course_taken': 0}),
-    lambda df: replace_na(df, {'current_career_path_id': 0}),
-    lambda df: replace_na(df, {'time_spent_hrs': 0})
-]
+# COMMAND ----------
 
-# Apply the transformations to the students DataFrame
-processed_students = apply_transformations(students, transformations)
-
-# Display the processed DataFrame
-display(processed_students)
+# MAGIC %md
+# MAGIC # Transformation Function
 
 # COMMAND ----------
+
+def parse_contact_info(df, column_name, char1, char2):
+    """Parse JSON-like strings in the specified column and create new columns."""
+    try:
+        df[[char1, char2]] = df[column_name].apply(lambda x: pd.Series(json.loads(x)))
+        return df
+    except Exception as e:
+        print(f"Error parsing contact info: {e}")
+        return df
+    
 
 def get_missing_rows(df, column):
     """
     Returns a DataFrame with rows that have missing values in the specified column.
+
     """
-    return df[df[column].isnull()]
+    try:
+        return df[df[column].isnull()]
+    except Exception as e:
+        print(f"Error getting missing rows: {e}")
+    return df
 
 def drop_missing_rows(df, column):
     """
     Returns a DataFrame with rows that do not have missing values in the specified column.
     """
-    return df.dropna(subset=[column])
+    try:
+        return df.dropna(subset=[column])
+    except Exception as e:
+        print(f"Error dropping missing rows: {e}")
+    return df
 
-# Get the missing rows and cleaned DataFrame for 'num_course_taken'
-missing_students = get_missing_rows(students, 'num_course_taken')
-cleaned_students = drop_missing_rows(students, 'num_course_taken')
 
-# Get the missing rows and cleaned DataFrame for 'job_id'
-missing_job_id = get_missing_rows(cleaned_students, 'job_id')
-cleaned_student_id = drop_missing_rows(cleaned_students, 'job_id')
-
-# Display the cleaned DataFrame and the DataFrame with missing values
-display(cleaned_student_id)
-
-# COMMAND ----------
-
-cleaned_student_id.info()
-
-# COMMAND ----------
-
-job_idm = students[students[['job_id']].isnull().any(axis=1)]
-
-# COMMAND ----------
+def concat_into_db(df1, df2):
+    """
+    Concatenate two DataFrames along the rows.
+    """
+    try:
+        return pd.concat([df1, df2], ignore_index=True)
+    except Exception as e:
+        print(f"Error concatenating DataFrames. Ensure both dataframes have the same columns: {e}")
+        return pd.DataFrame() # Return an empty DataFrame in case of an error
 
 def fill_np_zero(dataset, column_name):
-    dataset[column_name] = np.where(dataset[column_name].isnull(), 0, dataset[column_name]) 
+    """ Replace NaN values in the specified column with 0.
+    """
+    try:
+        dataset[column_name] = np.where(dataset[column_name].isnull(), 0, dataset[column_name]) 
+    except Exception as e:
+        print(f"There are no NaN values in the tables: {e}")
     return dataset
 
-# Apply the function to the 'current_career_path_id' column
-cleaned_students_carerid = fill_np_zero(cleaned_student_id, 'current_career_path_id')
+def drop_colums(dataset, column_name):
+    return dataset.drop(column_name, axis=1)
 
-# Apply the function to the 'time_spent_hrs' column
-cleaned_students_timespent = fill_np_zero(cleaned_students_carerid, 'time_spent_hrs')
-
-# Display the updated DataFrame
-display(cleaned_students_timespent)
-
-# COMMAND ----------
-
-cleaned_students_timespent.info()
-
-# COMMAND ----------
-
-def concat_into(dataset, column_name):
-    return pd.concat([dataset, column_name], ignore_index=True)
-# Concatenate the missing job_id rows to missingDB
-missingDB = concat_into(missing_students, job_idm)
+def not_applicable(dataset, career_id, career_name, hours):
+    try:
+        dictionary = {'career_path_id':career_id,  'career_path_name': career_name, 'hours_to_complete': hours}
+        dataset.loc[len(dataset)] = dictionary
+        return dataset
+    except Exception as e:
+        print(e)
+        return dataset
 
 # COMMAND ----------
 
-#creating a dictionary and append.
-not_applicatble = {'career_path_id':0, 'career_path_name':'Not Applicable', 'hours_to_complete':0}
-courses.loc[len(courses)] = not_applicatble
+# MAGIC %md
+# MAGIC # Transformation Logic
 
 # COMMAND ----------
 
-display(courses)
+def Run_Transfomer(Dataset):
+    Change_contact_info = parse_contact_info(Dataset, 'contact_info', 'mailing_address', 'email')
+    # Get the missing rows and cleaned DataFrame for 'num_course_taken'
+    missing_students = get_missing_rows(Change_contact_info, 'num_course_taken')
+    cleaned_students = drop_missing_rows(Change_contact_info, 'num_course_taken')
+    # Get the missing rows and cleaned DataFrame for 'job_id'
+    missing_job_id = get_missing_rows(cleaned_students, 'job_id')
+    cleaned_student_id = drop_missing_rows(cleaned_students, 'job_id')
+    # join the two DataFrames for mising values
+    join_missing_tables = concat_into_db(missing_students, missing_job_id)
 
-# COMMAND ----------
+    # Apply 0 the 'current_career_path_id' column. where 0 means stduent has chossen a career path
+    cleaned_students_carerid = fill_np_zero(cleaned_student_id, 'current_career_path_id')
 
+    # Apply 0 to the 'time_spent_hrs' column. where 0 means student has taken any courses
+    cleaned_students_timespent = fill_np_zero(cleaned_students_carerid, 'time_spent_hrs')
+
+    final_dataset = drop_colums(cleaned_students_timespent, 'contact_info')
+
+    return join_missing_tables, final_dataset
+
+# Run the transformer and get all three DataFrames
+join_missing_tables, cleaned_students_timespent = Run_Transfomer(students)
+
+# Update the courses table
+Courese_updated = not_applicable(courses, 0, 'Not Applicable', 0)
+
+# Update the jobs table
 jobs.drop_duplicates(inplace=True)
+
+
+# Display the DataFrames
+display(join_missing_tables)
+display(cleaned_students_timespent)
+display(Courese_updated)
 display(jobs)
