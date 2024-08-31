@@ -196,5 +196,76 @@ jobs.to_sql('jobs', New_SQllitconnection, if_exists='replace', index=False)
 
 # COMMAND ----------
 
-Test1 = pd.read_sql_query("SELECT * FROM jobs", New_SQllitconnection)
-display(Test1)
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get the Azure storage account key from environment variables
+azure_storage_account_key = os.getenv('AZURE_STORAGE_ACCOUNT_KEY')
+
+# Set the Azure storage account key in Spark configuration
+spark.conf.set(
+    "fs.azure.account.key.neweggdb.dfs.core.windows.net",
+    azure_storage_account_key
+)
+
+incomplete_datadb = read_tables('join_missing_tables', New_SQllitconnection)
+final_datasetdb = read_tables('cleaned_students_timespent', New_SQllitconnection)
+courese_datasetdb = read_tables('Courese_updated', New_SQllitconnection)
+jobs_datasetdb = read_tables('jobs', New_SQllitconnection)
+
+
+# Create the DataFrame from the collected data
+def create_dataframe(data):
+    return spark.createDataFrame(data)
+
+final_dataset = create_dataframe(final_datasetdb)
+incomplete_datadb = create_dataframe(incomplete_datadb)
+courese_dataset = create_dataframe(courese_datasetdb)
+jobs_dataset = create_dataframe(jobs_datasetdb)
+
+
+def write_table(dataframe, path):
+    dataframe.coalesce(1).write.mode("overwrite").csv(path, header=True)
+
+# Write the DataFrame to a CSV file
+final_dataframe = write_table(final_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
+courses_dataframe = write_table(courese_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
+jobs_dataframe = write_table(jobs_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
+incomplete_dataframe = write_table(incomplete_datadb, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/')
+
+# COMMAND ----------
+
+def find_csv_file(file_list):
+    """
+    Find the first CSV file in the given list of files.
+
+    Parameters:
+    file_list (list): List of files to search through.
+
+    Returns:
+    str: The name of the first CSV file found, or an empty string if no CSV file is found.
+    """
+    for file in file_list:
+        if file.name.endswith('.csv'):
+            return file.name
+    return ''
+
+# Example usage
+fileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
+coursesFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
+jobsFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
+incompleteFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/')
+name = find_csv_file(fileName)
+coursesName = find_csv_file(coursesFileName)
+jobsName = find_csv_file(jobsFileName)
+incompleteName = find_csv_file(incompleteFileName)
+
+# copy csv file if you see it
+dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/'+ name,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/student_bronz/students_dataset.csv/')
+dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/'+ coursesName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/course_bronz/courses_dataset.csv/')
+dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/'+ jobsName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_bronz/jobs_dataset.csv/')
+dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/'+ incompleteName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_bronz/incomplete_dataset.csv/')
+
