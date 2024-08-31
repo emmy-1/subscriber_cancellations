@@ -1,3 +1,6 @@
 # Ignore virtual environment
 venv/
 .env
+
+# .gitignore
+.env
