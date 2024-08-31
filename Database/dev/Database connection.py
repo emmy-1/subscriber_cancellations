@@ -17,6 +17,9 @@ load_dotenv()
 # Set the working directory from environment variable
 working_Dir = os.getenv("WORKING_DIR")
 
+# Get the Azure storage account key from environment variables
+azure_storage_account_key = os.getenv('AZURE_STORAGE_ACCOUNT_KEY')
+
 # COMMAND ----------
 
 # MAGIC %md
@@ -178,32 +181,7 @@ Courese_updated = not_applicable(courses, 0, 'Not Applicable', 0)
 # Update the jobs table
 jobs.drop_duplicates(inplace=True)
 
-
-# Display the DataFrames
-display(join_missing_tables)
-display(final_dataset)
-display(Courese_updated)
-display(jobs)
-
 # COMMAND ----------
-
-New_SQllitconnection = sqlite3.connect('cademycode_cleaned.db')
-join_missing_tables.to_sql('join_missing_tables', New_SQllitconnection, if_exists='replace', index=False)
-final_dataset.to_sql('cleaned_students_timespent', New_SQllitconnection, if_exists='replace', index=False)
-Courese_updated.to_sql('Courese_updated', New_SQllitconnection, if_exists='replace', index=False)
-jobs.to_sql('jobs', New_SQllitconnection, if_exists='replace', index=False)
-
-
-# COMMAND ----------
-
-import os
-from dotenv import load_dotenv
-
-# Load environment variables from .env file
-load_dotenv()
-
-# Get the Azure storage account key from environment variables
-azure_storage_account_key = os.getenv('AZURE_STORAGE_ACCOUNT_KEY')
 
 # Set the Azure storage account key in Spark configuration
 spark.conf.set(
@@ -211,32 +189,62 @@ spark.conf.set(
     azure_storage_account_key
 )
 
-incomplete_datadb = read_tables('join_missing_tables', New_SQllitconnection)
-final_datasetdb = read_tables('cleaned_students_timespent', New_SQllitconnection)
-courese_datasetdb = read_tables('Courese_updated', New_SQllitconnection)
-jobs_datasetdb = read_tables('jobs', New_SQllitconnection)
+def write_to_sql(dataframe, table_name, connection):
+    """Write a DataFrame to SQL."""
+    dataframe.to_sql(table_name, connection, if_exists='replace', index=False)
 
+# Create a new SQLite connection
+New_SQllitconnection = sqlite3.connect('cademycode_cleaned.db')
 
-# Create the DataFrame from the collected data
+# Write DataFrames to SQL using the new function
+write_to_sql(join_missing_tables, 'join_missing_tables', New_SQllitconnection)
+write_to_sql(final_dataset, 'cleaned_students_timespent', New_SQllitconnection)
+write_to_sql(Courese_updated, 'Courese_updated', New_SQllitconnection)
+write_to_sql(jobs, 'jobs', New_SQllitconnection)
+
 def create_dataframe(data):
+    """Create a Spark DataFrame from the given data."""
     return spark.createDataFrame(data)
 
-final_dataset = create_dataframe(final_datasetdb)
-incomplete_datadb = create_dataframe(incomplete_datadb)
-courese_dataset = create_dataframe(courese_datasetdb)
-jobs_dataset = create_dataframe(jobs_datasetdb)
+# Create Spark DataFrames from the Pandas DataFrames
+student_dataset = create_dataframe(final_dataset)
+incomplete_student_dataset = create_dataframe(join_missing_tables)
+courese_dataset = create_dataframe(Courese_updated)
+jobs_dataset = create_dataframe(jobs)
 
-
-def write_table(dataframe, path):
+def write_to_csv(dataframe, path):
+    """Write a DataFrame to a CSV file."""
     dataframe.coalesce(1).write.mode("overwrite").csv(path, header=True)
 
-# Write the DataFrame to a CSV file
-final_dataframe = write_table(final_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
-courses_dataframe = write_table(courese_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
-jobs_dataframe = write_table(jobs_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
-incomplete_dataframe = write_table(incomplete_datadb, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/')
+# Write the Spark DataFrames to CSV files using the new function
+write_to_csv(student_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
+write_to_csv(courese_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
+write_to_csv(jobs_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
+write_to_csv(incomplete_student_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/')
 
 # COMMAND ----------
+
+# Define the dataset paths
+datasets = {
+    'students': 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/',
+    'courses': 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/',
+    'jobs': 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/',
+    'incomplete': 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/'
+}
+
+def copy_csv_file(source_path, destination_path, file_name):
+    """
+    Copy a CSV file from source to destination.
+
+    Parameters:
+    source_path (str): The source path of the CSV file.
+    destination_path (str): The destination path for the CSV file.
+    file_name (str): The name of the CSV file to copy.
+    """
+    if file_name:  # Check if a file name was found
+        dbutils.fs.cp(f'{source_path}{file_name}', destination_path)
+    else:
+        print(f"No CSV file found in {source_path}")
 
 def find_csv_file(file_list):
     """
@@ -253,19 +261,15 @@ def find_csv_file(file_list):
             return file.name
     return ''
 
-# Example usage
-fileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
-coursesFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
-jobsFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
-incompleteFileName = dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/')
-name = find_csv_file(fileName)
-coursesName = find_csv_file(coursesFileName)
-jobsName = find_csv_file(jobsFileName)
-incompleteName = find_csv_file(incompleteFileName)
+# Iterate over each dataset and copy the CSV file to the destination
+for key, source in datasets.items():
+    file_list = dbutils.fs.ls(source)  # List files in the source directory
+    file_name = find_csv_file(file_list)  # Find the first CSV file in the list
+    destination = f'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/{key}_bronz/{key}_dataset.csv/'
+    
+    # Copy the CSV file to the destination
+    copy_csv_file(source, destination, file_name)
 
-# copy csv file if you see it
-dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/'+ name,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/student_bronz/students_dataset.csv/')
-dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/'+ coursesName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/course_bronz/courses_dataset.csv/')
-dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/'+ jobsName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_bronz/jobs_dataset.csv/')
-dbutils.fs.cp('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_raw/'+ incompleteName,'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/incomplete_bronz/incomplete_dataset.csv/')
+# COMMAND ----------
 
+dbutils.fs.ls('abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/')
