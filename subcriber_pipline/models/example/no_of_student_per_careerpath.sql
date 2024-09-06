@@ -11,17 +11,22 @@ student_job_info as(
     student_id,
     student_name,
     age,
-    sex
+    sex,
+    num_course_taken,
+    timespent_on_course_in_hrs
     from hive_metastore.subcriber_cancellation.subscriber_cancellation_database
 ),
 
 total_number_of_student_in_each_career_path as(
     select job_analysis.career_path_name,
-    count(student_job_info.student_id) as total_student
+    count(student_job_info.student_id) as total_student,
+    round(avg(student_job_info.num_course_taken),2) as avg_num_course_taken,
+    round(avg(student_job_info.timespent_on_course_in_hrs),2) as avg_timespent_on_course_in_hrs
     from job_analysis
     left join student_job_info 
     on job_analysis.career_path_name = student_job_info.career_path
     group by job_analysis.career_path_name
+    order by total_student desc
 )
 
 select * from total_number_of_student_in_each_career_path
