@@ -10,6 +10,7 @@ import numpy as np
 import json
 from dotenv import load_dotenv
 import sqlite3
+import logging
 
 # Load environment variables from a .env file
 load_dotenv()
@@ -176,10 +177,56 @@ def Run_Transfomer(Dataset):
 join_missing_tables, final_dataset = Run_Transfomer(students)
 
 # Update the courses table
-Courese_updated = not_applicable(courses, 0, 'Not Applicable', 0)
+def update_courses(df):
+    Courese = not_applicable(courses, 0, 'Not Applicable', 0)
+    return Courese
+Courese_updated = update_courses(courses)
 
 # Update the jobs table
-jobs.drop_duplicates(inplace=True)
+def update_jobs(df):
+    jobs_update = jobs.drop_duplicates(inplace=True)
+    return jobs_update
+jobs_updated = update_jobs(jobs)
+
+
+# COMMAND ----------
+
+def Run_Transfomer(Dataset):
+    Change_contact_info = parse_contact_info(Dataset, 'contact_info', 'mailing_address', 'email')
+    # Get the missing rows and cleaned DataFrame for 'num_course_taken'
+    missing_students = get_missing_rows(Change_contact_info, 'num_course_taken')
+    cleaned_students = drop_missing_rows(Change_contact_info, 'num_course_taken')
+    # Get the missing rows and cleaned DataFrame for 'job_id'
+    missing_job_id = get_missing_rows(cleaned_students, 'job_id')
+    cleaned_student_id = drop_missing_rows(cleaned_students, 'job_id')
+    # join the two DataFrames for mising values
+    join_missing_tables = concat_into_db(missing_students, missing_job_id)
+
+    # Apply 0 the 'current_career_path_id' column. where 0 means stduent has chossen a career path
+    cleaned_students_carerid = fill_np_zero(cleaned_student_id, 'current_career_path_id')
+
+    # Apply 0 to the 'time_spent_hrs' column. where 0 means student has taken any courses
+    cleaned_students_timespent = fill_np_zero(cleaned_students_carerid, 'time_spent_hrs')
+
+    final_dataset = drop_colums(cleaned_students_timespent, 'contact_info')
+
+    return join_missing_tables, final_dataset
+
+# Run the transformer and get all three DataFrames
+join_missing_tables, final_dataset = Run_Transfomer(students)
+
+# Update the courses table
+def update_courses(df):
+    Courese = not_applicable(courses, 0, 'Not Applicable', 0)
+    return Courese
+Courese_updated = update_courses(courses)
+
+# Update the jobs table
+def update_jobs(df):
+    jobs_update = jobs.drop_duplicates(inplace=True)
+    return jobs_update
+jobs_updated = update_jobs(jobs)
+
 
 # COMMAND ----------
 
