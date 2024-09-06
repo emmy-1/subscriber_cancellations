@@ -1,0 +1,3 @@
+# .env.example
+WORKING_DIR = where_database_is_located
+AZURE_STORAGE_ACCOUNT_KEY=your_storage_account_key_here
