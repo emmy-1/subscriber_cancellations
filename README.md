@@ -33,7 +33,7 @@ The Dataset used will be based on a frictional education company called Cademyco
   ```
 
 #### 3. Run the Database Connection Script
-- Execute the `Database connection.py` script to establish connections and perform data transformations. please note you will have to change the copy directory so that the file fits your usecase:
+- Execute the `Database connection.py` script to establish connections and perform data transformations. please note you will have to change the directory to your own azure storage account directory:
   ```bash
   python Database/dev/Database\ connection.py
   ```
