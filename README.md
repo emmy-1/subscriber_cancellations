@@ -242,3 +242,8 @@ By following these steps and utilizing the provided resources, you will be able 
 </details>
 
 ## :mag_right: Learning Outcome
+One of the most valuable takeaways from this project is the crucial role of documentation in computer programming. Documentation provides essential insights into the operation of a product, making it the cornerstone of software development. Before this project, I had little knowledge of running dbt and Airflow. However, I was able to construct dbt models and choreograph them with Airflow because I mastered the skill of searching for and understanding the installation documentation for these tools.
+
+I also grasped the significance of writing tests for programs. Programs may not always function as intended, so it is vital to create tests to catch any potential failures.
+
+
