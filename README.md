@@ -200,3 +200,41 @@ Before running the DBT models, ensure that you have configured DBT and Databrick
 3. **Create and Run DBT Models Locally with Databricks:** [DBT Core Tutorial](https://docs.databricks.com/en/integrations/dbt-core-tutorial.html)
 
   </details>
+
+<details>
+    <summary> Airflow DAG for dbt </summary>
+# Overview of the Airflow DAG for dbt Integration
+
+This file defines an Apache Airflow DAG (Directed Acyclic Graph) that orchestrates a dbt (data build tool) pipeline using Databricks. The DAG is configured to run daily and connects to a Databricks environment using a token-based authentication method.
+
+## Key Components of the File
+
+1. **Profile Configuration**: 
+   - Sets up a connection to Databricks using `DatabricksTokenProfileMapping`, which maps Airflow connections to dbt profiles.
+   - Specifies connection details such as the database and schema.
+
+2. **DbtDag Definition**:
+   - Creates a `DbtDag` instance with configurations for the dbt project, execution settings, and scheduling.
+   - The DAG is set to run daily, starting from a specified date, and does not catch up on missed runs.
+
+## Installation and Setup Instructions
+
+To install and run Apache Airflow with dbt integration, follow these steps:
+
+1. **Install Airflow**:
+   - Follow the [Getting Started with Apache Airflow](https://www.astronomer.io/docs/learn/get-started-with-airflow) guide to set up Airflow on your local machine or server.
+
+2. **Configure Airflow for dbt**:
+   - Refer to the [Orchestrate dbt Core with Airflow](https://www.astronomer.io/docs/learn/airflow-dbt) documentation to understand how to integrate dbt with Airflow.
+
+3. **Set Up Databricks Connection**:
+   - You will need to configure Airflow to connect with Databricks using a Databricks token. Follow the instructions provided in the [Databricks Token Profile documentation](https://astronomer.github.io/astronomer-cosmos/profiles/DatabricksToken.html).
+
+4. **Run the DAG**:
+   - Once everything is set up, you can trigger the DAG from the Airflow UI to start the dbt pipeline.
+
+## Additional Resources
+
+- For a practical guide, check out the [Code Along: Build an ETL Pipeline in 1 Hour (dbt, Snowflake, and Airflow)](https://www.youtube.com/watch?v=OLXkGB7krGo) video tutorial.
+
+By following these steps and utilizing the provided resources, you will be able to successfully set up and run an Airflow DAG that integrates with dbt and Databricks.
