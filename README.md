@@ -28,7 +28,7 @@ The Dataset used will be based on a frictional education company called Cademyco
 #### 2. Set Up Environment Variables
 - Create a `.env` file in the root directory of your project and add the following variables:
   ```
-  WORKING_DIR=/path/to/your/working/directory
+  WORKING_DIR=/path/to/your/working/directory            \\where the WORKING_DIR is path to the `cademycode.db` database
   AZURE_STORAGE_ACCOUNT_KEY=your_azure_storage_account_key
   ```
 
