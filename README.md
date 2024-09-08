@@ -232,7 +232,7 @@ To install and run Apache Airflow with dbt integration, follow these steps:
    - You will need to configure Airflow to connect with Databricks using a Databricks token. Follow the instructions provided in the [Databricks Token Profile documentation](https://astronomer.github.io/astronomer-cosmos/profiles/DatabricksToken.html).
 
 4. **Run the DAG**:
-   - Once everything is set up, ru astro dev start and trigger the DAG from the Airflow UI to start the dbt pipeline.
+   - Once everything is set up, run `astro dev start` and trigger the DAG from the Airflow UI to start the dbt pipeline.
 
 ## Additional Resources
 
