@@ -239,3 +239,6 @@ To install and run Apache Airflow with dbt integration, follow these steps:
 - For a practical guide, check out the [Code Along: Build an ETL Pipeline in 1 Hour (dbt, Snowflake, and Airflow)](https://www.youtube.com/watch?v=OLXkGB7krGo) video tutorial.
 
 By following these steps and utilizing the provided resources, you will be able to successfully set up and run an Airflow DAG that integrates with dbt and Databricks.
+</details>
+
+## :mag_right: Learning Outcome
