@@ -86,3 +86,49 @@ By following these steps, you can ensure that your sensitive information remains
 
 - The `write_to_csv` function handles the writing process, and you only need to provide the path where you want the CSV file to be saved.
 -Spark usually copies the CSV files with random names and files. Every time the script runs, it gives a different name. That's why I created the `copy_to_csv` and `find_csv_file` functions. Their main job is to find any file that ends with .csv in a given path, and then copy the file to another destination.
+
+
+## :mag_right: File Descriptions
+<details>
+    <summary> Subscriber cancellation dlt.sql </summary>
+
+### DELTA LIVE TABLE
+
+# Explanation of the DLT Live Table File
+
+This file is a Databricks Delta Live Tables (DLT) script that defines a series of streaming tables as part of a Medallion Architecture. The Medallion Architecture typically consists of three layers: Bronze, Silver, and Gold, which represent raw data, cleaned data, and business-level data, respectively.
+
+## Breakdown of the Script
+
+1. **Bronze Tables**:
+   - The first section creates and refreshes streaming tables for raw data from CSV files stored in Azure Data Lake Storage (ADLS). 
+   - Tables created:
+     - `students`
+     - `courses`
+     - `jobs`
+     - `incomplete_students`
+
+2. **Silver Tables**:
+   - The second section creates streaming tables that transform the raw data into a more structured format.
+   - Each table includes constraints to ensure data quality (e.g., non-null student IDs).
+   - Tables created:
+     - `sliver_student`
+     - `sliver_incomplete_student`
+     - `sliver_courses`
+     - `sliver_jobs`
+
+3. **Gold Tables**:
+   - The final section creates streaming tables that represent the final, business-ready datasets.
+   - These tables are derived from the Silver tables and are intended for reporting and analysis.
+   - Tables created:
+     - `students_database`
+     - `courses_database`
+     - `jobs_database`
+     - `not_enrolled_students_database`
+
+## Key Features
+- **Data Quality Constraints**: Each table has constraints to drop rows that violate certain conditions (e.g., null values).
+- **Streaming Data**: The use of `CREATE OR REFRESH STREAMING TABLE` indicates that these tables are designed to handle streaming data, allowing for real-time updates.
+- **Comments**: Each table creation includes comments that describe the purpose of the table within the Medallion Architecture.
+
+Overall, this script is designed to facilitate the ETL (Extract, Transform, Load) process in a structured manner, ensuring data integrity and readiness for analysis.
