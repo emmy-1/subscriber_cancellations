@@ -134,3 +134,34 @@ This file is a Databricks Delta Live Tables (DLT) script that defines a series o
 You will need to change the cloud_file directory to the location where you wrote your CSV files in the `Database Connection.py`
 
 </details>
+
+## :mag_right: File Descriptions
+<details>
+    <summary> Dbt Models</summary>
+
+
+# DBT Models Explanation
+
+This repository contains several DBT models related to student performance and course completion in a subscriber pipeline. Below is a brief explanation of each model:
+
+## 1. `course_completion.sql`
+- **Path:** `airflow/dags/dbt/subcriber_pipline/models/example/course_completion.sql`
+- **Description:** This model calculates whether students have completed their courses based on the time they spent on the course compared to the hours required to complete it. It joins student information with course completion data and outputs a table indicating if each student has completed their course.
+
+## 2. `Subscriber_cancellation_database.sql`
+- **Path:** `airflow/dags/dbt/subcriber_pipline/models/example/Subscriber_cancellation_database.sql`
+- **Description:** This model aggregates student information, including demographics and course data. It extracts relevant fields from the students and courses databases, providing a comprehensive view of each student, including their age, sex, mailing address, and the number of courses taken.
+
+## 3. `top_performing_student.sql`
+- **Path:** `airflow/dags/dbt/subcriber_pipline/models/example/top_performing_student.sql`
+- **Description:** This model identifies the top-performing students by calculating the total number of courses taken and the average time spent on courses. It groups the data by student ID and name, ordering the results by average time spent in descending order.
+
+## 4. `demographic_table.sql`
+- **Path:** `airflow/dags/dbt/subcriber_pipline/models/example/demographic_table.sql`
+- **Description:** This model summarizes student demographics by counting the number of students in each demographic group (age, sex, city, state, zip code). It provides insights into the distribution of students across different demographic categories.
+
+## 5. `no_of_student_per_careerpath.sql`
+- **Path:** `airflow/dags/dbt/subcriber_pipline/models/example/no_of_student_per_careerpath.sql`
+- **Description:** This model analyzes the number of students enrolled in each career path. It calculates the total number of students, the average number of courses taken, and the average time spent on courses for each career path, providing insights into student engagement across different fields of study.
+
+  </details>
