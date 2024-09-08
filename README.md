@@ -131,4 +131,4 @@ This file is a Databricks Delta Live Tables (DLT) script that defines a series o
 - **Streaming Data**: The use of `CREATE OR REFRESH STREAMING TABLE` indicates that these tables are designed to handle streaming data, allowing for real-time updates.
 - **Comments**: Each table creation includes comments that describe the purpose of the table within the Medallion Architecture.
 
-Overall, this script is designed to facilitate the ETL (Extract, Transform, Load) process in a structured manner, ensuring data integrity and readiness for analysis.
+</details>
