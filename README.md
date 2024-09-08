@@ -16,6 +16,56 @@ The Dataset used will be based on a frictional education company called Cademyco
 ![Architecture - page 1 (2)](https://github.com/user-attachments/assets/c711cd82-ab2d-48e1-ab1a-ada3758e2ae8)
 
 
+### How to Run the Codebase
+
+#### 1. Set Up Your Environment
+- Ensure you have Python installed (preferably version 3.8 or higher).
+- Install necessary dependencies using `requirements.txt`:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+#### 2. Set Up Environment Variables
+- Create a `.env` file in the root directory of your project and add the following variables:
+  ```
+  WORKING_DIR=/path/to/your/working/directory
+  AZURE_STORAGE_ACCOUNT_KEY=your_azure_storage_account_key
+  ```
+
+#### 3. Run the Database Connection Script
+- Execute the `Database connection.py` script to establish connections and perform data transformations:
+  ```bash
+  python Database/dev/Database\ connection.py
+  ```
+
+#### 4. Run the Airflow DAG
+- Start Apache Airflow using the Astronomer CLI:
+  ```bash
+  astro dev start
+  ```
+- Access the Airflow UI at `http://localhost:8080/` and log in with the default credentials (`admin` for both username and password).
+- Trigger the DAG from the Airflow UI to start the dbt pipeline.
+
+#### 5. Run dbt Models
+- Ensure that your dbt project is correctly set up in the `airflow/dags/dbt/subcriber_pipline` directory.
+- Run dbt commands to build your models:
+  ```bash
+  dbt run
+  ```
+
+#### 6. Check Logs and Outputs
+- Monitor the logs in the Airflow UI to ensure that tasks are running successfully.
+- Check the output in your specified Azure storage account or local database for the results of your transformations.
+
+#### 7. Testing
+- Run tests to ensure everything is functioning as expected:
+  ```bash
+  pytest
+  ```
+
+By following these steps, you should be able to run the codebase successfully. Make sure to adjust paths and configurations according to your local setup.
+
+
 ## :mag_right: File Descriptions
 <details>
     <summary> Database connection.py </summary>
@@ -24,7 +74,7 @@ The Dataset used will be based on a frictional education company called Cademyco
 
 ## Database Connection Script
 
-The `Database connection.py` file establishes connections to a SQLite database called `cademycode.db` and performs various data transformation tasks. Below is a breakdown of its key components and functionalities:
+The `Database connection.py` file which should be run on Databricks, establishes connections to a SQLite database called `cademycode.db` and performs various data transformation tasks. Below is a breakdown of its key components and functionalities:
 
 ### Key Functionalities
 
@@ -242,3 +292,12 @@ By following these steps and utilizing the provided resources, you will be able 
 </details>
 
 ## :mag_right: Learning Outcome
+One of the most valuable takeaways from this project is the crucial role of documentation in computer programming. Documentation provides essential insights into the operation of a product, making it the cornerstone of software development. Before this project, I had little knowledge of running dbt and Airflow. However, I was able to construct dbt models and choreograph them with Airflow because I mastered the skill of searching for and understanding the installation documentation for these tools.
+
+I also grasped the significance of writing tests for programs. Programs may not always function as intended, so it is vital to create tests to catch any potential failures.
+
+## :mag_right: Future Work
+There are some few changes and implementation i would work on in the future, hiwever i will mention them here and tell you why. this future work are based on how the program is build 
+
+1. ocretration are triggeredd in 2 places: in databricks :that is the file `Datebase connection.py` and dbt models in airflow. in future work i plan to move all orchestration into airflow. so that a centrailsed view of the pipline will be done.
+
