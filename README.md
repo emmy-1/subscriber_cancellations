@@ -19,6 +19,7 @@ The Dataset used will be based on a frictional education company called Cademyco
 ### How to Run the Codebase
 
 #### 1. Set Up Your Environment
+- flok the repo to your Databricks account.
 - Ensure you have Python installed (preferably version 3.8 or higher).
 - Install necessary dependencies using `requirements.txt`:
   ```bash
