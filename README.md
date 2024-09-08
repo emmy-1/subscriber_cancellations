@@ -135,7 +135,7 @@ You will need to change the cloud_file directory to the location where you wrote
 
 </details>
 
-## :mag_right: File Descriptions
+
 <details>
     <summary> Dbt Models</summary>
 
