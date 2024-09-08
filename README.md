@@ -202,9 +202,9 @@ Before running the DBT models, ensure that you have configured DBT and Databrick
   </details>
 
 <details>
-    <summary> Airflow DAG for dbt </summary>
+    <summary> dbt_model.py </summary>
     
-## Overview of the Airflow DAG for dbt Integration
+##  Overview of the Airflow DAG for dbt Integration.
 
 This file defines an Apache Airflow DAG (Directed Acyclic Graph) that orchestrates a dbt (data build tool) pipeline using Databricks. The DAG is configured to run daily and connects to a Databricks environment using a token-based authentication method.
 
