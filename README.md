@@ -19,7 +19,7 @@ The Dataset used will be based on a frictional education company called Cademyco
 ### How to Run the Codebase
 
 #### 1. Set Up Your Environment
-- flok the repo to your Databricks account.
+- fork this repo to your Databricks account.
 - Ensure you have Python installed (preferably version 3.8 or higher).
 - Install necessary dependencies using `requirements.txt`:
   ```bash
@@ -34,12 +34,9 @@ The Dataset used will be based on a frictional education company called Cademyco
   ```
 
 #### 3. Run the Database Connection Script
-- Execute the `Database connection.py` script to establish connections and perform data transformations. please note you will have to change the directory to your own azure storage account directory:
-  ```bash
-  python Database/dev/Database\ connection.py
-  ```
-
-#### 4. Run the Airflow DAG
+- Execute the `Database connection.py` script to establish connections and perform data transformations. please note you will have to change the directory to your azure storage account directory.
+- you can create a job run to schedule the script.
+ #### 4. Run the Airflow DAG
 - Start Apache Airflow using the Astronomer CLI:
   ```bash
   astro dev start
