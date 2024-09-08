@@ -130,5 +130,7 @@ This file is a Databricks Delta Live Tables (DLT) script that defines a series o
 - **Data Quality Constraints**: Each table has constraints to drop rows that violate certain conditions (e.g., null values).
 - **Streaming Data**: The use of `CREATE OR REFRESH STREAMING TABLE` indicates that these tables are designed to handle streaming data, allowing for real-time updates.
 - **Comments**: Each table creation includes comments that describe the purpose of the table within the Medallion Architecture.
+##NOTE
+You will need to change the cloud_file directory to the location where you wrote your CSV files in the `Database Connection.py`
 
 </details>
