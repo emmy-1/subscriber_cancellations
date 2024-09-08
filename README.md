@@ -81,5 +81,8 @@ By following these steps, you can ensure that your sensitive information remains
 7. **Data Export**
    - The script exports processed DataFrames to both SQL and CSV formats, ensuring that the data is stored and accessible for further analysis.
 
-### Summary
-This script serves as a crucial component for managing database connections, reading and transforming data, and exporting the results for analysis. It leverages Pandas for data manipulation and SQLite for data storage, making it a versatile tool for data processing tasks.
+
+### Note
+
+- The `write_to_csv` function handles the writing process, and you only need to provide the path where you want the CSV file to be saved.
+-Spark usually copies the CSV files with random names and files. Every time the script runs, it gives a different name. That's why I created the `copy_to_csv` and `find_csv_file` functions. Their main job is to find any file that ends with .csv in a given path, and then copy the file to another destination.
