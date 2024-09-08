@@ -1,0 +1,11 @@
+job_id,job_category,avg_salary
+1,analytics,86000
+2,engineer,101000
+3,software developer,110000
+4,creative,66000
+5,financial services,135000
+6,education,61000
+7,HR,80000
+8,student,10000
+9,healthcare,120000
+0,other,80000

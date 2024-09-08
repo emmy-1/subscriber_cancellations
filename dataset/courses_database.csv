@@ -1,0 +1,12 @@
+current_career_path_id,career_path_name,Hours_to_complete
+1,data scientist,20
+2,data engineer,20
+3,data analyst,12
+4,software engineering,25
+5,backend engineer,18
+6,frontend engineer,20
+7,iOS developer,27
+8,android developer,27
+9,machine learning engineer,35
+10,ux/ui designer,15
+0,Not Applicable,0

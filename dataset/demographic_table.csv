@@ -1,0 +1,1001 @@
+num_students,age,sex,city,state,zip_code
+1,25,N, Falcon Heights, New Mexico, 46971
+1,49,N, Solana Beach, Kansas, 01794
+1,51,F, Marianna, Indiana, 01611
+1,34,M, Medora, Arkansas, 01123
+1,48,N, Lostant village, Indiana, 30256
+1,38,M, Oak Creek, Alabama, 28664
+1,42,M, Emporium borough, Alabama, 78314
+1,67,F, Atkins, Vermont, 18597
+1,75,N, Sun village, Ohio, 90976
+1,23,F, Gardiner, Iowa, 99193
+1,22,F, Seldovia Village, Massachusetts, 78091
+1,32,N, Fall River village, Hawaii, 35048
+1,37,F, Valley Park, Mississippi, 65108
+1,62,M, South Sioux, Oregon, 38417
+1,78,F, Roselle borough, New York, 19975
+1,20,M, Friedensburg, Michigan, 45997
+1,21,N, South Dennis, Nebraska, 09347
+1,49,F, Verona borough, Wisconsin, 12600
+1,62,F, Dayton Lakes, Rhode Island, 63523
+1,23,N, Natchitoches, Nevada, 72994
+1,62,M, Livermore, Missouri, 46461
+1,59,M, Sharpsville borough, Alaska, 01903
+1,37,F, Wixon Valley, Missouri, 26825
+1,32,F, Breezy Point, Wisconsin, 22739
+1,68,M, Waterbury, Maryland, 20081
+1,60,M, Aspen Park, New Jersey, 85942
+1,36,M, Ridge Farm village, Wisconsin, 61323
+1,71,M, Maunaloa, Vermont, 16390
+1,75,M, Mill Valley, Wyoming, 64250
+1,58,F, Mount Pulaski, Vermont, 95299
+1,38,N, Surprise village, Utah, 85676
+1,21,N, Paukaa, Nebraska, 31140
+1,27,F, Springville village, South Dakota, 52225
+1,40,N, Clearview Acres, South Carolina, 30904
+1,25,F, Kaufman, Massachusetts, 69860
+1,52,F, Brookston, Indiana, 10623
+1,22,N, Hudson Oaks, Vermont, 64752
+1,65,F, Denmark, Hawaii, 88811
+1,31,M, Crossett, West Virginia, 90544
+1,73,F, Valley Green, Alabama, 37990
+1,43,M, Brownsburg, North Dakota, 93273
+1,82,M, Rathbun, Maryland, 19722
+1,60,N, Lakin, Arizona, 16891
+1,77,M, West Miami, Montana, 79432
+1,20,N, Dormont borough, Washington, 30182
+1,48,M, Bassett, Massachusetts, 93471
+1,64,M, Kingsgate, South Carolina, 18788
+1,78,N, Olar, Ohio, 32571
+1,50,F, Lake Wildwood, Rhode Island, 56968
+1,59,M, Ovilla, New Jersey, 22608
+1,67,M, Driftwood borough, California, 80165
+1,22,F, Earlville, Kentucky, 64645
+1,52,M, Castle Point, Pennsylvania, 41832
+1,22,F, Hemlock, Pennsylvania, 34737
+1,31,N, Tyrone, North Carolina, 47259
+1,20,F, Thorn, Vermont, 46889
+1,71,F, Ballenger Creek, North Carolina, 27731
+1,59,M, Iowa Park, Delaware, 60826
+1,38,F, Kinsey, Maine, 37392
+1,53,N, Blissfield village, West Virginia, 46093
+1,67,F, Banning, Florida, 05424
+1,45,F, Iron Junction, Ohio, 63720
+1,53,F, Monongah, Washington, 63654
+1,72,M, Cortland, Missouri, 13826
+1,33,N, West Valley, New York, 02918
+1,21,M, Beach Haven West, Delaware, 87511
+1,57,F, Clay, Arizona, 54276
+1,52,M, Perth, Washington, 23570
+1,32,N, Portage village, Minnesota, 54273
+1,48,M, Poth, West Virginia, 96559
+1,40,M, Tensed, Indiana, 90968
+1,23,N, Jakin, Maine, 93073
+1,59,F, Minonk, California, 25266
+1,30,M, Carrier, California, 88706
+1,34,M, La Vale, Pennsylvania, 68608
+1,21,N, Bel-Nor village, Missouri, 12931
+1,30,M, Bethel Acres, North Dakota, 48392
+1,48,M, Glenmora, Texas, 50560
+1,62,M, Rocky Ford, Rhode Island, 61061
+1,41,M, Perham, Florida, 49338
+1,54,M, Orestes, Washington, 61751
+1,35,M, Oakboro, Rhode Island, 78774
+1,76,N, Pilger village, Oklahoma, 84656
+1,30,F, Coconut Creek, Ohio, 47993
+1,41,M, Humboldt village, West Virginia, 44553
+1,44,M, Iowa Colony village, Alabama, 42776
+1,23,M, Parker, Colorado, 03377
+1,45,M, Princes Lakes, Nevada, 91740
+1,39,M, Pontiac, Virginia, 26301
+1,70,F, Oakton, Hawaii, 00268
+1,21,N, Echo Lake, Arkansas, 37429
+1,21,M, Shoals, Missouri, 29052
+1,65,F, Longview, Massachusetts, 56811
+1,44,M, Mission Woods, California, 40788
+1,33,F, Niceville, Michigan, 99835
+1,58,M, Westmont village, Wisconsin, 53593
+1,25,N, Linthicum, Iowa, 38731
+1,31,N, Aromas, Illinois, 09924
+1,79,N, Matamoras borough, Connecticut, 44284
+1,32,M, Islip, Delaware, 15298
+1,48,N, Choctaw, Nebraska, 73322
+1,63,M, Washburn, Florida, 09209
+1,28,F, Lucedale, Georgia, 76206
+1,40,N, Algodones, North Carolina, 15536
+1,62,M, Media borough, New York, 30103
+1,51,M, Dale, Alaska, 04126
+1,55,M, Double Oak, Pennsylvania, 42016
+1,52,N, Cobb village, Arizona, 57667
+1,79,M, East Norwich, Montana, 68148
+1,39,F, Edinburg village, Idaho, 04056
+1,55,M, West Palm Beach, Indiana, 90594
+1,47,F, Saddle Butte, Delaware, 72343
+1,42,F, Cokedale, Indiana, 19899
+1,32,F, Beckett, Virginia, 18138
+1,32,M, Mahaffey borough, Oregon, 59958
+1,82,F, Harmony ship, Utah, 56571
+1,78,F, Rayville, Maine, 66828
+1,45,F, New Berlin borough, Kansas, 45842
+1,24,N, Hi-Nella borough, Nebraska, 31807
+1,53,F, Corona de Tucson, Arizona, 48800
+1,23,F, Loudonville village, Nebraska, 24838
+1,81,F, Almont village, Michigan, 30802
+1,75,N, Litchfield village, Illinois, 48907
+1,28,M, Cleveland village, Nebraska, 17654
+1,82,F, Stokesdale, South Carolina, 46977
+1,32,N, Belington, Connecticut, 86003
+1,32,N, Port Ewen, Idaho, 33547
+1,58,F, Cabot, Missouri, 16318
+1,32,M, Sycamore, Michigan, 83133
+1,72,M, Quail Valley, Arkansas, 34949
+1,53,M, Lehi, Iowa, 23008
+1,56,F, Northville village, Texas, 61388
+1,42,N, Mexico village, Louisiana, 47463
+1,45,F, Stanhope borough, Florida, 49442
+1,45,F, Sanctuary, Texas, 53548
+1,45,F, Paoli, South Dakota, 20143
+1,57,M, Pawnee, New York, 62251
+1,29,F, Forestdale, Oregon, 04036
+1,74,M, Winnie, North Carolina, 80878
+1,47,M, Gold Hill, Maryland, 36723
+1,78,F, Costa Mesa, New Mexico, 35331
+1,69,F, Medicine Bow, New Hampshire, 40016
+1,64,F, Wardner, Texas, 97853
+1,40,N, Tonsina, Hawaii, 69021
+1,51,F, Elkville village, Massachusetts, 24926
+1,75,M, Shokan, South Carolina, 33690
+1,45,M, Moclips, Maryland, 82772
+1,24,F, Westfield village, Pennsylvania, 49759
+1,40,M, Grenada, New York, 03820
+1,34,M, Crystal River, Wyoming, 88343
+1,49,F, Okeene, Wisconsin, 22359
+1,79,M, Shubert village, Nevada, 28401
+1,38,M, Edmondson, New York, 71787
+1,57,F, Greenup, Alaska, 22588
+1,44,M, Emerson village, Indiana, 32896
+1,29,M, Wheeling village, Oregon, 06945
+1,47,M, Cashmere, Montana, 16012
+1,45,M, Buffalo Lake, New York, 84696
+1,46,M, Troutdale, Montana, 89592
+1,42,F, Mediapolis, Oregon, 38582
+1,54,M, Shady Dale, Colorado, 04539
+1,78,M, Tortolita, Nebraska, 34248
+1,52,F, Hersey village, Delaware, 10093
+1,69,N, Olin, New Jersey, 34433
+1,46,M, Fort Davis, Maryland, 45856
+1,82,F, Thibodaux, West Virginia, 99747
+1,27,N, Finley Point, Pennsylvania, 79152
+1,50,N, Granite Hills, Rhode Island, 06145
+1,73,F, Elfers, Arizona, 46676
+1,72,M, Valhalla, Colorado, 76645
+1,53,F, New Athens village, Oregon, 76494
+1,25,M, Melstone, New Jersey, 52935
+1,29,F, Santa Paula, New York, 85012
+1,20,N, Pearsonville, Idaho, 07760
+1,35,M, Queen Valley, Massachusetts, 35811
+1,70,F, Yukon, Florida, 70534
+1,28,M, Hunnewell, Wisconsin, 36347
+1,59,F, Hulett, Montana, 65335
+1,41,M, Lawrenceburg, North Dakota, 60504
+1,29,N, Lake Buena Vista, New York, 83435
+1,75,N, Alden, Oregon, 23420
+1,66,M, Port St. John, Washington, 98346
+1,29,F, Sinclair, Texas, 40468
+1,75,F, Jessup, Rhode Island, 09959
+1,78,N, Corte Madera, Minnesota, 96092
+1,36,F, Blackville, Wisconsin, 23003
+1,70,M, Othello, Louisiana, 96248
+1,43,M, Pelican, Iowa, 02726
+1,77,F, Fellows, Pennsylvania, 87242
+1,58,N, Bunker, Ohio, 75100
+1,49,M, Hartley, California, 90904
+1,20,N, Gretna, North Carolina, 27151
+1,61,F, Ivanhoe Estates, Maine, 46382
+1,34,M, Fort Wayne, Oregon, 71055
+1,61,M, Wanamassa, Michigan, 81859
+1,47,M, Blanding, Louisiana, 04607
+1,39,N, Cool, North Carolina, 23069
+1,22,M, Wood Village, Oklahoma, 66406
+1,73,N, Knox, Utah, 19421
+1,25,F, Telluride, South Carolina, 21309
+1,36,F, Cleo Springs, Kansas, 50775
+1,54,M, Jensen Beach, Oregon, 50368
+1,67,N, Cody village, Alabama, 80618
+1,30,F, Wortham, Oregon, 76986
+1,56,F, Hightsville, North Carolina, 71532
+1,64,M, Lake Worth Corridor, Hawaii, 98054
+1,51,M, Griggsville, New Hampshire, 00417
+1,68,M, Northbrook village, South Carolina, 34930
+1,72,N, Gatesville, Indiana, 03091
+1,66,M, Northwoods, Georgia, 19615
+1,64,F, Wakarusa, Montana, 59560
+1,72,F, Velma, Tennessee, 03529
+1,36,F, North Patchogue, Kentucky, 94027
+1,38,F, Malmo village, Montana, 97191
+1,51,F, Goessel, Massachusetts, 78795
+1,43,F, Powellsville, Colorado, 30039
+1,40,M, Storla, Michigan, 90790
+1,58,F, Bradley village, California, 77335
+1,29,M, Point Clear, Georgia, 26110
+1,26,N, Casa Colorada, Missouri, 92744
+1,53,F, Tuckahoe, South Dakota, 21436
+1,76,M, Boonton, Alaska, 31655
+1,22,M, Loraine, Minnesota, 07920
+1,59,M, Spring Valley, Oklahoma, 19568
+1,73,F, Monticello village, Washington, 18466
+1,33,F, Camp Hill borough, Nebraska, 70769
+1,24,N, Ashley Heights, Maine, 59794
+1,45,F, Ash Flat, New Hampshire, 95314
+1,64,F, Sullivan, Arkansas, 65235
+1,61,M, Steen, South Dakota, 69122
+1,45,M, Flint Hill, Rhode Island, 02984
+1,41,N, Copenhagen village, Delaware, 10435
+1,23,N, McCallsburg, Idaho, 53407
+1,51,M, Lilly, Massachusetts, 01071
+1,53,M, Elbe, Oklahoma, 15442
+1,49,N, Bicknell, New Jersey, 93876
+1,51,F, Franksville, Mississippi, 37451
+1,58,N, Granbury, Nebraska, 89351
+1,50,F, Cape Coral, Arizona, 28610
+1,24,M, Dora village, Colorado, 46128
+1,23,M, Y-O Ranch, Virginia, 30712
+1,53,M, Citrus Hills, Massachusetts, 72400
+1,50,M, Wymore, Minnesota, 67691
+1,52,F, Neola, Missouri, 93663
+1,70,N, Howard borough, Utah, 66049
+1,82,M, Reliance, Kansas, 29284
+1,62,F, Arab, Minnesota, 54648
+1,44,M, Pennington, Mississippi, 45654
+1,39,M, Marquette village, Arkansas, 16781
+1,33,F, Fort Lauderdale, Kentucky, 88570
+1,79,N, Heber, Colorado, 03565
+1,36,F, Vinita, California, 31096
+1,48,F, Black Springs, Minnesota, 14430
+1,64,F, Cranston, Ohio, 92279
+1,73,M, Gruver, Kansas, 51104
+1,21,M, Orion village, Missouri, 92505
+1,37,M, Sayreville borough, Iowa, 73552
+1,46,F, McLoud, Wyoming, 69046
+1,66,F, Girdletree, Maryland, 83309
+1,41,F, La Presa, Oklahoma, 01589
+1,29,M, Candor, Louisiana, 60979
+1,49,M, Waterford, Idaho, 07114
+1,22,N, Spanish Lake, Ohio, 55126
+1,63,M, Fisher village, North Carolina, 10615
+1,20,M, Pawcatuck, Rhode Island, 18082
+1,59,F, Pelican, Alaska, 89482
+1,78,N, Fort Peck, Vermont, 33879
+1,78,M, Union Hill village, Tennessee, 72255
+1,69,M, Round Rock, Minnesota, 41418
+1,64,F, Edison, Illinois, 53095
+1,57,M, Midland borough, Mississippi, 88512
+1,80,F, Owensville, North Carolina, 88207
+1,20,M, Kennesaw, Arizona, 82619
+1,58,F, Manter, Minnesota, 80153
+1,42,M, Primghar, New Mexico, 90307
+1,20,F, Reeseville village, Hawaii, 75315
+1,60,N, Villa Pancho, Indiana, 66328
+1,77,M, Wilmot, Wisconsin, 80949
+1,27,F, East St. Louis, Iowa, 65618
+1,79,N, Loch Arbour village, Rhode Island, 90323
+1,69,M, Bruceton Mills, North Carolina, 41234
+1,50,F, Lake Helen, Alabama, 90124
+1,78,M, Churchville, Oregon, 80048
+1,21,N, Highland Mills, Pennsylvania, 10330
+1,38,N, Lincolnia, West Virginia, 14185
+1,28,M, Standard village, South Carolina, 60340
+1,80,F, Pirtleville, Delaware, 54260
+1,49,F, Stonington village, New Jersey, 68305
+1,59,F, McConnells, Michigan, 69131
+1,56,M, Clayton, Minnesota, 27156
+1,22,F, Diamond village, Missouri, 79562
+1,64,M, Matamoras borough, Hawaii, 89196
+1,62,M, Grosse Tete village, Pennsylvania, 42062
+1,73,F, Adeline village, South Carolina, 38529
+1,66,N, Shelbyville, Illinois, 77543
+1,41,F, Kalida village, Wisconsin, 35832
+1,31,M, Brockport village, Maryland, 20771
+1,25,M, Clarks Grove, Georgia, 15046
+1,41,F, Fernandina Beach, Oregon, 92238
+1,72,F, Quinhagak, West Virginia, 35972
+1,59,N, Springdale, Maryland, 05824
+1,45,F, Stowe, Massachusetts, 66060
+1,79,F, Vadnais Heights, Maine, 72257
+1,26,F, Woodmont borough, New Mexico, 25159
+1,44,F, Corral, South Dakota, 33546
+1,49,N, Covedale, Arizona, 80033
+1,63,F, Sand Fork, Iowa, 38499
+1,81,N, De Land village, Oregon, 77273
+1,53,M, Madison Center, Florida, 20311
+1,55,N, Roxboro, Colorado, 37825
+1,72,F, Valhalla, Florida, 96511
+1,21,F, Reed Point, Indiana, 30983
+1,34,F, Lowellville village, Massachusetts, 32050
+1,35,F, Wyola, Arkansas, 53893
+1,55,N, Hunts Point, New York, 48013
+1,79,F, Perth, New Hampshire, 15442
+1,81,F, Glendon borough, Michigan, 40120
+1,66,N, Eschbach, Alaska, 57430
+1,61,F, Gallatin, North Carolina, 70480
+1,44,M, Silver Creek, Delaware, 53639
+1,48,F, Branch, Ohio, 13616
+1,82,F, La Veta, Vermont, 72685
+1,34,N, Westwood village, Alabama, 96752
+1,44,F, Jewett, Delaware, 49453
+1,46,M, Browns borough, South Dakota, 04819
+1,81,M, McDermitt, Georgia, 91002
+1,23,M, Camilla, Connecticut, 22062
+1,72,M, Marysville borough, Oklahoma, 59698
+1,74,M, Lyons Falls village, Louisiana, 05005
+1,64,M, Bancroft, Vermont, 67292
+1,46,M, Thermalito, Mississippi, 44965
+1,82,M, Starr, Washington, 14965
+1,57,F, Snowflake, Florida, 40486
+1,22,F, Pymatuning North, Virginia, 37994
+1,77,F, Cape Coral, Alabama, 41019
+1,74,M, San Luis Obispo, West Virginia, 69370
+1,60,M, Sargeant, Virginia, 72236
+1,48,F, Masury, South Dakota, 66332
+1,71,N, Birds village, Hawaii, 08761
+1,24,F, Laguna Vista, North Dakota, 64611
+1,44,N, Aragon, Iowa, 99694
+1,63,F, East Canton village, Delaware, 58181
+1,64,F, Waukee, Maryland, 05953
+1,43,N, Port send, Colorado, 92439
+1,32,M, Chisana, South Carolina, 92489
+1,53,F, Dayton, Michigan, 13999
+1,74,M, Shirley, South Dakota, 50666
+1,58,M, Port Washington, Oregon, 93697
+1,32,F, Downing, Indiana, 04340
+1,28,F, Westlake Village, Arizona, 53667
+1,58,F, Shields, Nevada, 91951
+1,64,M, New Liberty, Indiana, 21712
+1,47,F, Hasson Heights, Arizona, 55291
+1,53,N, Roland, Tennessee, 35852
+1,57,F, Rogue River, Arkansas, 28295
+1,33,F, Pike Creek, North Carolina, 23415
+1,52,M, Comer, New Mexico, 81073
+1,56,N, Corsica borough, South Dakota, 46501
+1,65,F, Wathena, Idaho, 53004
+1,75,F, Vidalia, New Mexico, 24494
+1,63,M, The Meadows, Idaho, 00037
+1,36,M, Bogata, Wyoming, 34546
+1,82,M, Lyon, Vermont, 28077
+1,60,N, China, Delaware, 57571
+1,62,M, Gilmer, Montana, 92635
+1,52,F, Cohassett Beach, South Carolina, 92378
+1,41,F, Nora Springs, Rhode Island, 99838
+1,54,F, Fort Oglethorpe, Massachusetts, 88162
+1,50,F, Virgin, Georgia, 66756
+1,66,M, West Branch, Tennessee, 48498
+1,65,M, Olustee, Illinois, 35315
+1,58,M, Downing, Connecticut, 00308
+1,62,F, Muncie, Iowa, 20340
+1,30,M, Washington village, Oklahoma, 09907
+1,46,M, East Millcreek, Oklahoma, 94943
+1,82,M, Hartland village, Nebraska, 22624
+1,32,M, Tulare, Connecticut, 01441
+1,32,F, Meadowbrook Farm, Maryland, 16463
+1,77,F, Paterson, Vermont, 89879
+1,47,N, Deepstep, Rhode Island, 20142
+1,42,M, Stony Prairie, Tennessee, 22209
+1,37,F, La Rosita, Arizona, 83546
+1,48,M, St. Joseph, Alabama, 74461
+1,27,M, Avonmore borough, Delaware, 13522
+1,75,M, Frohna, Louisiana, 10307
+1,72,F, Canon, Minnesota, 41049
+1,40,M, Richmond West, Arkansas, 74446
+1,22,F, Taconite, Illinois, 89545
+1,56,F, New Canton, Iowa, 01590
+1,40,F, Poplar, Oregon, 72845
+1,40,M, Niles village, Maine, 29871
+1,52,M, South Weber, Indiana, 88063
+1,44,F, Panorama Village, Tennessee, 72089
+1,62,N, Palo, Arizona, 55946
+1,50,F, Tonawanda, Hawaii, 65743
+1,30,N, Seth Ward, Alabama, 55166
+1,77,M, Pennsauken, Utah, 62423
+1,75,M, Bunker Hill Village, Wyoming, 06812
+1,60,M, Portola Hills, West Virginia, 89928
+1,57,M, Bee Cave village, Utah, 23636
+1,33,N, Ellis, Idaho, 93967
+1,74,M, Peaceful Valley, Arizona, 45801
+1,42,N, Iva, Ohio, 52145
+1,69,M, Albany, Nebraska, 96175
+1,69,F, Ansonville, South Dakota, 57318
+1,39,M, Pine Point, North Carolina, 07658
+1,79,F, Windham, Vermont, 88849
+1,73,M, Cedar Point village, Georgia, 94108
+1,72,M, Wiley, Pennsylvania, 08103
+1,22,F, Appleton, Kansas, 51858
+1,42,M, Mertens, Mississippi, 36570
+1,26,F, Warren village, North Dakota, 82704
+1,38,N, Tacna, California, 48852
+1,77,F, Bear Lake village, South Dakota, 33642
+1,73,M, Johnson Lane, Alaska, 83451
+1,52,F, Glidden, New Jersey, 42883
+1,53,M, Bonney Lake, New Hampshire, 64431
+1,46,M, Kewanee, Pennsylvania, 82313
+1,65,F, Spring Valley, Delaware, 85161
+1,21,F, Fairmount Heights, California, 78192
+1,25,F, Lynnville village, Vermont, 44720
+1,34,M, Ritchey, West Virginia, 15999
+1,32,F, Secretary, Ohio, 79392
+1,58,F, Montclair, Illinois, 55948
+1,56,F, New Deal, Indiana, 73291
+1,54,M, Ram, Nebraska, 92025
+1,39,F, Dicksonville, Wyoming, 01903
+1,54,M, Iredell, Alabama, 83797
+1,45,F, Leitchfield, New York, 80901
+1,53,F, Winnetka village, Colorado, 06734
+1,29,N, Taloga, Illinois, 28338
+1,46,F, Homestead village, Alaska, 22981
+1,20,F, Beaverdam village, Illinois, 99589
+1,51,F, Penasco, Georgia, 45965
+1,25,F, Bell Acres borough, Indiana, 28894
+1,46,M, Rotonda, Connecticut, 14778
+1,52,F, Finney, Pennsylvania, 32689
+1,74,F, Gibson, Minnesota, 74719
+1,58,N, Wonewoc village, Indiana, 13287
+1,26,F, Crittenden, Maryland, 12821
+1,68,N, Bardwell, North Carolina, 56547
+1,68,N, Bennet village, Alabama, 93920
+1,50,N, Kaw, New York, 18663
+1,48,F, Mount Jackson, Ohio, 39846
+1,30,M, Beargrass, New Hampshire, 86141
+1,78,F, Pringle, Arkansas, 38498
+1,55,M, West Samoset, Illinois, 26462
+1,73,F, Tiffin, Oregon, 71445
+1,34,F, Wheatley Heights, Iowa, 37281
+1,34,M, Ripon, Minnesota, 81782
+1,40,M, Heavener, Oklahoma, 79209
+1,60,M, Marina del Rey, Minnesota, 90857
+1,45,M, Bodcaw, California, 94067
+1,54,M, North Scituate, New Mexico, 51894
+1,28,F, Kenedy, Alabama, 52395
+1,42,N, Mayville village, West Virginia, 68308
+1,39,N, Chappell, Alabama, 32501
+1,35,N, Edwardsport, Minnesota, 23307
+1,79,N, Litchfield village, Florida, 74418
+1,69,F, Crawfordville, Oregon, 44718
+1,64,N, Velma, New Hampshire, 04763
+1,62,F, Gulkana, Massachusetts, 87472
+1,68,M, Peach Orchard, Maine, 45852
+1,59,F, American Falls, Kansas, 03171
+1,64,M, Hydaburg, Oklahoma, 72856
+1,56,N, Ferdinand, Pennsylvania, 79658
+1,27,M, Savoy, Hawaii, 02337
+1,48,M, Lancaster Mill, Georgia, 90875
+1,35,M, Broomfield, Ohio, 51316
+1,32,M, Honey Grove, New Jersey, 89442
+1,66,N, Lincroft, Kentucky, 07619
+1,73,M, Parish village, Ohio, 93006
+1,82,F, South Elgin village, New Jersey, 43246
+1,79,M, South Gastonia, Georgia, 86482
+1,70,F, Wolf Trap, Alaska, 29292
+1,49,M, Bunnell, Massachusetts, 38481
+1,22,N, Levasy, Massachusetts, 26154
+1,43,F, De Soto village, New York, 17370
+1,76,M, Island Pond, Delaware, 18597
+1,76,F, Lodi village, Kansas, 06975
+1,74,F, Mount Zion village, Wisconsin, 42772
+1,37,M, Medaryville, South Dakota, 47362
+1,77,N, Pecan Plantation, Montana, 19431
+1,45,F, Northfield, Maryland, 56221
+1,78,M, Colerain, South Dakota, 25794
+1,57,F, Clearfield, Massachusetts, 62324
+1,61,N, China Lake Acres, Tennessee, 31822
+1,59,N, Osborn, Illinois, 64840
+1,73,F, Sherman village, Kentucky, 22719
+1,22,N, Barnegat, Pennsylvania, 32923
+1,32,M, Rolette, Texas, 00982
+1,33,F, Quanah, Delaware, 11551
+1,32,F, Belzoni, Utah, 68226
+1,50,F, Concord, Kentucky, 36738
+1,58,F, Arden-Arcade, Alaska, 05620
+1,41,F, Trinidad, Michigan, 32891
+1,46,N, Pocomoke, Minnesota, 17892
+1,60,M, Neosho, Rhode Island, 49836
+1,81,M, Rehobeth, Arkansas, 31196
+1,24,N, Bradenton Beach, New Hampshire, 05754
+1,29,M, Renningers, Rhode Island, 78527
+1,38,F, Surfside Beach, Colorado, 41267
+1,21,F, La Pine, Alaska, 86262
+1,24,M, Bee Cave village, Nevada, 74809
+1,39,M, Alburg village, Iowa, 02819
+1,25,N, Walton Park, Maryland, 90243
+1,23,F, Lakeport, Arkansas, 47681
+1,63,M, Day Valley, Oklahoma, 55973
+1,76,M, Brookhurst, Delaware, 96883
+1,54,M, Brooklyn Center, Wisconsin, 84017
+1,61,M, Splendora, North Carolina, 51788
+1,22,F, Scooba, Connecticut, 43029
+1,21,F, Buffalo Gap, New Hampshire, 77773
+1,65,M, Marvell, Washington, 10596
+1,40,M, Inman village, Illinois, 63974
+1,60,F, Silver Lake village, Missouri, 40416
+1,76,N, Beulaville, Texas, 54586
+1,51,F, Saddle Rock Estates, Massachusetts, 58099
+1,23,M, Hensley, Wyoming, 40275
+1,45,F, Lansford borough, California, 52620
+1,52,F, Cherry Fork village, Oklahoma, 03667
+1,27,M, Sherrelwood, Hawaii, 42478
+1,57,M, Smoot, Nevada, 80040
+1,27,M, Chokio, Missouri, 88232
+1,58,N, Manter, New Mexico, 15715
+1,65,M, Fountain, Rhode Island, 37752
+1,25,F, Windber borough, Illinois, 89026
+1,67,F, Rivergrove, Missouri, 16831
+1,37,M, Hallsburg, Ohio, 60805
+1,77,M, Pavo, Nebraska, 75451
+1,54,M, West Ken-Lark, Massachusetts, 73431
+1,61,F, Breedsville village, Montana, 77044
+1,71,N, New Bloomfield, Hawaii, 55153
+1,58,F, Dunn Loring, Montana, 34474
+1,75,M, Eastgate, North Carolina, 29511
+1,42,M, Cherokee Village, New York, 55618
+1,71,N, High Hill, Missouri, 48523
+1,57,F, Woods borough, Alaska, 34499
+1,61,F, Dexter, Indiana, 34928
+1,25,F, Lake Michigan Beach, Massachusetts, 65150
+1,79,M, Gunnvillage, Georgia, 92449
+1,42,F, Crooks, Nebraska, 69245
+1,62,M, Pell, Delaware, 77123
+1,56,N, Williams borough, Rhode Island, 17272
+1,64,M, Overbrook, Wisconsin, 14584
+1,49,F, Muldrow, Hawaii, 36930
+1,64,F, Olsburg, Vermont, 43017
+1,23,M, Bayvillage, Georgia, 93730
+1,46,M, Ashley Heights, Delaware, 85893
+1,60,F, Bostic, Mississippi, 59038
+1,81,F, Sunburg, California, 16130
+1,24,N, Flaxville, South Carolina, 93632
+1,80,N, Menasha, Oregon, 81694
+1,81,F, Rio Rancho, Florida, 59856
+1,38,N, Scottdale borough, Maryland, 78048
+1,42,F, East German, New Hampshire, 61558
+1,51,F, Yorkshire village, Montana, 54943
+1,28,M, Penrose, Texas, 12245
+1,45,F, Quinn, Montana, 15929
+1,79,M, Millbrae, Tennessee, 42387
+1,30,N, Unionville village, Delaware, 88533
+1,27,F, Webster village, Pennsylvania, 25270
+1,62,F, Darrington, North Carolina, 41370
+1,32,M, Vanceboro, New Jersey, 36027
+1,73,M, Optima, Tennessee, 90182
+1,38,F, Urbancrest village, Oklahoma, 49458
+1,79,M, Etowah, Massachusetts, 09792
+1,64,M, Utica village, Alabama, 59922
+1,38,F, Terre Hill borough, Washington, 98482
+1,59,F, Cottage, Indiana, 64793
+1,58,F, Echo Lake, Maryland, 40334
+1,70,N, Fulton village, North Carolina, 14704
+1,28,F, Powder Springs, Washington, 21038
+1,41,M, Callicoon, Idaho, 62407
+1,54,N, Clancy, Kansas, 10370
+1,75,M, Danvers, Arizona, 07779
+1,62,F, Swartz Creek, New York, 33644
+1,36,F, Maunie village, Michigan, 64425
+1,20,F, York, Nevada, 09004
+1,31,F, Ridgeway village, Utah, 19802
+1,54,M, Rankin, Minnesota, 02140
+1,64,F, Bluewater, Delaware, 78295
+1,47,F, Alsip village, Utah, 57977
+1,56,M, Plaquemine, Mississippi, 87136
+1,57,M, Bee Cave village, Louisiana, 48009
+1,69,F, Long Beach, Idaho, 67852
+1,22,F, Bern, Arkansas, 99961
+1,50,F, Rembrandt, Arizona, 36801
+1,79,M, Hinckley, New Jersey, 96437
+1,41,M, Gettysburg, New York, 36413
+1,66,F, West Hamlin, Wyoming, 79410
+1,43,M, Shorter, Kansas, 61949
+1,51,M, Humboldt village, Maine, 01425
+1,33,F, East Hemet, Alabama, 75480
+1,31,F, Steelevillage, Nevada, 78093
+1,43,F, Coyne Center, Virginia, 82764
+1,21,M, Tomball, Texas, 39587
+1,55,F, Maugansville, Kentucky, 74595
+1,29,M, North Fort Myers, Massachusetts, 92601
+1,25,F, Hershey village, Washington, 53606
+1,20,F, Nutter Fort, Utah, 22325
+1,41,M, Scott village, Kansas, 54522
+1,74,F, Duenweg, Michigan, 52498
+1,72,F, Wamac, Virginia, 02930
+1,53,N, Blue Eye, Nevada, 76192
+1,41,N, Wellsburg, Arkansas, 97087
+1,76,M, Sand Rock, Arizona, 52929
+1,67,F, Kane village, Florida, 25893
+1,78,F, Powell village, Indiana, 24039
+1,45,F, Quioque, Colorado, 09409
+1,54,F, McClusky, Rhode Island, 87203
+1,20,F, Iberia, Connecticut, 42192
+1,74,M, Pepin village, Wisconsin, 48866
+1,29,F, Gate, Arkansas, 96280
+1,73,N, Canisteo village, Oregon, 45846
+1,35,M, La Presa, New Mexico, 69854
+1,51,F, New Middle village, Tennessee, 10480
+1,70,M, Osterdock, New Mexico, 70225
+1,51,N, Masury, Maryland, 94033
+1,32,M, Swan, Nebraska, 03407
+1,38,N, Cool, Alaska, 97393
+1,62,F, Norge, Wyoming, 92097
+1,54,F, Capac village, Florida, 44626
+1,24,M, Centrahoma, Colorado, 33636
+1,69,M, Columbine, Hawaii, 01512
+1,60,N, Avant, Kentucky, 33606
+1,75,M, Wilmot, Hawaii, 18996
+1,63,F, Willow Valley, Wyoming, 99849
+1,75,M, Dumont borough, Arkansas, 61757
+1,34,N, Beaman, Georgia, 33288
+1,50,N, Norman, South Carolina, 18947
+1,29,M, Losantville, New Mexico, 21744
+1,74,M, Harrisburg, California, 68986
+1,72,F, Thornburg borough, New Mexico, 78662
+1,41,M, Keyes, Montana, 16624
+1,81,M, Dilley, North Dakota, 10181
+1,20,F, Wetherington, Maine, 34013
+1,70,N, Sierra Madre, Maryland, 09711
+1,58,M, Cove, Alabama, 01925
+1,64,M, Kings Point, Pennsylvania, 42208
+1,48,M, Riverdale Park, North Carolina, 78603
+1,31,M, Fort Scott, Nevada, 85179
+1,43,M, Ives Estates, Alabama, 56934
+1,26,F, Framingham, Michigan, 27240
+1,51,N, Westway, Rhode Island, 66871
+1,63,M, Rutherford, Montana, 68484
+1,20,M, White Hall, Nevada, 59076
+1,39,F, Shackelford, Colorado, 85496
+1,62,F, Raynham, Nebraska, 78639
+1,57,M, Pawcatuck, Nebraska, 27050
+1,72,M, Sandwich, Georgia, 63526
+1,71,N, Leamington, West Virginia, 54197
+1,79,F, Keensburg village, Texas, 72676
+1,53,F, Post Falls, Connecticut, 31446
+1,36,N, Preston Heights, Kansas, 46663
+1,77,M, Dix Hills, Texas, 99984
+1,48,M, Barneveld village, Washington, 80242
+1,30,F, Elsmere, Iowa, 52907
+1,23,F, Longview village, Alabama, 43438
+1,57,F, Aloha, Nevada, 02891
+1,68,M, Newburg village, New Jersey, 28789
+1,52,F, Thornwood, North Carolina, 62696
+1,70,F, Epworth, West Virginia, 75243
+1,53,M, Mountain Iron, Illinois, 75229
+1,77,M, Mayfield Heights, Maine, 92799
+1,58,M, Miller Landing, Maryland, 90462
+1,31,M, Riverton borough, Arkansas, 38231
+1,36,F, Linton Hall, New York, 74686
+1,39,F, Dane village, Maryland, 29366
+1,20,F, Glenolden borough, Texas, 04825
+1,24,M, Philipsburg, Delaware, 03685
+1,45,M, Gallatin, Nebraska, 43469
+1,64,M, North Hills village, Rhode Island, 00864
+1,48,F, Ambler borough, Georgia, 50710
+1,27,F, Oradell borough, Virginia, 61903
+1,49,M, Hotevilla-Bacavi, Montana, 61811
+1,69,M, Pontiac, Maryland, 20513
+1,77,M, Copan, Vermont, 61517
+1,20,M, Cylinder, Kansas, 75990
+1,23,N, Palmer village, Arizona, 91732
+1,23,M, Conway Springs, Missouri, 01525
+1,59,F, McHenry, South Carolina, 40009
+1,31,F, Gray Court, Connecticut, 86645
+1,76,F, Leavenworth, Indiana, 55124
+1,49,F, Pawnee, Kentucky, 14980
+1,73,M, Vermilion village, New Mexico, 72814
+1,70,F, Tsaile, North Carolina, 71980
+1,62,N, Ladson, Kentucky, 85256
+1,35,F, New Richmond, Florida, 44912
+1,34,F, Richmond Hill, Texas, 43826
+1,66,M, Westerville, New Mexico, 84042
+1,46,F, Odessa, South Carolina, 58663
+1,70,F, Ferris, New Jersey, 50308
+1,82,N, Kit Carson, Kentucky, 28735
+1,50,M, Bartley village, Nebraska, 20806
+1,62,M, Bakersfield village, Utah, 33080
+1,49,F, Kingston borough, Nevada, 02962
+1,50,N, North Miami, Delaware, 89498
+1,24,N, New Brockton, Pennsylvania, 18654
+1,50,M, Crest Hill, Texas, 47800
+1,47,F, Sudlersville, Ohio, 67761
+1,74,N, Liberty borough, Vermont, 92254
+1,48,M, Benton Heights, Vermont, 86501
+1,76,F, New Waverly, Wyoming, 02972
+1,38,M, Lockport, Delaware, 73402
+1,78,F, Kachina Village, Texas, 43501
+1,37,F, Alligator, North Carolina, 21637
+1,25,F, New Lenox village, Delaware, 49238
+1,46,F, Smoot, Alabama, 10229
+1,41,M, Lincolnia, Illinois, 24725
+1,21,N, Brecksville, Georgia, 91497
+1,65,M, Soquel, North Dakota, 57489
+1,37,F, Tabernash, Connecticut, 64774
+1,63,F, Ellington, Wyoming, 79936
+1,50,M, South Brooksville, Hawaii, 65370
+1,43,F, Twain Harte, Maine, 84295
+1,35,M, Skidmore, South Dakota, 83630
+1,20,N, Pomeroy village, Illinois, 59820
+1,75,M, Amsterdam village, Arizona, 14460
+1,69,N, Carnegie borough, Washington, 59009
+1,63,M, Argenta village, Louisiana, 23576
+1,47,F, St. Clair Shores, Utah, 82528
+1,30,N, Westby, Minnesota, 08328
+1,23,M, Medicine Lodge, Texas, 40749
+1,46,F, Deal borough, Alaska, 88869
+1,37,N, Denton, South Carolina, 76069
+1,45,F, Galatia, Maine, 88997
+1,58,M, Hanson, Montana, 94669
+1,42,M, Batavia, Nebraska, 79830
+1,65,M, Heckscherville, Kentucky, 20030
+1,35,F, Alice Acres, North Dakota, 54179
+1,58,M, Vails Gate, Georgia, 83419
+1,73,N, Montverde, Michigan, 80365
+1,71,N, Keenes village, Texas, 00290
+1,29,M, Wahpeton, Delaware, 36905
+1,69,F, Parnell, Indiana, 86415
+1,48,F, Reiffton, Washington, 15346
+1,58,F, Blooming Grove, New Hampshire, 94821
+1,35,M, Malta, Kentucky, 52114
+1,68,M, Emmaus borough, Maryland, 83998
+1,41,M, Braddock borough, Iowa, 73702
+1,23,M, Keeneland, Missouri, 79903
+1,35,N, Verdon village, Nevada, 77318
+1,31,M, Dearing, Minnesota, 09927
+1,24,F, Delphos, New Hampshire, 16840
+1,81,F, Fowlerton, Kansas, 65141
+1,33,M, Deatsville, Michigan, 74242
+1,37,M, West Goshen, Delaware, 03411
+1,28,F, Vale, Nebraska, 15225
+1,53,F, Stony Creek, Maryland, 30685
+1,61,M, Indian, Missouri, 64633
+1,67,M, Bells, West Virginia, 00413
+1,68,M, DeQuincy, Massachusetts, 66161
+1,33,M, Cutten, Minnesota, 80600
+1,77,N, Zearing, Iowa, 58417
+1,55,M, Rio Rico Northwest, Colorado, 91608
+1,34,F, Deloit, Vermont, 37855
+1,63,M, De Funiak Springs, Mississippi, 14450
+1,66,M, Strawberry Point, Michigan, 66395
+1,21,M, Klingers, Massachusetts, 23759
+1,40,M, Little America, Delaware, 09708
+1,82,F, Ilwaco, California, 17053
+1,73,M, Howell, Alaska, 02183
+1,61,M, Atascocita, Colorado, 19223
+1,33,M, Tivoli village, Mississippi, 02514
+1,67,N, Slaughterville, Ohio, 40382
+1,21,M, Lisle village, Tennessee, 15667
+1,34,M, Alta, Idaho, 54112
+1,29,M, Boca Raton, Georgia, 60570
+1,56,N, Brookridge, Illinois, 34848
+1,55,F, Crown Point, Colorado, 52076
+1,41,M, Lake Telemark, Mississippi, 65726
+1,63,M, Glenolden borough, Washington, 83315
+1,24,M, Wesley Chapel, Texas, 52831
+1,20,F, Wiley, South Carolina, 23928
+1,57,N, Summerside, Connecticut, 98356
+1,21,F, Milan, Maine, 45621
+1,44,F, Fort Hancock, Vermont, 62639
+1,40,M, Tobin, Maine, 48258
+1,37,N, Sylvania borough, Hawaii, 81616
+1,36,F, Little River, Alabama, 05791
+1,69,F, Everett, Georgia, 54668
+1,71,F, Gallitzin borough, Florida, 03625
+1,27,N, East Griffin, Louisiana, 87411
+1,27,F, Pocahontas village, Indiana, 19340
+1,40,F, Neshkoro village, Maryland, 83567
+1,28,M, Grandview, Idaho, 92018
+1,69,M, Signal Hill, West Virginia, 10650
+1,54,M, Hooper Bay, Maryland, 05922
+1,52,F, Elrod, North Carolina, 04754
+1,60,M, Chanute, Montana, 63422
+1,43,F, Marsing, New Mexico, 03150
+1,50,F, South San Gabriel, New Hampshire, 12540
+1,78,F, Little Flock, Missouri, 24898
+1,36,M, Arbela, Ohio, 29761
+1,67,M, Ashton, New Hampshire, 04096
+1,29,F, Dumfries, South Dakota, 53447
+1,79,N, Minnetonka, Utah, 36879
+1,43,N, Bay, Minnesota, 92708
+1,77,N, Wheeling village, Arizona, 84429
+1,62,F, Gandy, Texas, 35369
+1,34,M, Sissonville, California, 22450
+1,60,F, Horseshoe Bay, Indiana, 04229
+1,34,M, Pottsville, Nevada, 28128
+1,53,F, Neihart, West Virginia, 45557
+1,44,F, Warden, Minnesota, 05834
+1,41,M, Seaford, Mississippi, 06075
+1,20,F, Houston Acres, Texas, 58638
+1,57,F, Bryant village, North Dakota, 07976
+1,37,F, Mabscott, Wisconsin, 42480
+1,33,F, Easley, Massachusetts, 68419
+1,70,F, Charlack, Wisconsin, 33462
+1,48,M, Gamaliel, Indiana, 14394
+1,21,M, Tarlton village, Arkansas, 32622
+1,52,M, Beaver Bay, Kentucky, 73569
+1,60,F, Fort Gay, Maine, 50922
+1,79,F, Krugerville, Tennessee, 81653
+1,55,M, Amory, Tennessee, 37356
+1,37,N, Clayton, Michigan, 39828
+1,20,F, Osage, Kansas, 87244
+1,58,F, Pueblo, North Carolina, 35379
+1,71,M, Borup, South Carolina, 74025
+1,21,N, Clairton, Nebraska, 06080
+1,42,F, Westvillage, Kentucky, 75280
+1,78,M, Economy borough, West Virginia, 83020
+1,76,M, Indian River, Oklahoma, 95092
+1,68,N, Claremont, New York, 56599
+1,66,F, Searing, Colorado, 72179
+1,45,F, Westley, Colorado, 85547
+1,46,N, New Buffalo, Kentucky, 57037
+1,29,M, Bay Shore, New Hampshire, 32798
+1,72,N, Bulpitt village, Maryland, 02160
+1,74,N, Bluffdale, Arizona, 82580
+1,28,F, North Haven, Washington, 44578
+1,37,F, Crescent Springs, Indiana, 70317
+1,53,F, Rockledge borough, Ohio, 80886
+1,63,F, Talbotton, Idaho, 52106
+1,80,M, Carmel, South Dakota, 31979
+1,63,M, Houston Acres, Missouri, 70082
+1,26,M, Miller Landing, Montana, 51925
+1,27,N, Stearns, Hawaii, 23684
+1,79,F, Velma, New Hampshire, 91226
+1,78,M, Nicholls, New Mexico, 78354
+1,80,M, Vidalia, Delaware, 12824
+1,34,F, Sienna Plantation, Wisconsin, 56174
+1,70,F, Federal Dam, North Dakota, 18814
+1,81,M, Bayview, Utah, 17218
+1,76,F, Latimer, Minnesota, 76934
+1,33,M, Laurel Hill, Vermont, 39160
+1,62,N, Buna, Nebraska, 18426
+1,42,N, Arco, Montana, 91828
+1,52,F, Ninnekah, Arkansas, 37597
+1,47,F, Karlsruhe, Indiana, 30485
+1,69,F, Cimarron Hills, Alaska, 52878
+1,43,M, Grand Saline, Arkansas, 49267
+1,51,F, Weston Mills, Nebraska, 31910
+1,67,N, Chewelah, New Mexico, 99390
+1,31,M, Dennehotso, North Carolina, 95000
+1,24,F, Chalkyitsik, Missouri, 40335
+1,52,M, Agua Dulce, Alabama, 42754
+1,27,N, Des Arc, Alaska, 69576
+1,25,M, Yorkshire village, Oklahoma, 40413
+1,57,F, Lewisburg, Mississippi, 39093
+1,46,M, Norris, Georgia, 00619
+1,22,M, Ostrander village, Connecticut, 72502
+1,46,F, Pangburn, Maryland, 67181
+1,45,N, South Flat, Louisiana, 63994
+1,57,F, Wathena, Colorado, 11678
+1,78,M, Coal Grove village, Maryland, 40858
+1,71,M, Argo, Missouri, 88466
+1,64,F, Lava Hot Springs, Arizona, 15196
+1,48,F, Garden Grove, South Dakota, 68879
+1,81,M, Central Valley, Colorado, 27739
+1,65,F, West Athens, New Jersey, 30360
+1,32,F, Sherwood village, Maryland, 71810
+1,68,M, Coward, New Jersey, 28400
+1,40,N, Kingston Springs, Montana, 40528
+1,35,M, Loganville, Utah, 75888
+1,82,F, Black Mountain, Utah, 65825
+1,78,M, Effie, Delaware, 06295
+1,26,N, Scotia village, Texas, 66843
+1,52,N, Carl Junction, New Mexico, 51204
+1,31,M, Walkerton, Massachusetts, 07771
+1,56,F, Newfield Hamlet, Idaho, 42123
+1,57,M, Huguley, Ohio, 31477
+1,56,M, Calion, Maine, 53017
+1,32,M, Big Pine, Georgia, 69508
+1,81,F, Lebam, North Carolina, 28708
+1,47,F, New Madison village, Massachusetts, 57269
+1,39,N, North Judson, New Hampshire, 73428
+1,58,N, Wedgefield, Maryland, 94332
+1,40,M, Grabill, Delaware, 60032
+1,28,M, Pine Haven, Nevada, 83009
+1,45,N, Vienna Center, Alabama, 96041
+1,62,M, Whiteman AFB, Wyoming, 46201
+1,26,F, Shoals, Massachusetts, 63549
+1,25,F, Westside, Wisconsin, 06636
+1,23,M, Millheim borough, Wyoming, 99560
+1,36,F, Lane, Arkansas, 82242
+1,35,F, Tarpon Springs, Montana, 37057
+1,77,M, Horse Cave, Idaho, 68425
+1,60,F, Mullin, California, 34730
+1,51,F, Moclips, Arizona, 43700
+1,51,F, South Venice, Virginia, 40051
+1,33,F, Ragan village, New Mexico, 68677
+1,55,F, McRoberts, Alaska, 16251
+1,68,F, Nebo, Tennessee, 39304
+1,51,N, Bradshaw, Michigan, 38729
+1,58,N, Montana, New York, 73509
+1,37,M, Gosnell, Ohio, 52323
+1,43,M, Doyline village, Louisiana, 21541
+1,67,F, South Dennis, Florida, 38296
+1,31,M, East Grand Forks, California, 67403
+1,81,M, Stillwater borough, South Carolina, 29773
+1,53,M, Tamaroa village, North Carolina, 23507
+1,54,N, Dell, Illinois, 53048
+1,82,N, Costa Mesa, Iowa, 25391
+1,52,M, Sun, Maine, 71077
+1,28,M, Oakdale borough, South Carolina, 02762
+1,32,M, Kalaoa, Nevada, 44145
+1,58,M, Cape Neddick, Oklahoma, 25744
+1,78,N, Wall borough, Oklahoma, 82211
+1,51,M, Trimble village, Wisconsin, 10685
+1,52,F, Lakemoor village, Louisiana, 60922
+1,60,F, Drumright, New York, 27177
+1,45,F, Southbridge, New Mexico, 08156
+1,67,N, Cameron Park, Colorado, 38993
+1,53,F, Port St. John, Nevada, 48933
+1,60,M, Pillow borough, California, 02447
+1,31,F, Ludington, Idaho, 90110
+1,74,F, Raymore, Louisiana, 41785
+1,71,M, Sorrento, New Hampshire, 82006
+1,81,M, Welton, New York, 08124
+1,37,M, Fort Leonard Wood, Indiana, 11508
+1,49,N, Madison Lake, California, 56322
+1,65,M, Osborn, Virginia, 70460
+1,81,N, Muskegon Heights, New Jersey, 90647
+1,49,N, Weeping Water, Virginia, 43595
+1,57,M, Tioga borough, Arkansas, 85874
+1,58,M, Sheyenne, Washington, 73342
+1,57,F, Sadieville, North Carolina, 87507
+1,43,M, Honokaa, Tennessee, 20295
+1,71,M, Hot Springs, Massachusetts, 50162
+1,54,N, Kossuth village, Alaska, 16393
+1,40,F, Stockville village, Wisconsin, 92213
+1,28,M, Southside Place, Michigan, 42757
+1,35,N, Keota, Arkansas, 51133
+1,76,M, New Suffolk, Mississippi, 08520
+1,60,F, North Eagle Butte, Indiana, 34255
+1,50,F, Silas, Alaska, 63260
+1,42,M, Hahira, Maryland, 71493
+1,70,F, Cherry Hill Mall, Oklahoma, 62656
+1,20,F, Gold Beach, Louisiana, 66585
+1,82,M, Arkoma, Rhode Island, 66772
+1,76,M, Schriever, Alabama, 68356
+1,68,F, Stanardsville, Kansas, 76443
+1,57,M, New Richmond, Indiana, 27354
+1,48,F, La Verne, North Dakota, 56101
+1,75,F, Anacortes, Idaho, 08575
+1,30,N, Dugway, Louisiana, 30119
+1,69,F, Avant, Ohio, 13350
+1,61,M, Gladewater, Massachusetts, 00469
+1,33,M, Nevada, West Virginia, 45944
+1,56,M, Reedsport, Michigan, 05394
+1,34,M, Lake, Indiana, 44580
+1,59,F, Greenport village, Georgia, 42545
+1,46,F, New Buffalo, Delaware, 69069
+1,74,F, Union Star, Ohio, 11779
+1,57,F, Chinle, Kansas, 37216
+1,52,M, Old Agency, Delaware, 79426
+1,21,M, Glenview Hills, New Jersey, 95681
+1,73,M, Clifton Forge, Nebraska, 05764
+1,38,F, Wapakoneta, Washington, 02655
+1,55,F, Lucas village, Oklahoma, 56602
+1,47,M, Reklaw, Massachusetts, 16552
+1,71,F, Mebane, Kansas, 61848
+1,54,F, Morrisonville, Georgia, 14509
+1,44,N, Hazlehurst, Utah, 39444
+1,44,M, Lake Crystal, California, 21179
+1,53,M, Chautauqua, Michigan, 56483
+1,71,F, Ayrshire, Florida, 68372
+1,38,F, Sunny Isles Beach, Maine, 07188
+1,78,M, Pulaski village, South Carolina, 92694
+1,80,N, Scobey, Florida, 39709
+1,66,M, Tri-Lakes, Tennessee, 31000
+1,30,M, Indiana borough, Vermont, 92735
+1,40,N, Ekalaka, Montana, 36654
+1,78,M, James, Hawaii, 35560
+1,70,M, Timpson, Idaho, 65730
+1,38,M, Gatesville, Nevada, 13590
+1,75,M, Macksburg, Alabama, 06972
+1,64,F, Chester borough, North Carolina, 44883
+1,80,N, Blacksburg, Oregon, 69721
+1,63,N, Bradshaw, North Dakota, 70700
+1,52,M, Jordan, Tennessee, 79893
+1,58,M, Springview village, Kansas, 41287
+1,77,N, Kewanee, Hawaii, 97300
+1,23,M, De Graff village, Vermont, 64718
+1,75,F, Gustine, California, 27600
+1,76,F, Adamsville village, North Dakota, 80699

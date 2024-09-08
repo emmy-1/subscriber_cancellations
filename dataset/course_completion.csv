@@ -1,0 +1,1001 @@
+student_id,student_name,courese,Hours_to_complete,timespent_on_course_in_hrs,is_course_completed
+9,Tricia Delacruz,machine learning engineer,35,1,No
+21,Toney Villarreal,data analyst,12,4,No
+23,Isabel van Erven,backend engineer,18,7,No
+67,Landon Huang,ux/ui designer,15,8,No
+85,Sherwood Guerra,software engineering,25,22,No
+87,Rosina Bender,iOS developer,27,4,No
+91,Angelo Kloosterboer,android developer,27,7,No
+93,Angella Lucas,frontend engineer,20,16,No
+136,Shonda Shaffer,ux/ui designer,15,6,No
+166,Stanford Nash,backend engineer,18,7,No
+173,Freddie Lapperre,data scientist,20,13,No
+192,Stevie Hewitt,machine learning engineer,35,9,No
+219,Classie de Haas,android developer,27,10,No
+266,Lala Brugman,backend engineer,18,14,No
+339,Marlin Choi,android developer,27,14,No
+352,Arnita Zhang,data engineer,20,20,Yes
+359,Rich Gorter,iOS developer,27,2,No
+361,Neil Hahn,data engineer,20,4,No
+363,Laurence Blanchard,data analyst,12,11,No
+365,Tess Christian,data engineer,20,4,No
+394,Vivienne Arias,data engineer,20,19,No
+397,Ivette van Beest,software engineering,25,21,No
+418,Reid Schneider,software engineering,25,9,No
+445,Jimmie Fuentes,software engineering,25,9,No
+446,Miles Burt,software engineering,25,25,Yes
+447,Jannette Shah,frontend engineer,20,18,No
+452,Rae Langley,data engineer,20,18,No
+453,Johnie Petersen,software engineering,25,6,No
+462,Darrick Gilberts,android developer,27,3,No
+469,Shawanna Rijkensz,android developer,27,13,No
+495,Eloy Mann,Not Applicable,0,0,Yes
+507,Lekisha Kerkhof,Not Applicable,0,0,Yes
+536,Bo Berg,data scientist,20,15,No
+538,Delana Kaiser,Not Applicable,0,0,Yes
+548,Erica Bruins,iOS developer,27,11,No
+564,Nida Cross,data scientist,20,11,No
+571,Leanna Cortez,Not Applicable,0,0,Yes
+606,Carson Perdon,ux/ui designer,15,15,Yes
+630,Adrienne Herman,data engineer,20,4,No
+666,Denita Pollard,software engineering,25,15,No
+706,Rafael Alford,machine learning engineer,35,24,No
+750,Virgie Sonneveldt,data engineer,20,8,No
+753,Christina Bowen,software engineering,25,10,No
+796,Erlene Cornelisgroeneveld,ux/ui designer,15,4,No
+803,Dorsey Reijmerrs,Not Applicable,0,0,Yes
+804,Duncan Thornton,iOS developer,27,5,No
+811,Ethan de Boon,backend engineer,18,13,No
+831,Andre van der Zaan,data analyst,12,10,No
+872,Tynisha Bieren,software engineering,25,23,No
+906,Linnie Emerson,backend engineer,18,13,No
+911,Dione Vreemdt,data analyst,12,7,No
+921,Rob Leon,Not Applicable,0,0,Yes
+922,Cary Peled,data analyst,12,6,No
+928,Elliott Parks,Not Applicable,0,0,Yes
+961,Matt Verhoef,android developer,27,21,No
+1015,Palmer van Steenbergen,backend engineer,18,15,No
+1022,Bennett Wu,data scientist,20,7,No
+1043,Joanne Mosley,software engineering,25,16,No
+1044,Freeman Rudlin,software engineering,25,14,No
+1047,Travis Mcgowan,data engineer,20,6,No
+1054,Ashely Gonzalez,data analyst,12,7,No
+1100,Mohammad Tegelaar,data analyst,12,11,No
+1107,Shelby van Luyn,iOS developer,27,23,No
+1111,Luci Davidson,Not Applicable,0,0,Yes
+1120,Mayme Holden,software engineering,25,3,No
+1142,Johana Dunlap,frontend engineer,20,8,No
+1146,Nathan Wooldrik,data engineer,20,17,No
+1184,Austin Stewart,machine learning engineer,35,3,No
+1275,Candance Tapia,ux/ui designer,15,10,No
+1282,Minh Gavulik,data scientist,20,6,No
+1302,Roosevelt Sawyer,ux/ui designer,15,12,No
+1308,Hai Pfeil,backend engineer,18,15,No
+1313,Brigid van Waay,software engineering,25,18,No
+1323,Richie Finch,software engineering,25,2,No
+1332,Avis Wermeskerken,software engineering,25,17,No
+1341,Shawnna Patton,machine learning engineer,35,32,No
+1344,Sylvie Delaney,data engineer,20,4,No
+1371,Carie Jefferson,backend engineer,18,10,No
+1385,Lillia Lynch,data engineer,20,10,No
+1410,Ninfa Gill,Not Applicable,0,0,Yes
+1416,Federico Bowers,frontend engineer,20,10,No
+1425,Lacey van Est,iOS developer,27,1,No
+1460,Serafina Michael,data scientist,20,2,No
+1481,Timothy Holder,backend engineer,18,17,No
+1502,Craig Mcbride,iOS developer,27,23,No
+1515,Joel Leonard,data scientist,20,18,No
+1519,Terrell Reeves,data scientist,20,12,No
+1523,Elwood Cooley,data engineer,20,5,No
+1551,Kimberely Douglas,backend engineer,18,15,No
+1558,Larae Holman,backend engineer,18,17,No
+1622,Darlene Duyn,machine learning engineer,35,19,No
+1667,Cleopatra Singleton,machine learning engineer,35,9,No
+1671,Lee van der Sluijs,android developer,27,7,No
+1675,Fransisca Williams,software engineering,25,4,No
+1680,Miguel Ali,android developer,27,24,No
+1700,Tana Maynard,iOS developer,27,13,No
+1711,Emelia Grootendorst,Not Applicable,0,0,Yes
+1715,Carroll van Es,backend engineer,18,10,No
+1731,Estefana Harvey,data scientist,20,18,No
+1742,Lilly Mentz,android developer,27,11,No
+1772,Graig Ingram,backend engineer,18,3,No
+1780,Joe Hallen,machine learning engineer,35,4,No
+1782,Danyell Berry,data engineer,20,2,No
+1785,Ernest Combs,data analyst,12,1,No
+1787,Deandrea Tsioupra,android developer,27,23,No
+1804,Lauren Harris,data analyst,12,8,No
+1812,Lizbeth van Setten,machine learning engineer,35,24,No
+1815,Mickey van Brummelen,android developer,27,17,No
+1822,Chris Komen,ux/ui designer,15,9,No
+1831,Lenore Massey,data scientist,20,2,No
+1839,Jerald Ferguson,android developer,27,16,No
+1867,Otto Hanson,data engineer,20,4,No
+1881,Ophelia Koopman,data analyst,12,8,No
+1897,Filiberto Delaney,frontend engineer,20,17,No
+1919,Manuela Eskes,iOS developer,27,3,No
+1943,Larry Rietveld,frontend engineer,20,20,Yes
+1947,Marlin Shaw,android developer,27,9,No
+1961,Zachery Gay,machine learning engineer,35,15,No
+1969,August Stephenson,machine learning engineer,35,33,No
+1978,Ludie Simons,frontend engineer,20,5,No
+2033,Shara Rollins,data engineer,20,20,Yes
+2042,Maisie Lowe,iOS developer,27,4,No
+2044,Guy van Egmond,data scientist,20,8,No
+2076,Katy Rivas,frontend engineer,20,16,No
+2130,Chanel Poot,frontend engineer,20,11,No
+2146,Kendal Henderson,data scientist,20,10,No
+2269,Rafaela de Wolf,software engineering,25,4,No
+2271,Gregorio van Tol,data scientist,20,15,No
+2275,Michel Kortland,backend engineer,18,10,No
+2278,Lisette Hudson,frontend engineer,20,13,No
+2280,Cecila Rollins,Not Applicable,0,0,Yes
+2285,Merrill Schrauwen,iOS developer,27,9,No
+2289,Sherwood Bradley,iOS developer,27,19,No
+2291,Ashlea van Steyn,android developer,27,13,No
+2295,Mora Nguyen,machine learning engineer,35,4,No
+2324,Tomas Stam,Not Applicable,0,0,Yes
+2335,Werner Leon,iOS developer,27,3,No
+2340,Meghan Boyer,iOS developer,27,27,Yes
+2351,Bessie Fray,backend engineer,18,11,No
+2392,Milagro Goos,data scientist,20,17,No
+2394,Delisa van der Bilt,Not Applicable,0,0,Yes
+2399,Werner Singleton,data analyst,12,11,No
+2408,Kimbra Dejesus,data engineer,20,10,No
+2412,Wilton Vos,machine learning engineer,35,16,No
+2415,Denis Michael,data scientist,20,8,No
+2416,Solomon Sexton,machine learning engineer,35,16,No
+2418,Elsie Koorn,backend engineer,18,2,No
+2422,Hilario William,data analyst,12,4,No
+2428,Alec van Est,software engineering,25,12,No
+2441,Daryl Veldkamp,data analyst,12,7,No
+2448,Valentine Kemp,machine learning engineer,35,28,No
+2458,Hilton Whitney,ux/ui designer,15,5,No
+2460,Yulanda Ayala,Not Applicable,0,0,Yes
+2474,Susanna Bowers,machine learning engineer,35,0,No
+2509,Gilberto Osborn,backend engineer,18,14,No
+2510,Danna van Setten,iOS developer,27,24,No
+2512,Junko Wright,android developer,27,24,No
+2523,Saul Kars,software engineering,25,7,No
+2528,Bronwyn Snijders,data engineer,20,5,No
+2545,Hal Poelgeest,software engineering,25,11,No
+2551,Dick Callander,android developer,27,12,No
+2572,Margaretta Gerrits,backend engineer,18,9,No
+2574,Lissa Abresch,data engineer,20,0,No
+2575,Adrian van Westhrenen,data scientist,20,11,No
+2578,Jong Rivers,Not Applicable,0,0,Yes
+2595,Lacey Hale,ux/ui designer,15,3,No
+2614,Irving Mcgrath,iOS developer,27,16,No
+2616,Nathanael de Groot,data analyst,12,11,No
+2634,Jeffry Shannon,iOS developer,27,14,No
+2637,Tamesha Fisher,ux/ui designer,15,5,No
+2678,Paul Bush,machine learning engineer,35,14,No
+2698,Desmond Simmons,data engineer,20,15,No
+2707,Felix Humphrey,android developer,27,15,No
+2708,Cathrine van der Waal,ux/ui designer,15,7,No
+2719,Benedict Riley,software engineering,25,11,No
+2721,Enoch van Son,software engineering,25,19,No
+2732,Coy van Rijn,backend engineer,18,16,No
+2743,Delbert Walsh,data engineer,20,7,No
+2768,Golda Gray,Not Applicable,0,0,Yes
+2778,Norah Cardenas,data analyst,12,10,No
+2779,Iola Bryan,data analyst,12,4,No
+2783,Johnathan Michael,ux/ui designer,15,2,No
+2842,Margarite Escobar,data analyst,12,4,No
+2906,Elina Beth,ux/ui designer,15,7,No
+2916,Lupe Riggs,data scientist,20,0,No
+2922,Quinton Atkinson,data engineer,20,14,No
+2923,Thad Duijn,Not Applicable,0,0,Yes
+2934,Jerold Jongens,data engineer,20,20,Yes
+2948,Colin Morales,software engineering,25,18,No
+2953,Hank Ett,data analyst,12,1,No
+2974,Necole Westerveld,data scientist,20,8,No
+2976,Reyna Lamb,android developer,27,1,No
+2982,Marcos Harris,frontend engineer,20,5,No
+2994,Noel Cooke,iOS developer,27,27,Yes
+3018,Valentin Jansdr,data analyst,12,5,No
+3042,Denae Booker,Not Applicable,0,0,Yes
+3043,Herbert Cummings,backend engineer,18,13,No
+3050,Arnita West,data scientist,20,15,No
+3053,Deeanna Adenrock,ux/ui designer,15,11,No
+3055,Augustina Hardin,android developer,27,20,No
+3057,Efrain van der Meijden,machine learning engineer,35,29,No
+3064,Tuan Hickman,Not Applicable,0,0,Yes
+3082,Eveline Greene,software engineering,25,0,No
+3089,Ed Fox,android developer,27,7,No
+3093,Katheleen Shepard,data engineer,20,6,No
+3099,Darline van Rossum,machine learning engineer,35,34,No
+3107,Cameron van Dillewijn,iOS developer,27,23,No
+3113,Rosio van Ommeren,data scientist,20,13,No
+3114,Robbie Parsons,iOS developer,27,13,No
+3125,Harold Dale,ux/ui designer,15,10,No
+3134,Chance Kleijn,data analyst,12,5,No
+3155,Samuel Sheppard,data scientist,20,19,No
+3175,Abdul van der Gouwe,data analyst,12,6,No
+3188,Christian Justice,data engineer,20,3,No
+3198,Wilford Kool,android developer,27,15,No
+3199,Blake Gay,data scientist,20,18,No
+3210,Bradley Sampson,iOS developer,27,10,No
+3217,Gregorio Schroeder,Not Applicable,0,0,Yes
+3220,Thresa Mathews,machine learning engineer,35,30,No
+3229,Annabell Dejesus,Not Applicable,0,0,Yes
+3230,Heath Burris,iOS developer,27,10,No
+3273,Agustin Broadbent,data scientist,20,2,No
+3290,Phylicia Dunlop,Not Applicable,0,0,Yes
+3299,Annmarie Kleijne,frontend engineer,20,16,No
+3324,Gertrud Haak,ux/ui designer,15,0,No
+3332,Darwin Zamora,data analyst,12,3,No
+3346,Martin van der Beek,Not Applicable,0,0,Yes
+3347,Oswaldo de Loos,backend engineer,18,11,No
+3353,Junita Henry,machine learning engineer,35,20,No
+3356,Consuelo Willems,backend engineer,18,15,No
+3382,Orlando Yates,data scientist,20,20,Yes
+3388,Inell Odonnell,frontend engineer,20,5,No
+3398,Normand Valenzuela,machine learning engineer,35,35,Yes
+3402,Criselda Carson,frontend engineer,20,9,No
+3408,Justin Castillo,data engineer,20,15,No
+3431,Dion Kleijn,Not Applicable,0,0,Yes
+3450,Loralee Snijder,machine learning engineer,35,15,No
+3453,Marietta de With,data scientist,20,0,No
+3455,Zoe Villa,Not Applicable,0,0,Yes
+3461,Marcela Gerlofsma,iOS developer,27,5,No
+3464,Jerrold de Ruiter,Not Applicable,0,0,Yes
+3487,Melony Walker,ux/ui designer,15,0,No
+3493,Wilber Knight,backend engineer,18,9,No
+3528,Maria Pos,machine learning engineer,35,29,No
+3549,Cassandra Budding,frontend engineer,20,17,No
+3554,Tomasa Duarte,android developer,27,0,No
+3598,Amal de Brijn,ux/ui designer,15,4,No
+3614,Glory van der Horst,machine learning engineer,35,30,No
+3615,Misty Vorberg,backend engineer,18,5,No
+3632,Carlene Matthews,Not Applicable,0,0,Yes
+3640,Veronica de Boef,Not Applicable,0,0,Yes
+3645,Rudy Doorn,android developer,27,26,No
+3648,Kathyrn Taets,data scientist,20,14,No
+3672,Clementina Wiley,Not Applicable,0,0,Yes
+3678,Augusta van Roy,backend engineer,18,9,No
+3694,Wallace Manning,software engineering,25,21,No
+3709,Jeromy Randolph,iOS developer,27,16,No
+3715,Briana Wermeskerken,iOS developer,27,21,No
+3767,Lauralee Schouten,android developer,27,10,No
+3777,Erasmo Gentry,backend engineer,18,13,No
+3783,Ward Day,Not Applicable,0,0,Yes
+3792,Eleonora Uijttenbogaard,iOS developer,27,21,No
+3799,Delinda Leenards,data engineer,20,17,No
+3800,Brock Kramer,backend engineer,18,0,No
+3817,Nancee Matse,backend engineer,18,15,No
+3819,Cori Haagsman,data analyst,12,4,No
+3858,Herb Bilt,software engineering,25,1,No
+3860,Chuck Pugh,ux/ui designer,15,15,Yes
+3882,Zandra Oneal,machine learning engineer,35,32,No
+3895,Freeman Calhoun,iOS developer,27,11,No
+3904,Deidra Ramos,data analyst,12,6,No
+3929,Willy Chavez,machine learning engineer,35,24,No
+3936,Willy Sims,data scientist,20,9,No
+3960,Emory Kelly,frontend engineer,20,2,No
+3966,Mittie Froemke,Not Applicable,0,0,Yes
+3990,Dexter Watson,iOS developer,27,21,No
+3991,Lucas van Rietveld,software engineering,25,21,No
+4000,Stefania Lane,data scientist,20,10,No
+4027,Pasquale Simpson,ux/ui designer,15,14,No
+4056,Thea Gaines,machine learning engineer,35,6,No
+4124,Patrina Burnett,data scientist,20,19,No
+4131,Jeff Mcdaniel,data engineer,20,2,No
+4150,Moriah Robertson,iOS developer,27,24,No
+4169,Leonore Downs,ux/ui designer,15,12,No
+4190,George van Zijderveld,ux/ui designer,15,13,No
+4214,Neil Oneil,data analyst,12,11,No
+4231,Laurette Davila,data scientist,20,14,No
+4247,Lyndon Medina,iOS developer,27,12,No
+4260,Riva Sampson,ux/ui designer,15,15,Yes
+4271,Raisa Gonzalez,machine learning engineer,35,20,No
+4277,Brady Reilly,frontend engineer,20,13,No
+4282,Norbert Underwood,android developer,27,25,No
+4284,Donetta Michael,software engineering,25,19,No
+4288,Rana Hopkins,iOS developer,27,17,No
+4302,Karima Simon,backend engineer,18,6,No
+4348,Rosamaria Wooldrik,software engineering,25,10,No
+4375,Latonya Reilly,iOS developer,27,20,No
+4376,Irma Joosten,data engineer,20,9,No
+4395,Jenise Cleijn,backend engineer,18,14,No
+4400,Dane Weeda,ux/ui designer,15,14,No
+4406,Lara Adelaer,machine learning engineer,35,21,No
+4407,Arletta Craig,data analyst,12,7,No
+4410,Lucio van der Zaan,data engineer,20,11,No
+4413,Louie van Bolswaert,data analyst,12,10,No
+4424,Sterling Franco,backend engineer,18,12,No
+4449,Paul Pietersen,frontend engineer,20,20,Yes
+4476,Nancie Stelling,backend engineer,18,10,No
+4483,Zachery Norton,android developer,27,17,No
+4484,Lupe Blom,data scientist,20,1,No
+4500,Orlando Hawkins,software engineering,25,5,No
+4513,Enrique Bergacker,data analyst,12,12,Yes
+4517,Jim Robles,frontend engineer,20,2,No
+4523,Cleora van Kleef,machine learning engineer,35,14,No
+4560,Hilario van Diedenhoven,Not Applicable,0,0,Yes
+4568,Joseph Noyen,iOS developer,27,14,No
+4587,Gema Reijdon,data scientist,20,11,No
+4594,Bobby Cortez,ux/ui designer,15,10,No
+4596,Joella Parrish,frontend engineer,20,0,No
+4598,Shelton Weeda,data scientist,20,9,No
+4614,Jerrod van Bolswaert,frontend engineer,20,0,No
+4621,Lane Mayer,Not Applicable,0,0,Yes
+4627,Brant Battle,frontend engineer,20,10,No
+4637,Jose Hooper,Not Applicable,0,0,Yes
+4678,Shaniqua Guzman,frontend engineer,20,10,No
+4681,Dorris Bradley,data scientist,20,11,No
+4685,Donnell Flowers,data analyst,12,9,No
+4717,Lamar Bastiaans,backend engineer,18,1,No
+4734,Lucius Rush,iOS developer,27,11,No
+4765,Mabelle Dotson,backend engineer,18,14,No
+4808,Verlie Li,iOS developer,27,24,No
+4839,Dorthey Lane,software engineering,25,7,No
+4896,Shane van Eyk,data analyst,12,7,No
+4901,Lise Nio,software engineering,25,5,No
+4903,Noel Campos,android developer,27,23,No
+4920,Salvatore Andersen,software engineering,25,2,No
+4955,Eugenie Groenendijk,frontend engineer,20,5,No
+4988,Lauran Mcmahon,data scientist,20,15,No
+4993,Merrill Barrera,software engineering,25,9,No
+8,Stanford Allan,data scientist,20,19,No
+12,Marcus Mcfarland,frontend engineer,20,9,No
+34,Dion Donaldson,software engineering,25,9,No
+54,Lannie Frazier,data scientist,20,4,No
+57,Alix Carr,android developer,27,18,No
+65,Jasmine Vos,Not Applicable,0,0,Yes
+86,Lonna van der Beek,ux/ui designer,15,9,No
+88,Danilo van Zijderveld,data analyst,12,12,Yes
+100,Elsy Rich,machine learning engineer,35,26,No
+106,Kraig Hays,ux/ui designer,15,0,No
+107,Rubin Klarenbos,iOS developer,27,6,No
+148,Issac de Vries,data scientist,20,2,No
+187,Altagracia Shaw,data analyst,12,4,No
+233,Rafael de Rek,Not Applicable,0,0,Yes
+245,Marshall Keith,frontend engineer,20,18,No
+265,Janna Abbott,data engineer,20,4,No
+301,Haywood Lin,data analyst,12,11,No
+305,Minta Ray,backend engineer,18,4,No
+316,Ty van Woercom,data engineer,20,8,No
+346,Forest Levine,machine learning engineer,35,5,No
+370,Andre Carver,iOS developer,27,20,No
+414,Morris Kuchler,data engineer,20,2,No
+421,Keesha Stephenson,android developer,27,24,No
+425,Lavonia Heijn,iOS developer,27,26,No
+436,Lisha Guzman,frontend engineer,20,17,No
+461,Clemente Patton,machine learning engineer,35,0,No
+473,Jacki Everett,frontend engineer,20,20,Yes
+489,Raleigh van Malsem,Not Applicable,0,0,Yes
+496,Leopoldo Heemskerck,iOS developer,27,24,No
+498,Porsche Clayton,android developer,27,6,No
+504,Geraldo Weenink,machine learning engineer,35,23,No
+516,Florinda Groeneveld,Not Applicable,0,0,Yes
+586,Kristofer Fleming,android developer,27,15,No
+595,Sammy Ett,data analyst,12,12,Yes
+624,Audry Nielsen,machine learning engineer,35,9,No
+626,Lawerence Dircks,frontend engineer,20,20,Yes
+647,Maritza Mejia,machine learning engineer,35,15,No
+673,Elmer van Cuylenburg,ux/ui designer,15,3,No
+711,Agustin Keith,backend engineer,18,2,No
+713,Troy Booth,data engineer,20,6,No
+715,Antonette Slater,Not Applicable,0,0,Yes
+716,Tresa Carver,software engineering,25,5,No
+754,Misha Byrd,Not Applicable,0,0,Yes
+766,Aurelio Cherry,data analyst,12,7,No
+768,Carri Avery,machine learning engineer,35,10,No
+777,Gavin Strong,iOS developer,27,26,No
+829,Modesto van der Gouwe,data engineer,20,8,No
+881,Emeline Flink,Not Applicable,0,0,Yes
+917,Edmond Bates,data engineer,20,7,No
+923,Manuel Wijnslagers,android developer,27,19,No
+935,Ray van Westrhenen,iOS developer,27,20,No
+956,Becki van Winzum,Not Applicable,0,0,Yes
+969,Alyssa Arellano,backend engineer,18,1,No
+974,Tara Adkins,backend engineer,18,14,No
+983,Milton Vance,iOS developer,27,27,Yes
+991,Kimiko Claes,Not Applicable,0,0,Yes
+1009,Cari Williamson,android developer,27,5,No
+1021,Edwina Ledeboer,data scientist,20,6,No
+1027,Cheryll Buddingh,frontend engineer,20,20,Yes
+1097,Renda Farrell,machine learning engineer,35,32,No
+1156,Shyla Richmond,backend engineer,18,18,Yes
+1197,Megan Stofberg,software engineering,25,24,No
+1205,Cyrus Craig,ux/ui designer,15,4,No
+1208,Alden Logan,data analyst,12,6,No
+1218,Shenita Price,ux/ui designer,15,7,No
+1219,Quinton Carlson,frontend engineer,20,13,No
+1223,Hubert York,data scientist,20,16,No
+1249,Veronika Anderson,data engineer,20,10,No
+1269,Kira Dons,iOS developer,27,0,No
+1281,Junior van Haarlem,data scientist,20,7,No
+1283,Jenni Costa,software engineering,25,19,No
+1288,Irvin Garrison,Not Applicable,0,0,Yes
+1298,Leoma Kidd,frontend engineer,20,5,No
+1370,Henrietta Ferdinandus,iOS developer,27,19,No
+1393,Alix Marsh,backend engineer,18,0,No
+1395,Perry Bowman,data analyst,12,6,No
+1397,Eleni Snuif,iOS developer,27,20,No
+1412,Giovanni de Jager,android developer,27,23,No
+1448,Georgianna Bleijenberg,Not Applicable,0,0,Yes
+1450,Courtney Curtis,machine learning engineer,35,28,No
+1451,Paris Ware,frontend engineer,20,13,No
+1453,Sean van Gravendijk,backend engineer,18,0,No
+1464,Hipolito Cardenas,frontend engineer,20,12,No
+1470,Cherilyn Potter,frontend engineer,20,9,No
+1506,Naoma Bentley,backend engineer,18,15,No
+1518,Cristy Camacho,data analyst,12,9,No
+1529,Mohamed van Mourik,data engineer,20,7,No
+1554,Diego Hart,machine learning engineer,35,5,No
+1601,Ivan van Helten,frontend engineer,20,11,No
+1607,Elenor Cooley,backend engineer,18,11,No
+1628,Abram Melton,software engineering,25,16,No
+1655,Mike Klapmuts,machine learning engineer,35,18,No
+1656,Wilburn Cotton,frontend engineer,20,3,No
+1657,Petronila Snyder,machine learning engineer,35,35,Yes
+1663,Grant Gamble,ux/ui designer,15,8,No
+1692,Jeremiah Hamilton,android developer,27,5,No
+1693,Tifany Robinson,data scientist,20,3,No
+1712,Stephania Mclaughlin,iOS developer,27,9,No
+1720,Marna Ophorst,frontend engineer,20,15,No
+1730,Marge Muir,machine learning engineer,35,21,No
+1744,Alisha Vorberg,ux/ui designer,15,1,No
+1756,Annamae Roos,backend engineer,18,11,No
+1758,Syble Frederick,android developer,27,15,No
+1791,Paz Davila,ux/ui designer,15,13,No
+1796,Ricardo Romero,machine learning engineer,35,24,No
+1819,Sharie Udo,android developer,27,9,No
+1829,Wendy Reynolds,Not Applicable,0,0,Yes
+1848,Tatyana Wheeler,android developer,27,2,No
+1885,Deadra Arias,data scientist,20,8,No
+1886,Benedict van Woercom,backend engineer,18,8,No
+1945,Joella Meyers,frontend engineer,20,11,No
+2002,Renae Lucas,ux/ui designer,15,0,No
+2022,Samuel Delgado,data scientist,20,18,No
+2037,Twila de Bosch,software engineering,25,2,No
+2046,Juliane Barton,Not Applicable,0,0,Yes
+2052,Sue Poot,data analyst,12,1,No
+2058,Janet Bauw,iOS developer,27,18,No
+2070,Johnetta de With,machine learning engineer,35,10,No
+2097,Leisha Goudkade,data analyst,12,12,Yes
+2131,Leeanna Godijn,Not Applicable,0,0,Yes
+2136,Micheal Huff,machine learning engineer,35,15,No
+2154,Bradly Chang,data analyst,12,7,No
+2155,Julian Rollins,backend engineer,18,2,No
+2170,Liza Bengen,backend engineer,18,17,No
+2175,Andy de Wolf,ux/ui designer,15,1,No
+2229,Elroy Gardener,data analyst,12,2,No
+2250,Clinton Tyler,backend engineer,18,6,No
+2251,Domenic Chambers,frontend engineer,20,1,No
+2258,Kimi Green,data scientist,20,5,No
+2288,Lorie Benaerde,data scientist,20,12,No
+2313,Javier Kootstra,ux/ui designer,15,8,No
+2319,Adan Haynes,ux/ui designer,15,15,Yes
+2347,Mose Rosales,machine learning engineer,35,13,No
+2353,Maxine Ali,backend engineer,18,2,No
+2367,Ivory Dickerson,iOS developer,27,8,No
+2396,Gary Zuniga,ux/ui designer,15,6,No
+2417,Benjamin Mclean,software engineering,25,12,No
+2430,Frankie Koenen,software engineering,25,8,No
+2442,Jesenia Eaton,machine learning engineer,35,22,No
+2484,Misty Boone,frontend engineer,20,10,No
+2493,Ethan Hernandez,frontend engineer,20,8,No
+2496,Patrice Joris,Not Applicable,0,0,Yes
+2507,Harry Cooke,data analyst,12,5,No
+2535,Drema Morgan,data scientist,20,4,No
+2554,Marline Booth,ux/ui designer,15,14,No
+2564,Delfina Blankenship,frontend engineer,20,18,No
+2582,Fritz Rodgers,data analyst,12,11,No
+2587,Ivonne van Lynden,frontend engineer,20,17,No
+2601,Leilani Walraven,software engineering,25,10,No
+2619,Janean van Steenis,data engineer,20,4,No
+2650,Izola Sonneveldt,data engineer,20,2,No
+2656,Phillip van Iddekinge,android developer,27,7,No
+2663,Lucina Wiley,iOS developer,27,11,No
+2665,Darrell Swijgels,data analyst,12,2,No
+2686,Carson van Couwenhoven,backend engineer,18,14,No
+2724,Tobias van Ekelenburg,data engineer,20,18,No
+2728,Fidel Wermeskerken,data analyst,12,10,No
+2731,Marcelo Moore,machine learning engineer,35,15,No
+2745,Vincenzo Marsh,backend engineer,18,3,No
+2774,Ida Spence,data scientist,20,11,No
+2794,Cedric Choi,software engineering,25,24,No
+2829,Eli Snow,data engineer,20,0,No
+2861,Johnie Macias,ux/ui designer,15,2,No
+2874,Quinton de Lang,backend engineer,18,18,Yes
+2883,Stefan Carr,data analyst,12,11,No
+2902,Hans van Blootenburgh,backend engineer,18,6,No
+2958,Marcel Watson,software engineering,25,14,No
+2963,Rosario Davis,Not Applicable,0,0,Yes
+2975,Jesenia Juarez,data scientist,20,20,Yes
+2990,Aldo van Oost,ux/ui designer,15,10,No
+3026,Jamie Cherry,software engineering,25,6,No
+3046,Vannessa Austin,iOS developer,27,16,No
+3054,Darwin Carlson,frontend engineer,20,15,No
+3078,Tyron Pietersen,data engineer,20,13,No
+3088,Galen Flips,Not Applicable,0,0,Yes
+3090,Lindsey French,ux/ui designer,15,7,No
+3102,Lamont Weaver,android developer,27,10,No
+3123,Brian van Eldik,data scientist,20,4,No
+3124,Lorenzo Zwakman,data engineer,20,3,No
+3140,Matthew Paal,data engineer,20,15,No
+3159,Jeff Rice,backend engineer,18,14,No
+3162,Myrl Gilliam,software engineering,25,18,No
+3179,Emile Cornelissen,ux/ui designer,15,8,No
+3180,Lilly Hoest,machine learning engineer,35,20,No
+3195,Daron Bijl,backend engineer,18,2,No
+3203,Lupe de Haas,iOS developer,27,22,No
+3250,Coleen Alvarado,android developer,27,20,No
+3260,Lon Rojas,Not Applicable,0,0,Yes
+3267,Son Adler,android developer,27,27,Yes
+3268,Kraig Boyle,machine learning engineer,35,7,No
+3276,Angelena Kok,ux/ui designer,15,15,Yes
+3286,Margo Bosschaert,ux/ui designer,15,10,No
+3288,Kimberly Young,ux/ui designer,15,11,No
+3291,Marcos Mills,machine learning engineer,35,16,No
+3293,Ivy Hall,Not Applicable,0,0,Yes
+3315,Vance Hammond,backend engineer,18,5,No
+3318,Florrie van Zanten,ux/ui designer,15,1,No
+3319,Adan van den Treek,Not Applicable,0,0,Yes
+3348,Shasta Rijckx,android developer,27,25,No
+3352,Alease Hogan,data analyst,12,3,No
+3354,Evelyne Mora,iOS developer,27,12,No
+3361,Gil Keith,data analyst,12,1,No
+3379,Taylor Pena,android developer,27,16,No
+3393,Kindra Dickie,iOS developer,27,3,No
+3394,Filiberto van Seumeren,iOS developer,27,14,No
+3401,Dwain Uijttenbogaard,data scientist,20,2,No
+3413,Kareen Rivas,data analyst,12,5,No
+3441,Nell Estes,data engineer,20,3,No
+3443,Jamaal van der Griend,frontend engineer,20,18,No
+3451,Fermin Gerrits,backend engineer,18,17,No
+3466,Will Vernede,frontend engineer,20,15,No
+3496,Monte van Triest,frontend engineer,20,17,No
+3513,Jacquline Wammes,machine learning engineer,35,3,No
+3538,Chad Guerra,machine learning engineer,35,30,No
+3545,Lucas Mcmillan,Not Applicable,0,0,Yes
+3551,Lorine Mullins,frontend engineer,20,3,No
+3558,Sunshine van Neure,data scientist,20,8,No
+3563,Melvin Santos,machine learning engineer,35,19,No
+3574,Ernesto Juarez,frontend engineer,20,9,No
+3584,Melvin Felt,data scientist,20,0,No
+3590,Darrick Knegjens,machine learning engineer,35,28,No
+3650,Samual de Looss,backend engineer,18,0,No
+3654,Merrill Gay,machine learning engineer,35,2,No
+3662,Doreatha Denhartog,data analyst,12,9,No
+3675,Retta Witt,android developer,27,19,No
+3727,Gregory Olsen,ux/ui designer,15,0,No
+3752,Demetria Moon,software engineering,25,4,No
+3755,Rowena Lancaster,data scientist,20,11,No
+3761,Brad Hall,machine learning engineer,35,33,No
+3763,Jasmine Lang,machine learning engineer,35,22,No
+3764,Bernetta Howard,data scientist,20,12,No
+3780,Franklyn Warner,software engineering,25,1,No
+3803,Morton Everett,backend engineer,18,12,No
+3810,Raquel Morse,frontend engineer,20,10,No
+3812,Benny Goldbaum,data analyst,12,7,No
+3822,Kiesha Swart,android developer,27,27,Yes
+3850,Hans Buning,ux/ui designer,15,11,No
+3863,Fritz Pierce,iOS developer,27,12,No
+3874,Kari Moran,machine learning engineer,35,11,No
+3880,Teodoro Rush,android developer,27,17,No
+3883,Margaretta Wagner,android developer,27,3,No
+3896,Greg Beeldhouwer,frontend engineer,20,20,Yes
+3909,Tony Hunter,data scientist,20,13,No
+3911,Jovan van Rietveld,backend engineer,18,11,No
+3931,Mariam Gonzales,frontend engineer,20,16,No
+3933,Cherri Estrada,data engineer,20,19,No
+3938,Travis de Raedt,data scientist,20,9,No
+4023,Magda Wijnslagers,data analyst,12,5,No
+4090,Ike Sherman,ux/ui designer,15,11,No
+4093,Kenny Ingram,frontend engineer,20,3,No
+4096,Edgardo Kelfkens,android developer,27,3,No
+4132,Ezequiel Sexton,Not Applicable,0,0,Yes
+4140,Minta Groenewout,data engineer,20,8,No
+4156,Leonora Peled,iOS developer,27,1,No
+4157,Amelia Best,ux/ui designer,15,2,No
+4194,Rupert Tate,backend engineer,18,15,No
+4206,Josiah Smits,ux/ui designer,15,3,No
+4210,Olen Benedictus,data scientist,20,13,No
+4218,Avery Braun,data engineer,20,13,No
+4220,Refugio Hardin,Not Applicable,0,0,Yes
+4226,Quentin Myers,iOS developer,27,2,No
+4227,Adolph Groenendijk,android developer,27,27,Yes
+4279,Maynard Hemen,backend engineer,18,13,No
+4289,Steve Baird,data scientist,20,3,No
+4292,Denna van der Goot,iOS developer,27,16,No
+4298,Therese Schrijvers,frontend engineer,20,15,No
+4342,Denny Barajas,Not Applicable,0,0,Yes
+4351,Iva Groeneveld,machine learning engineer,35,23,No
+4355,Octavio Sargent,machine learning engineer,35,13,No
+4357,Kerstin van Drie,backend engineer,18,2,No
+4363,Roland Chandler,frontend engineer,20,2,No
+4370,Darell Lubbert,data engineer,20,19,No
+4377,Jeniffer de Graaf,machine learning engineer,35,22,No
+4380,Victor Kuklinski,android developer,27,5,No
+4381,Ramon Kuijper,android developer,27,24,No
+4402,Santiago Treur,Not Applicable,0,0,Yes
+4441,Thelma Haagsman,data scientist,20,6,No
+4443,Raymond Bradley,data scientist,20,17,No
+4445,Yukiko Whitfield,iOS developer,27,26,No
+4451,Mckinley van Rosmalen,android developer,27,21,No
+4469,Sheri Fowler,data scientist,20,14,No
+4478,Wendell Gross,data engineer,20,0,No
+4499,Mack Limmink,data scientist,20,18,No
+4557,Ty Wynn,iOS developer,27,4,No
+4588,Arlen Foley,android developer,27,13,No
+4599,Jesus Pineda,software engineering,25,11,No
+4622,Tabitha Nedermyer,data analyst,12,7,No
+4689,Huey Villanueva,Not Applicable,0,0,Yes
+4695,Harrison Wiertz,data analyst,12,2,No
+4696,Charla Mendoza,machine learning engineer,35,10,No
+4697,Ardelle Levine,frontend engineer,20,13,No
+4718,Yoshiko Vinson,machine learning engineer,35,15,No
+4731,Felipe de Rooy,android developer,27,0,No
+4749,Erika van Keeken,ux/ui designer,15,7,No
+4788,Thelma Kars,android developer,27,19,No
+4793,Darrick Hale,frontend engineer,20,7,No
+4795,Linette Huber,backend engineer,18,2,No
+4809,Monique van Capelle,android developer,27,22,No
+4815,Yolanda Pudney,software engineering,25,5,No
+4822,Maybell Quinn,Not Applicable,0,0,Yes
+4832,Melany Bullock,data analyst,12,7,No
+4907,Bobbie Irwin,data scientist,20,14,No
+4911,Ernesto de Berg,data scientist,20,13,No
+4936,Russel Klein,ux/ui designer,15,15,Yes
+4943,Graig Booth,machine learning engineer,35,17,No
+4953,Edison Conijn,machine learning engineer,35,22,No
+4983,Chet Campos,backend engineer,18,6,No
+3,Hosea Dale,android developer,27,6,No
+24,Eartha Weeks,data scientist,20,9,No
+108,Otto Sykes,data engineer,20,14,No
+137,Guillermina Lara,data analyst,12,8,No
+182,Angelita Johnson,android developer,27,25,No
+191,Arlen Downs,data analyst,12,0,No
+194,Queen Green,android developer,27,17,No
+197,Josef de Brijn,android developer,27,0,No
+211,Broderick van Staveren,backend engineer,18,15,No
+226,Abe Petersen,data engineer,20,14,No
+255,Yevette Heineke,frontend engineer,20,20,Yes
+257,Bennie Mcknight,data scientist,20,11,No
+290,Reggie Roeder,iOS developer,27,5,No
+294,Edmond van Zetten,backend engineer,18,14,No
+307,Talisha de Jager,software engineering,25,5,No
+321,Matt Wise,backend engineer,18,14,No
+322,Mikaela Goes,Not Applicable,0,0,Yes
+325,Johanna Gross,frontend engineer,20,16,No
+338,Houston Dircx,machine learning engineer,35,6,No
+366,Lillian Mccray,android developer,27,0,No
+373,Haywood Witt,android developer,27,18,No
+410,Roxie Blok,frontend engineer,20,13,No
+427,Soraya Long,frontend engineer,20,10,No
+443,Else Parsons,backend engineer,18,8,No
+475,Marceline Peters,data analyst,12,1,No
+476,Mitch Klein,backend engineer,18,12,No
+493,Rusty Verhoef,frontend engineer,20,20,Yes
+501,Emma Blankenship,data engineer,20,2,No
+540,Eloy Jenkins,android developer,27,22,No
+549,Duncan Wu,data engineer,20,13,No
+551,Susan White,software engineering,25,14,No
+568,Gaylord Watts,Not Applicable,0,0,Yes
+569,Demetrius Buning,iOS developer,27,1,No
+579,Hiedi Warner,backend engineer,18,12,No
+581,Rhiannon Russo,frontend engineer,20,18,No
+600,Leif Allen,iOS developer,27,21,No
+609,Xavier Koenen,machine learning engineer,35,30,No
+616,Randal Booth,backend engineer,18,3,No
+649,Melinda Matse,iOS developer,27,7,No
+671,Marlys Cervantes,Not Applicable,0,0,Yes
+672,Brett Jones,data engineer,20,1,No
+698,Chery Bleijenberg,frontend engineer,20,18,No
+714,Edgar Conway,data engineer,20,0,No
+729,Stewart Kloosterboer,iOS developer,27,13,No
+732,Renee Dixon,machine learning engineer,35,33,No
+736,Shonda Barry,data analyst,12,9,No
+739,Ismael Weber,android developer,27,17,No
+740,Hiram Zeeman,iOS developer,27,10,No
+747,Maryland Slot,data engineer,20,2,No
+748,Tena van Lunsen,android developer,27,24,No
+782,Charity Larson,data engineer,20,2,No
+788,Alysa Lounsborough,software engineering,25,3,No
+790,Morris Holden,machine learning engineer,35,30,No
+827,Royce van Emmerik,Not Applicable,0,0,Yes
+844,Jackqueline Camacho,android developer,27,26,No
+876,Kacy Bush,Not Applicable,0,0,Yes
+894,Magaret Glass,ux/ui designer,15,10,No
+898,Sharri Martinez,data engineer,20,20,Yes
+899,Jed Komen,data scientist,20,14,No
+908,Francie van der Goot,data scientist,20,5,No
+943,Tisa Norris,data analyst,12,12,Yes
+946,Evelyne van Rossem,frontend engineer,20,6,No
+953,Elisha Schapestalder,software engineering,25,22,No
+968,Ezequiel Wiertz,backend engineer,18,17,No
+977,Mariana Hemen,data scientist,20,5,No
+980,Julius Boogaard,android developer,27,17,No
+1001,Burt Vorberg,iOS developer,27,8,No
+1003,Mickey Gendringen,backend engineer,18,18,Yes
+1007,Dreama Silva,Not Applicable,0,0,Yes
+1037,Antwan Zwanenburg,Not Applicable,0,0,Yes
+1048,Lorelei Cornelisgroeneveld,android developer,27,7,No
+1072,Zachariah Mcmillan,android developer,27,24,No
+1073,Patria Underwood,data analyst,12,2,No
+1082,Lakia Noble,data scientist,20,7,No
+1090,Armand Swanson,iOS developer,27,17,No
+1121,Houston van der Zaan,data engineer,20,3,No
+1128,Huey van Zijderveld,Not Applicable,0,0,Yes
+1172,Thaddeus Cornelisgroeneveld,data scientist,20,12,No
+1182,Brock Love,machine learning engineer,35,6,No
+1183,Adele Mejia,Not Applicable,0,0,Yes
+1191,Sherwood Burton,data scientist,20,3,No
+1193,Gretta van Liefland,frontend engineer,20,14,No
+1202,Austin Ellis,data engineer,20,2,No
+1224,Gwyn Mcfadden,ux/ui designer,15,2,No
+1250,Cathie Mathis,frontend engineer,20,18,No
+1286,Vernon Ris,ux/ui designer,15,3,No
+1297,Elmo Shaw,software engineering,25,3,No
+1324,Kasie Baker,frontend engineer,20,10,No
+1326,Luther Voogd,software engineering,25,19,No
+1340,Reanna Keiman,data analyst,12,7,No
+1352,Florencio Frey,frontend engineer,20,3,No
+1392,Johnathon Valenzuela,iOS developer,27,3,No
+1398,Valrie Stanley,backend engineer,18,2,No
+1404,Gil Houston,backend engineer,18,18,Yes
+1442,Patrice van Rosmalen,android developer,27,21,No
+1457,Tyrone van Asch,data engineer,20,20,Yes
+1469,Lester Herman,Not Applicable,0,0,Yes
+1474,Grover Horn,Not Applicable,0,0,Yes
+1492,Jayne Novak,data analyst,12,7,No
+1494,Pam Buitenweg,data engineer,20,12,No
+1496,Orville Hardy,Not Applicable,0,0,Yes
+1499,Van Castaneda,data scientist,20,4,No
+1501,Alberto Veltkamp,ux/ui designer,15,10,No
+1531,Norman Gallegos,machine learning engineer,35,32,No
+1553,Nana Garrett,android developer,27,2,No
+1559,Adrian Rivers,ux/ui designer,15,8,No
+1579,Bryce Kilwinnet,software engineering,25,22,No
+1583,Mikel Compton,Not Applicable,0,0,Yes
+1585,Yesenia Schmitt,backend engineer,18,4,No
+1594,Manuel Parsons,data scientist,20,12,No
+1604,Todd Stein,android developer,27,26,No
+1605,Dewayne Braun,data scientist,20,2,No
+1631,Dwana Khan,data analyst,12,0,No
+1648,Tyson van der Sluijs,android developer,27,20,No
+1683,Marie Chandler,backend engineer,18,13,No
+1694,Arlette Kruissen,data engineer,20,19,No
+1734,Fanny Vermeulen,data analyst,12,11,No
+1779,Adolph Wassall,data analyst,12,4,No
+1786,Gertrudis Yoder,backend engineer,18,16,No
+1797,Casey Flink,ux/ui designer,15,6,No
+1798,Emmanuel Wallace,data engineer,20,20,Yes
+1800,Casey Mchoul,Not Applicable,0,0,Yes
+1802,Malissa Ello,iOS developer,27,23,No
+1840,Leopoldo Allison,data analyst,12,2,No
+1875,Frederick Carrillo,android developer,27,2,No
+1882,Sebastian Hemen,data analyst,12,2,No
+1883,Jackie Farrell,data analyst,12,3,No
+1894,Tristan Abraham,software engineering,25,24,No
+1905,Kristina Mclean,android developer,27,0,No
+1907,Mariette Broers,backend engineer,18,3,No
+1922,Arnold Ratliff,software engineering,25,19,No
+1931,Corazon Lagerweij,data analyst,12,7,No
+1949,Dirk Diaz,data analyst,12,9,No
+1977,Renna Baxter,backend engineer,18,4,No
+1980,Werner Poot,data analyst,12,3,No
+1989,Gino Knapp,iOS developer,27,12,No
+1990,Duncan Fraenkel,data scientist,20,1,No
+2000,Timothy Stelling,backend engineer,18,1,No
+2001,Lani Chen,ux/ui designer,15,4,No
+2012,Krystina Ashley,software engineering,25,17,No
+2064,Damian Miles,machine learning engineer,35,28,No
+2104,Heidy Richards,data analyst,12,11,No
+2117,Robbie Davies,Not Applicable,0,0,Yes
+2118,Nancee Gillespie,frontend engineer,20,0,No
+2173,Kathe Eijben,android developer,27,9,No
+2186,Huey Miranda,Not Applicable,0,0,Yes
+2211,Raleigh Bowers,machine learning engineer,35,27,No
+2236,Chantay Hardin,data scientist,20,12,No
+2259,Larissa Huffman,android developer,27,10,No
+2270,James Hebert,iOS developer,27,8,No
+2293,Alease Gomez,machine learning engineer,35,29,No
+2306,Ariana Swoll,frontend engineer,20,12,No
+2328,Vicente Bletz,ux/ui designer,15,14,No
+2330,Elias Langley,backend engineer,18,7,No
+2349,Casey Honzelaar,software engineering,25,13,No
+2376,Buster Turnbull,frontend engineer,20,15,No
+2406,Shaunte Larsen,data analyst,12,1,No
+2432,Arturo Hulshof,machine learning engineer,35,3,No
+2433,Margurite Davenport,data engineer,20,1,No
+2436,Cathryn Lambrinou,iOS developer,27,15,No
+2529,Jamey Weaver,data analyst,12,0,No
+2550,Evelyne Hughes,data engineer,20,4,No
+2553,Kevin Broerse,android developer,27,26,No
+2585,Wallace van Bentem,android developer,27,25,No
+2607,Quinn Koenen,ux/ui designer,15,2,No
+2623,Thomas Rush,data analyst,12,9,No
+2631,Jolyn Dirks,backend engineer,18,10,No
+2667,Lucius van Steenis,data engineer,20,17,No
+2674,Loren Cochran,backend engineer,18,12,No
+2710,Ginny Weber,frontend engineer,20,0,No
+2747,Rozella Hurley,data scientist,20,7,No
+2767,Peter Davidson,backend engineer,18,9,No
+2788,Fred Chambers,backend engineer,18,12,No
+2826,Dylan Stoeckmann,backend engineer,18,0,No
+2868,Halley Barber,backend engineer,18,14,No
+2878,Rudolph Wilson,software engineering,25,7,No
+2886,Corine Weeks,ux/ui designer,15,7,No
+2909,Beaulah Little,backend engineer,18,7,No
+2910,Brice Russo,data engineer,20,16,No
+2924,Sharlene Burks,iOS developer,27,8,No
+2936,Emanuel van Zijderveld,ux/ui designer,15,2,No
+2946,Juana van Zijderveld,ux/ui designer,15,11,No
+2955,Allena Puckett,data engineer,20,7,No
+2985,Hollis Haley,machine learning engineer,35,9,No
+3007,Ernesto Lyons,iOS developer,27,12,No
+3052,Julio Kent,iOS developer,27,24,No
+3066,Julian Wu,software engineering,25,10,No
+3069,Jacinta Stephenson,software engineering,25,12,No
+3074,Korey Hale,data engineer,20,6,No
+3095,Paris Bruins,iOS developer,27,1,No
+3098,Micah Goes,iOS developer,27,1,No
+3117,Cleotilde Gallegos,frontend engineer,20,6,No
+3118,Abel Banks,iOS developer,27,10,No
+3129,Wenona van Cuylenburg,iOS developer,27,20,No
+3142,Becki Koch,data scientist,20,10,No
+3153,Johnson Kleijn,android developer,27,6,No
+3219,Quinton van Haarlem,data analyst,12,12,Yes
+3294,Adam Acosta,ux/ui designer,15,8,No
+3296,Rema Parker,frontend engineer,20,1,No
+3297,Marilou Gillespie,data engineer,20,7,No
+3330,Betsey Mcgee,data scientist,20,16,No
+3381,Alberto Allen,Not Applicable,0,0,Yes
+3397,Mohamed Ortiz,Not Applicable,0,0,Yes
+3419,Garret Good,android developer,27,3,No
+3428,Trula Stanton,data engineer,20,11,No
+3449,Divina Knowles,data engineer,20,6,No
+3452,Erin Martinez,ux/ui designer,15,15,Yes
+3474,Kennith Yoder,ux/ui designer,15,13,No
+3480,Alesha Limmink,ux/ui designer,15,9,No
+3484,Andreas Broerse,data scientist,20,9,No
+3492,Sharleen Macias,machine learning engineer,35,3,No
+3505,Luciana Wintershoven,software engineering,25,20,No
+3514,Jerrod van Oort,backend engineer,18,7,No
+3522,Mohammad Durham,data engineer,20,12,No
+3529,Nelida Butler,data scientist,20,2,No
+3530,Zena Coleman,software engineering,25,21,No
+3540,Jessie de With,android developer,27,24,No
+3552,Jillian de Ruiter,machine learning engineer,35,1,No
+3591,Sabrina Bradford,frontend engineer,20,0,No
+3626,Mariko Pacheco,data engineer,20,14,No
+3630,Shameka Woodward,data scientist,20,1,No
+3633,Pamella van der Maden,ux/ui designer,15,13,No
+3660,Nida Alston,machine learning engineer,35,25,No
+3680,Alonzo Bryan,data scientist,20,16,No
+3686,Ellis Gamble,Not Applicable,0,0,Yes
+3687,Janette de Wolf,data scientist,20,6,No
+3695,Alda Buddingh,data engineer,20,8,No
+3735,Reina Woerst,Not Applicable,0,0,Yes
+3740,Syreeta Haas,data engineer,20,6,No
+3748,Katelynn Vedder,backend engineer,18,8,No
+3757,Randy Godijn,Not Applicable,0,0,Yes
+3769,Mindi Merritt,android developer,27,21,No
+3802,Izetta Goudkade,backend engineer,18,5,No
+3840,German van der Griend,software engineering,25,15,No
+3870,Michaela Markus,android developer,27,20,No
+3884,Ashley Giles,machine learning engineer,35,16,No
+3901,Joana Dickerson,ux/ui designer,15,8,No
+3954,Anton van Ekelenburg,Not Applicable,0,0,Yes
+3971,Foster Ford,data scientist,20,10,No
+3979,Bronwyn van Oost,backend engineer,18,16,No
+3992,Elmira Stevens,iOS developer,27,19,No
+4017,Kimberley van Langelaer,ux/ui designer,15,7,No
+4022,Noe Hickman,backend engineer,18,12,No
+4039,Pinkie Ophorst,ux/ui designer,15,6,No
+4075,Coleman Mcfarland,iOS developer,27,7,No
+4078,Octavio Hardy,data engineer,20,4,No
+4087,Liana Carroll,android developer,27,23,No
+4111,Terese Rijnders,machine learning engineer,35,11,No
+4113,Noble Terweele,iOS developer,27,17,No
+4127,Carletta Feikes,iOS developer,27,17,No
+4149,Marla Vandersmissen,software engineering,25,0,No
+4158,Alla Rivera,backend engineer,18,6,No
+4161,Shon van Versendaal,iOS developer,27,21,No
+4167,Arla Cunningham,data analyst,12,6,No
+4185,Pamala de Leeuw,machine learning engineer,35,30,No
+4215,Laronda Verweij,data analyst,12,7,No
+4217,Jenine Buddingh,backend engineer,18,13,No
+4222,Laurice Voogd,data scientist,20,19,No
+4243,Alverta van den Treek,data engineer,20,16,No
+4256,Tawana Garner,iOS developer,27,22,No
+4272,Jefferson Sosa,data analyst,12,5,No
+4283,Gigi Cornelisgroeneveld,Not Applicable,0,0,Yes
+4295,Caroll Jimenez,data scientist,20,18,No
+4305,Pauletta Mccarthy,data analyst,12,7,No
+4320,Charolette van Eck,iOS developer,27,26,No
+4333,Reuben Romero,iOS developer,27,17,No
+4336,Lee Besemer,data scientist,20,14,No
+4356,Stuart Mccoy,data scientist,20,6,No
+4383,Andreas Floyd,data engineer,20,0,No
+4411,Vikki Byrd,iOS developer,27,11,No
+4427,Alejandro de Graeff,software engineering,25,17,No
+4452,Kym Mitchell,iOS developer,27,25,No
+4456,Robena Bilt,backend engineer,18,3,No
+4467,Ken Golden,software engineering,25,2,No
+4487,Althea van Rijnberck,data analyst,12,5,No
+4501,Antonio de Heus,Not Applicable,0,0,Yes
+4508,Penelope Dons,data engineer,20,3,No
+4530,Yuonne Knibbe,ux/ui designer,15,10,No
+4556,Elois Chang,ux/ui designer,15,1,No
+4586,Loni Hogan,iOS developer,27,10,No
+4664,Alfredo Russell,data analyst,12,12,Yes
+4705,Stanford Fitzpatrick,Not Applicable,0,0,Yes
+4751,Meghann Nort,ux/ui designer,15,3,No
+4767,Monica Gardner,data scientist,20,17,No
+4782,Marcelene Rush,machine learning engineer,35,24,No
+4831,Evan Coffey,frontend engineer,20,15,No
+4852,Billy Perez,data analyst,12,1,No
+4865,Nikia Kerr,machine learning engineer,35,28,No
+4869,Grant Pratt,ux/ui designer,15,12,No
+4897,Antionette West,data analyst,12,8,No
+4905,Eduardo Daniel,Not Applicable,0,0,Yes
+4908,Damien Mccall,data analyst,12,1,No
+4909,Tuan Garza,frontend engineer,20,3,No
+4939,Donovan Peters,backend engineer,18,15,No
+4952,Juan Conner,software engineering,25,2,No
+4967,Deena Davenport,frontend engineer,20,16,No
+4974,Scott Bleeker,machine learning engineer,35,18,No
+4976,Jesusa Vonck,machine learning engineer,35,26,No
+44,Cori Castillo,android developer,27,16,No
+122,Milan Luna,ux/ui designer,15,0,No
+129,Benjamin van Waay,ux/ui designer,15,9,No
+142,Gustavo van Baal,iOS developer,27,21,No
+176,Erin Battle,backend engineer,18,14,No
+180,Arnita van Versendaal,android developer,27,21,No
+190,Lynn Warren,android developer,27,6,No
+202,Josh Golden,frontend engineer,20,2,No
+218,Norberto Chang,data analyst,12,10,No
+238,Myra Barney,ux/ui designer,15,11,No
+284,Erin Slot,data scientist,20,17,No
+328,Tandra Petty,data engineer,20,18,No
+340,Val Nap,machine learning engineer,35,28,No
+381,Avery de Heus,ux/ui designer,15,3,No
+382,Eleanor Evans,data engineer,20,14,No
+460,Donetta Browning,android developer,27,18,No
+515,Lisa Pontmann,data analyst,12,11,No
+519,Florence Nooteboom,frontend engineer,20,9,No
+520,Leonard van der Swaan,frontend engineer,20,13,No
+523,Harry Roman,data analyst,12,2,No
+524,Earleen Wiertz,ux/ui designer,15,8,No
+554,Aubrey Dudley,iOS developer,27,12,No
+555,Julietta Larson,backend engineer,18,5,No
+565,Krysten van Staden,ux/ui designer,15,6,No
+591,Kasey Weber,software engineering,25,14,No
+594,Delilah Shea,backend engineer,18,0,No
+604,Jani Druppers,data engineer,20,14,No
+645,Nelson Kars,data engineer,20,12,No
+655,Ervin Vedder,data scientist,20,17,No
+656,Erasmo Ruloffs,data analyst,12,0,No
+691,Lura Barton,Not Applicable,0,0,Yes
+695,Joaquin Little,ux/ui designer,15,7,No
+707,Chadwick Perkins,data engineer,20,5,No
+710,Jerold Trujillo,backend engineer,18,12,No
+712,Flavia Blackburn,data analyst,12,9,No
+767,Hai van Buuren,android developer,27,23,No
+771,Cedrick Melton,data scientist,20,11,No
+772,Laquita Mathis,data scientist,20,4,No
+812,Suzi Petersen,frontend engineer,20,5,No
+822,Wilfred Blanchard,Not Applicable,0,0,Yes
+859,Roger Velez,frontend engineer,20,12,No
+860,Steven Chen,data scientist,20,7,No
+863,Kirby Howe,data analyst,12,3,No
+874,Jamel Vaughan,iOS developer,27,9,No
+888,Devona Sam,frontend engineer,20,3,No
+907,Chanel van Wely,ux/ui designer,15,11,No
+916,Theda Carpenter,data scientist,20,13,No
+937,Hal van der Linden,data engineer,20,9,No
+948,Ninfa van Erp,android developer,27,5,No
+967,Quincy Laus,software engineering,25,0,No
+979,Shane Ferguson,software engineering,25,17,No
+1005,Elin Lubbert,frontend engineer,20,6,No
+1011,Loyd Osborne,Not Applicable,0,0,Yes
+1019,Derek Vesters,frontend engineer,20,18,No
+1036,Irwin Morin,frontend engineer,20,16,No
+1040,Scottie Koks,data scientist,20,17,No
+1061,Geraldo van Niekerk,machine learning engineer,35,32,No
