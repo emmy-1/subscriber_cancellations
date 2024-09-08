@@ -1,0 +1,1001 @@
+student_id,student_name,total_course_taken,avg_time_spent_in_hrs
+2971,Nettie Chase,6,35.0
+4459,Raye Abbott,2,35.0
+1657,Petronila Snyder,11,35.0
+2479,Hallie White,2,35.0
+3176,Demetrius Meskes,9,35.0
+3259,Kristopher Rogers,12,35.0
+3875,Fernando Ferguson,5,35.0
+3520,Trent Peck,7,35.0
+79,Kizzy Mendez,4,35.0
+1194,Travis Holloway,9,35.0
+3398,Normand Valenzuela,6,35.0
+1909,Tandy Carroll,10,35.0
+3067,Everette Brady,15,35.0
+835,Despina Dunlop,10,35.0
+913,Sammie van Triest,9,35.0
+3700,Cinthia Rietveld,1,34.0
+18,Yolande van Hees,13,34.0
+4398,Gema Vorberg,14,34.0
+3099,Darline van Rossum,9,34.0
+4856,Rufina Otterspoor,10,34.0
+3058,Tory Steele,4,34.0
+634,Sherril Rodriquez,4,34.0
+4003,Dotty Mooij,0,34.0
+732,Renee Dixon,3,33.0
+2954,Fredia Padilla,1,33.0
+3414,Crystal Martinez,10,33.0
+1969,August Stephenson,5,33.0
+3761,Brad Hall,13,33.0
+987,Kindra Rodriguez,12,33.0
+1377,Estela Zwanenburg,4,33.0
+2992,Erwin Sonneveldt,14,33.0
+3688,Belen Young,12,33.0
+2679,Autumn Montes,12,33.0
+3362,Bryce Duyn,6,33.0
+2899,Whitney Francis,11,33.0
+4164,Rene Case,1,32.0
+1341,Shawnna Patton,8,32.0
+1828,Bryant Dorrepaal,14,32.0
+4913,Annalee Klaasz,4,32.0
+661,King Ortega,5,32.0
+3915,Abdul Esparza,9,32.0
+3882,Zandra Oneal,11,32.0
+4387,Samual Valenzuela,12,32.0
+1061,Geraldo van Niekerk,9,32.0
+1097,Renda Farrell,2,32.0
+1531,Norman Gallegos,10,32.0
+4034,Ross Page,15,32.0
+4760,Maynard van der Lip,11,32.0
+2411,Rory Neal,10,32.0
+3804,Gregg Brandt,5,32.0
+3794,Libby Bowers,12,31.0
+834,Napoleon van Dam,11,31.0
+2995,Lyda Teerink,9,31.0
+2900,Penni van Erp,7,31.0
+3091,Fred Hodges,5,31.0
+2120,Rosanne Riddle,10,31.0
+3420,Darin van der Leeden,13,31.0
+4016,Clarinda Moses,8,31.0
+4185,Pamala de Leeuw,9,30.0
+3614,Glory van der Horst,8,30.0
+4944,An Trujillo,0,30.0
+3538,Chad Guerra,2,30.0
+450,Murray Pudney,2,30.0
+790,Morris Holden,2,30.0
+609,Xavier Koenen,15,30.0
+2577,Jayna Hood,15,30.0
+2718,Lindsy Bakker,15,30.0
+1258,Ashlie Bleijenberg,14,30.0
+2007,Daniel de Jong,0,30.0
+1774,Berry Burks,1,30.0
+3585,Merle Austin,9,30.0
+243,Elias Wise,8,30.0
+428,Blair Guerrero,6,30.0
+3220,Thresa Mathews,4,30.0
+1833,Ike Kers,11,29.0
+3057,Efrain van der Meijden,13,29.0
+2056,Justina Meskes,4,29.0
+3659,Leroy Cornelissen,11,29.0
+4862,Armando Harper,14,29.0
+882,Phil Kam,5,29.0
+1887,Bridget Poelgeest,6,29.0
+3528,Maria Pos,4,29.0
+41,Latisha Wermeskerken,6,29.0
+2062,Elizabeth Whitaker,13,29.0
+2342,Caleb Robbins,13,29.0
+2293,Alease Gomez,6,29.0
+3072,Hassan Kock,12,29.0
+2448,Valentine Kemp,8,28.0
+1400,Devorah Gillespie,8,28.0
+1450,Courtney Curtis,7,28.0
+3185,Elvin Kam,12,28.0
+4836,Porfirio Maertens,13,28.0
+3590,Darrick Knegjens,10,28.0
+340,Val Nap,12,28.0
+3320,Liberty Sloof,15,28.0
+1533,Chance van Barneveld,1,28.0
+2064,Damian Miles,13,28.0
+3338,Rachel de Kruijff,9,28.0
+4110,Lilli Acevedo,14,28.0
+4865,Nikia Kerr,15,28.0
+2386,Jan Guy,0,27.0
+3684,Fritz Goldbaum,12,27.0
+2320,Morton van Heest,0,27.0
+3822,Kiesha Swart,8,27.0
+4764,Donnie May,1,27.0
+4886,Joelle Ross,5,27.0
+2211,Raleigh Bowers,6,27.0
+4227,Adolph Groenendijk,1,27.0
+4994,Katherina Ruloffs,1,27.0
+2368,Donette van Son,15,27.0
+2552,Maricela Cobb,7,27.0
+2994,Noel Cooke,12,27.0
+3051,Roman Nap,7,27.0
+3109,Clementine Chapman,9,27.0
+115,Dale Stokes,1,27.0
+1811,Terence Besemer,9,27.0
+2462,Marquis Konijn,8,27.0
+3157,Russ Conway,5,27.0
+3603,Gerardo Beck,12,27.0
+112,Brandie Montes,12,27.0
+304,Thomasina Compton,8,27.0
+384,Jan van Leersum,11,27.0
+1318,Basilia de Lang,0,27.0
+1391,Milo Blackwell,6,27.0
+1439,Darren van Couwenhoven,13,27.0
+2715,Bibi van Roy,4,27.0
+4590,Long Blackburn,5,27.0
+185,Donny Hale,12,27.0
+2072,Maryanne Thompson,2,27.0
+2563,Arlyne Preys,2,27.0
+3267,Son Adler,4,27.0
+3427,Jim Parsons,4,27.0
+2463,Beatrice York,10,27.0
+983,Milton Vance,15,27.0
+3169,Telma van Keulen,5,27.0
+3623,Odis van der Pauw,8,27.0
+147,Dwayne Ward,4,27.0
+1482,Vaughn van Hattum,10,27.0
+2340,Meghan Boyer,4,27.0
+2514,Jeff Terrell,11,27.0
+3110,Miguel Kent,1,27.0
+4916,Lon Ford,13,27.0
+657,Aimee Rudlin,8,27.0
+3209,Melina Fischer,10,27.0
+3265,Roxane Bavelaar,12,27.0
+4230,Maurice de Vos,3,27.0
+1379,Deidra Nio,0,26.0
+2705,Emmett Avila,4,26.0
+3951,Wenona van Rosmalen,0,26.0
+3742,Raul Miedema,7,26.0
+3887,Dirk Travis,2,26.0
+844,Jackqueline Camacho,11,26.0
+3366,Theresa Brandt,9,26.0
+1836,Kathleen van den Berg,3,26.0
+2300,Chong Collins,5,26.0
+885,Eneida van Orsoy,2,26.0
+1974,Lucio van Ekelenburg,10,26.0
+1999,Ruben de Raedt,7,26.0
+4959,Burt de Vries,9,26.0
+620,Joesph Nedermyer,1,26.0
+848,Arlie Vernede,12,26.0
+1316,Buddy van Westrhenen,9,26.0
+4576,Shari Ewing,11,26.0
+1751,Sean Pontmann,3,26.0
+3023,Tarah Boltendal,15,26.0
+4320,Charolette van Eck,4,26.0
+4976,Jesusa Vonck,4,26.0
+2185,Kenneth Sawyer,15,26.0
+2751,Shenika Simons,5,26.0
+3986,Nita Leon,8,26.0
+4384,Ingeborg Estrada,5,26.0
+425,Lavonia Heijn,6,26.0
+1933,Marian Cardenas,5,26.0
+727,Raymon Blok,2,26.0
+2504,Norman Mccarthy,9,26.0
+4004,Blossom Shea,7,26.0
+4445,Yukiko Whitfield,2,26.0
+1136,Jerrie Siimmons,2,26.0
+1604,Todd Stein,4,26.0
+2542,Werner Huff,6,26.0
+2553,Kevin Broerse,13,26.0
+2980,Diedre Gilberts,8,26.0
+777,Gavin Strong,12,26.0
+1000,Adelle Wermeskerken,1,26.0
+1074,Terence Wilson,12,26.0
+1346,Colton Dircx,3,26.0
+3645,Rudy Doorn,6,26.0
+3905,Clyde Crawford,3,26.0
+873,Verona Lopez,14,26.0
+100,Elsy Rich,12,26.0
+2231,Bernardo Phelps,11,26.0
+1386,Lyndon van Gravendijk,0,25.0
+1424,Eryn Cornelisz,12,25.0
+3638,Shawnda Boyer,2,25.0
+4452,Kym Mitchell,15,25.0
+560,Hermelinda Bloem,14,25.0
+2773,Josue van der Woude,14,25.0
+3737,Phillip Wilcox,5,25.0
+3868,Cordie Christian,5,25.0
+4892,Dorsey Martinez,1,25.0
+446,Miles Burt,12,25.0
+4660,Eloise Hawkins,4,25.0
+463,Morgan Sweet,14,25.0
+2352,Flo Miranda,13,25.0
+2649,Columbus van Veen,8,25.0
+3582,Lorrie Townsend,7,25.0
+182,Angelita Johnson,6,25.0
+1458,Shizuko Ferguson,3,25.0
+1695,Filiberto Bieren,5,25.0
+4282,Norbert Underwood,14,25.0
+920,Julio Lammers,13,25.0
+952,Delmy Benskoop,10,25.0
+1389,Melodi Lapperre,3,25.0
+4540,Juliana Aguirre,5,25.0
+356,Aaron Langley,5,25.0
+1568,Jacinda Willems,8,25.0
+1889,Tynisha Calhoun,7,25.0
+2303,Lucius Joris,0,25.0
+2457,Retha Utrecht,5,25.0
+3660,Nida Alston,4,25.0
+791,Theodore Both,12,25.0
+2371,Jeffery Klaasz,4,25.0
+2585,Wallace van Bentem,6,25.0
+2799,Derek Mora,3,25.0
+2891,Ermelinda Heuff,3,25.0
+3605,Jani Cline,6,25.0
+3828,Bernie de Kock,7,25.0
+1685,Hugo Nichols,2,25.0
+130,Lorena Oneill,4,25.0
+4291,Jame Mccormick,0,25.0
+1139,Lizbeth Morse,11,25.0
+2488,Whitney Meskes,7,25.0
+4326,Lara Vorberg,8,25.0
+1195,Josh Kruissen,5,25.0
+1257,Maynard Duran,11,25.0
+3247,Madelaine Stark,2,25.0
+3348,Shasta Rijckx,1,25.0
+4498,Janice Steenis,12,25.0
+4961,Hilario Capiteijn,9,25.0
+7,Terrell Bleijenberg,9,24.0
+954,Omer Ashley,3,24.0
+2510,Danna van Setten,15,24.0
+3540,Jessie de With,12,24.0
+4782,Marcelene Rush,1,24.0
+400,Eboni Verrips,12,24.0
+1042,Ginny Cohen,2,24.0
+1739,Emmie Cochran,2,24.0
+1198,Louvenia Krause,7,24.0
+1812,Lizbeth van Setten,15,24.0
+2756,Saul Bray,14,24.0
+3105,Kirby Blake,8,24.0
+3156,Oma Meza,13,24.0
+421,Keesha Stephenson,3,24.0
+1053,Vince Hey,13,24.0
+244,Jere Gregory,0,24.0
+1197,Megan Stofberg,4,24.0
+2370,Nannie Sawyer,3,24.0
+2379,Kaley Joliet,11,24.0
+2543,Zoila Hall,3,24.0
+4150,Moriah Robertson,15,24.0
+4415,Nana Gill,0,24.0
+4537,Granville Sloof,8,24.0
+1741,Sheryl Knobbout,9,24.0
+1894,Tristan Abraham,3,24.0
+2265,Mason van Deijl,10,24.0
+4381,Ramon Kuijper,11,24.0
+230,Viviana Manning,7,24.0
+2622,Lyman Pratt,5,24.0
+2794,Cedric Choi,15,24.0
+4051,Julio Klapmuts,7,24.0
+4207,Else Hines,9,24.0
+213,Graig Jennings,15,24.0
+1247,Sharee Pudney,2,24.0
+3929,Willy Chavez,7,24.0
+480,Rolf Kemp,9,24.0
+748,Tena van Lunsen,8,24.0
+1175,Jaclyn Stark,2,24.0
+3300,Anastacia Wilkinson,1,24.0
+683,Hobert Kok,7,24.0
+1462,Jules Verhoef,0,24.0
+1578,Chase Schutter,7,24.0
+4204,Anh Valk,14,24.0
+4808,Verlie Li,10,24.0
+706,Rafael Alford,4,24.0
+1148,Porsha Edwards,14,24.0
+1680,Miguel Ali,8,24.0
+1738,Era van Ree,11,24.0
+4929,Lincoln van Linden,10,24.0
+1072,Zachariah Mcmillan,14,24.0
+2073,Taina Bullock,14,24.0
+3541,Isaiah Manning,6,24.0
+102,Benny Carlson,9,24.0
+496,Leopoldo Heemskerck,10,24.0
+1592,Aubrey Cisneros,10,24.0
+1796,Ricardo Romero,15,24.0
+2512,Junko Wright,2,24.0
+3994,Phil Blair,15,24.0
+267,Samuel Lara,3,24.0
+3052,Julio Kent,11,24.0
+4458,Jeffie van Roy,12,24.0
+1485,Art Pest,7,24.0
+1620,Ahmad Bruce,12,24.0
+3337,Greg Allan,1,24.0
+4044,Iluminada Logan,2,24.0
+4891,Danae Hopper,9,24.0
+1153,Guadalupe Greene,6,23.0
+350,Sanford Duffy,9,23.0
+1177,Nathanial Osborn,7,23.0
+2810,Hugo Oosthuizen,12,23.0
+4327,Inez Shannon,4,23.0
+4871,Odelia Nio,5,23.0
+769,Robby van der Horst,13,23.0
+887,Jutta Feikes,0,23.0
+1320,Paris Quackenbosch,0,23.0
+1787,Deandrea Tsioupra,2,23.0
+1802,Malissa Ello,13,23.0
+2179,Lesli Hernandez,1,23.0
+4960,Andres Stofberg,11,23.0
+2069,Toshia Gonzalez,15,23.0
+4351,Iva Groeneveld,5,23.0
+4663,Arline Rasmussen,2,23.0
+4985,Lincoln Nguyen,0,23.0
+4990,Macie Goudkade,3,23.0
+1032,Alia Buckner,13,23.0
+1112,Nena Andrews,14,23.0
+1972,Tiffanie Compton,15,23.0
+1310,Buster Medina,1,23.0
+3107,Cameron van Dillewijn,10,23.0
+4087,Liana Carroll,4,23.0
+3806,Hannah Levine,7,23.0
+351,Erik Verweij,1,23.0
+767,Hai van Buuren,7,23.0
+814,Marshall Skinner,15,23.0
+1107,Shelby van Luyn,15,23.0
+3009,Shon Sonneveldt,3,23.0
+313,Alva van der Lugt,13,23.0
+1538,Roger Spears,14,23.0
+4903,Noel Campos,11,23.0
+4064,Werner Velthuis,15,23.0
+3022,Bobby Ruloffs,14,23.0
+504,Geraldo Weenink,4,23.0
+3532,Ernie Oomen,13,23.0
+3826,Katlyn Wilkerson,11,23.0
+4259,Joe Nort,1,23.0
+1412,Giovanni de Jager,8,23.0
+4539,Selina van der Greff,14,23.0
+872,Tynisha Bieren,3,23.0
+1510,Mathilde Buckley,2,23.0
+4070,Earle Boonzayer,9,23.0
+944,Isis Graves,9,23.0
+1502,Craig Mcbride,9,23.0
+2947,Sammie Nunez,7,23.0
+4562,Arnoldo van Welij,12,23.0
+4880,Joelle Bartlett,15,23.0
+842,Vina Cooper,0,22.0
+3024,Fabiola van Amstel,12,22.0
+4341,Barbar Fuller,7,22.0
+4953,Edison Conijn,5,22.0
+783,Lesley Miranda,1,22.0
+1350,Theron Young,9,22.0
+1579,Bryce Kilwinnet,2,22.0
+1924,Jean Fletcher,15,22.0
+2253,Sol Kane,13,22.0
+2597,Kevin Herfkens,4,22.0
+4515,Cora van Ede,8,22.0
+2950,Ollie Parsons,6,22.0
+85,Sherwood Guerra,14,22.0
+170,Norberto Mueller,2,22.0
+2960,Morgan Kent,2,22.0
+3203,Lupe de Haas,10,22.0
+19,Dominic Werner,14,22.0
+270,Hobert van der Peijl,5,22.0
+4255,Miguelina Kars,14,22.0
+4858,Agripina van Imbyze,5,22.0
+277,Kermit Stein,12,22.0
+1092,Levi van Lunsen,9,22.0
+1576,Michal Ferdinandus,10,22.0
+1851,Rhett Castaneda,4,22.0
+2061,Manuel Huijgens,11,22.0
+2478,Vance Collier,0,22.0
+2385,Vincenzo Druppers,12,22.0
+3763,Jasmine Lang,9,22.0
+4112,Tiffani Jelis,6,22.0
+4900,Augustus Cordova,0,22.0
+725,Herbert Geers,7,22.0
+1277,Heath Nixon,15,22.0
+2918,Eugenia Fritz,13,22.0
+4710,Torri Adkins,8,22.0
+818,Bradford van Woudenberg,6,22.0
+1181,Jonah Lindsay,3,22.0
+2442,Jesenia Eaton,0,22.0
+2664,Paulina Bilt,12,22.0
+2702,Darren Manning,8,22.0
+3516,Samuel Holcomb,13,22.0
+2777,Minna Bryant,0,22.0
+3244,Jaime van Woudenberg,8,22.0
+4256,Tawana Garner,14,22.0
+291,Jennifer Oconnor,2,22.0
+1930,Gregory Symons,1,22.0
+540,Eloy Jenkins,9,22.0
+1086,Loyce Hamerling,7,22.0
+2700,Evelin Stilting,11,22.0
+3245,Terry Ulrich,6,22.0
+131,Eleonor Chayah,10,22.0
+375,Russel van der Woude,2,22.0
+953,Elisha Schapestalder,7,22.0
+4377,Jeniffer de Graaf,12,22.0
+4941,Titus Gilliam,11,22.0
+371,Janae Broerse,11,22.0
+37,Ellis Leblanc,8,22.0
+1173,Carlene Holcomb,12,22.0
+2090,Tangela Goedhart,4,22.0
+2382,Norris Fields,15,22.0
+4062,Fidelia Stone,10,22.0
+4809,Monique van Capelle,6,22.0
+179,Ethan Patterson,4,21.0
+1590,Leonel van der May,12,21.0
+4451,Mckinley van Rosmalen,7,21.0
+961,Matt Verhoef,10,21.0
+1051,Myrl Meester,0,21.0
+3137,Inell Brock,10,21.0
+3991,Lucas van Rietveld,6,21.0
+4257,Kristine Bos,0,21.0
+4720,Ciera Sombaart,8,21.0
+1144,Manuela Savvas,12,21.0
+1222,Erin Church,2,21.0
+4161,Shon van Versendaal,13,21.0
+362,Kanisha Neville,11,21.0
+420,Curt Pfeil,3,21.0
+699,Maximina de Rochefort,2,21.0
+886,Ophelia Wright,15,21.0
+1784,Cira Scott,6,21.0
+2006,Fidelia Semvoort,13,21.0
+3577,Stuart Kalt,1,21.0
+3694,Wallace Manning,3,21.0
+4776,Xavier Krom,4,21.0
+30,Bettyann Klarenbos,9,21.0
+2931,Ken Snuif,15,21.0
+3747,Suzanna Marsh,0,21.0
+815,Jeramy Haagsman,10,21.0
+3792,Eleonora Uijttenbogaard,3,21.0
+4419,Annetta Gerlofsma,1,21.0
+880,Malika van Riemsdaijk,4,21.0
+1002,Miquel Young,13,21.0
+2615,Andre Pols,2,21.0
+3302,Lucas Kilwinnet,13,21.0
+3948,Allena Edwards,14,21.0
+4406,Lara Adelaer,4,21.0
+2680,Charlsie Roeklofsdr,8,21.0
+3304,Nieves Riggs,10,21.0
+3471,Genevieve Groenendijk,1,21.0
+3706,Timothy Mays,5,21.0
+128,Monroe van Versendaal,1,21.0
+142,Gustavo van Baal,6,21.0
+731,Margot Broadbent,2,21.0
+982,Kimberly Verrips,4,21.0
+2025,Ahmad van Hoorn,2,21.0
+2074,Lula van Diedenhoven,5,21.0
+2687,Mason van Zijderveld,11,21.0
+3295,Celinda de Graeff,5,21.0
+3530,Zena Coleman,12,21.0
+3769,Mindi Merritt,10,21.0
+1545,Keven Ortiz,8,21.0
+1560,Mendy Rijckx,9,21.0
+3715,Briana Wermeskerken,12,21.0
+2145,Michael Brownlie,6,21.0
+4176,Miranda Stephenson,0,21.0
+1598,Mercy Glass,13,21.0
+1658,Otha Veltkamp,6,21.0
+2646,Ian Jennings,13,21.0
+3314,Keely van Kouwenhove,12,21.0
+3990,Dexter Watson,1,21.0
+600,Leif Allen,15,21.0
+1730,Marge Muir,13,21.0
+3925,Thaddeus Humphrey,9,21.0
+372,Jaime van Buuren,11,21.0
+397,Ivette van Beest,11,21.0
+1426,Clifton Newman,0,21.0
+1442,Patrice van Rosmalen,15,21.0
+2233,Mckinley Hawkins,9,21.0
+2690,Nannette van der Broek,2,21.0
+4425,Glennie Meerendonk,0,21.0
+180,Arnita van Versendaal,8,21.0
+4202,Lois Price,5,21.0
+1165,Kendrick Ferguson,1,21.0
+2419,Santa Gray,12,21.0
+416,Dulce Hayes,12,20.0
+473,Jacki Everett,15,20.0
+534,Marinda Verkruysse,6,20.0
+898,Sharri Martinez,2,20.0
+1230,Alease Collier,4,20.0
+1557,Gwen Mullins,11,20.0
+2571,Gerald Jaspers,0,20.0
+2975,Jesenia Juarez,2,20.0
+3611,Kaye van Malsem,13,20.0
+3870,Michaela Markus,5,20.0
+3896,Greg Beeldhouwer,14,20.0
+4600,Gabriella Russell,9,20.0
+4611,Michal Zamora,4,20.0
+493,Rusty Verhoef,15,20.0
+1837,Paulina de Graeff,4,20.0
+3505,Luciana Wintershoven,9,20.0
+4209,Malinda van Baal,11,20.0
+300,Nicki Mcconnel,5,20.0
+379,Alex Kline,10,20.0
+596,Wayne Stein,13,20.0
+1027,Cheryll Buddingh,3,20.0
+2316,Jesus Blootenburgh,0,20.0
+3116,Ammie van der Ham,8,20.0
+3535,Randell Phelps,3,20.0
+1888,Victor Rich,3,20.0
+1996,Marcellus Larsen,14,20.0
+2209,Marc Waters,2,20.0
+2537,Lon van De vooren,14,20.0
+2671,Efren van der Toorn,8,20.0
+4122,Joline Carpenter,8,20.0
+4375,Latonya Reilly,8,20.0
+4671,Chantal Roeklofsdr,11,20.0
+403,Crystle Klein,8,20.0
+965,Melaine Gibson,6,20.0
+1126,Dustin Cooll,15,20.0
+1394,Jerome Griffin,9,20.0
+2482,Ana Fritz,5,20.0
+2903,Otis Burt,4,20.0
+3382,Orlando Yates,2,20.0
+3564,Lester Nixon,7,20.0
+4213,Milan Bell,1,20.0
+4979,Cole Mitchell,10,20.0
+64,Karl Foreman,13,20.0
+721,Marcelino van Beggendorp,14,20.0
+975,Sina Potts,14,20.0
+1294,Horacio Drake,8,20.0
+1687,Kelsi Buck,4,20.0
+1798,Emmanuel Wallace,12,20.0
+1943,Larry Rietveld,10,20.0
+2033,Shara Rollins,8,20.0
+2153,Cristin Hawkins,13,20.0
+2189,Onita Velez,13,20.0
+255,Yevette Heineke,4,20.0
+352,Arnita Zhang,7,20.0
+709,Nicolasa Lozano,14,20.0
+905,Sabra Rodriguez,14,20.0
+971,Steven Lee,11,20.0
+1356,Mohammed Nap,8,20.0
+1457,Tyrone van Asch,14,20.0
+1970,Hipolito Callahan,8,20.0
+2191,Mae Garrett,15,20.0
+2673,Nickolas Amptman,1,20.0
+2714,Danyelle Sharp,15,20.0
+3129,Wenona van Cuylenburg,2,20.0
+3841,Laurence Powell,12,20.0
+4364,Britany Chavez,14,20.0
+878,Daniel de Graaf,9,20.0
+1088,Chantel Rojas,9,20.0
+1170,Carole Fletcher,15,20.0
+1263,Nida Groenewout,1,20.0
+1397,Eleni Snuif,0,20.0
+1958,Kelley Rijckx,8,20.0
+2304,Herlinda Verbruggen,13,20.0
+3309,Savannah Hampton,3,20.0
+622,Tequila de Rochefort,6,20.0
+837,Simon Clay,4,20.0
+1359,Kathryne Hoyuers,3,20.0
+1562,Pricilla van Isendoorn,8,20.0
+3055,Augustina Hardin,8,20.0
+3353,Junita Henry,9,20.0
+4271,Raisa Gonzalez,15,20.0
+4644,Jeff van Doorn,1,20.0
+626,Lawerence Dircks,14,20.0
+925,Pedro Snuyff,4,20.0
+935,Ray van Westrhenen,11,20.0
+2065,Hildred Koks,13,20.0
+2635,Eugene Berger,2,20.0
+2991,Karina van Hoften,3,20.0
+3180,Lilly Hoest,12,20.0
+3726,Willian Collins,2,20.0
+4109,Sammy Lang,7,20.0
+4303,Zaida Osborn,12,20.0
+4304,Song Lawson,3,20.0
+235,Levi van Son,15,20.0
+741,Jenae Merritt,0,20.0
+981,Mamie Shields,5,20.0
+1617,Ginette Dircks,1,20.0
+1789,Chad Davidson,3,20.0
+2126,Carmine Lapperre,8,20.0
+2654,Alesha Renes,4,20.0
+2934,Jerold Jongens,14,20.0
+4799,Gerry Ruloffs,7,20.0
+1374,Lacresha Kerkhof,0,20.0
+1648,Tyson van der Sluijs,4,20.0
+1942,Teresia Otway,4,20.0
+2110,Jennefer Mitchell,14,20.0
+3250,Coleen Alvarado,3,20.0
+3685,Geneva Clark,4,20.0
+4439,Cherish England,7,20.0
+614,Hans Knibbe,3,20.0
+1725,Darell Swanson,5,20.0
+1956,Noel van Steyn,13,20.0
+2245,Thomasine Khan,5,20.0
+4315,Mariel Matthews,11,20.0
+4449,Paul Pietersen,1,20.0
+370,Andre Carver,2,20.0
+494,Ali Booth,0,20.0
+1762,Graham Howell,7,20.0
+2372,Jada van Cuylenburg,2,20.0
+2497,Crystal Ramirez,7,20.0
+2517,Terrence Komen,3,20.0
+3380,Eli Rice,4,20.0
+3927,Veola Reeves,12,20.0
+1440,Cristobal Timmer,15,20.0
+2227,Xenia Wolfe,7,20.0
+3390,Ciara Arias,0,20.0
+4002,Joycelyn Jelis,10,20.0
+1349,Jamel Dale,12,20.0
+2266,Donny Phillips,1,20.0
+4942,Kareem van Diedenhoven,11,20.0
+386,Micki Curtis,12,19.0
+852,Edythe Loeff,14,19.0
+1164,Sam Grandia,7,19.0
+1702,Dawn Mijzen,1,19.0
+2276,Samatha Rodriguez,9,19.0
+3092,Lilla Bautista,13,19.0
+3312,Eliana Wilkinson,12,19.0
+3534,Herbert Chayah,15,19.0
+3628,Deshawn Lutz,8,19.0
+3933,Cherri Estrada,2,19.0
+4436,Nicki Underwood,15,19.0
+1285,Josette Hancock,15,19.0
+1668,Mervin Bradshaw,8,19.0
+3791,Loise Goos,8,19.0
+4265,Ira Hoorenman,2,19.0
+4268,Dee Novak,7,19.0
+8,Stanford Allan,3,19.0
+1716,Alex Schmidt,5,19.0
+3121,Chong Haley,14,19.0
+4263,Michelle Bell,5,19.0
+4713,Tommie Renville,9,19.0
+53,Ted Groot,11,19.0
+949,Angie Saunders,5,19.0
+1497,Hoyt Dorrepaal,11,19.0
+1573,Noma Rutledge,13,19.0
+2016,Bonny Cross,4,19.0
+2028,Brigid Rutledge,10,19.0
+2256,Burl Vermijn,10,19.0
+2596,Terrell van Ree,5,19.0
+2647,Juliana Trujillo,1,19.0
+4068,Jeffry Chayah,1,19.0
+4135,Alberto Fry,4,19.0
+4524,Aja Cain,11,19.0
+4676,Ezequiel van Gemeren,5,19.0
+254,Melvin Gallegos,5,19.0
+1018,Madie van der Vooren,12,19.0
+1283,Jenni Costa,0,19.0
+1805,Domitila Ward,15,19.0
+2183,Marcelle Prince,3,19.0
+2397,Burl Mcgee,2,19.0
+2801,Long Barrera,8,19.0
+3155,Samuel Sheppard,2,19.0
+3732,Jannie van Keeken,0,19.0
+3798,Wayne van Lynden,10,19.0
+4966,Parker Montoya,5,19.0
+385,Grace Boogaart,13,19.0
+1046,Kareem Dougherty,1,19.0
+1314,Shirely Cannon,5,19.0
+2129,Hugh Rose,6,19.0
+3563,Melvin Santos,1,19.0
+4798,Lynn Neil,2,19.0
+4958,Harmony Stephanin,9,19.0
+1204,Leisa van Amstel,7,19.0
+1666,Linwood Patrick,5,19.0
+2157,Vanessa Collins,1,19.0
+4025,Anibal Kastelein,12,19.0
+4124,Patrina Burnett,4,19.0
+648,Fredricka Hampton,5,19.0
+923,Manuel Wijnslagers,0,19.0
+1203,Ike Lynch,13,19.0
+1681,Charlette Ferrell,10,19.0
+2095,Claude Hayes,0,19.0
+2567,Racquel Hancock,11,19.0
+2869,Robin Roodnat,9,19.0
+3096,Laurel Keller,2,19.0
+3228,Ariel Barker,0,19.0
+3876,Buford Rijckensz,6,19.0
+4655,Bobby Wiley,3,19.0
+457,Ned Jackson,0,19.0
+472,Tina Oconnell,15,19.0
+1006,Cecil van Dijk,12,19.0
+1694,Arlette Kruissen,10,19.0
+2380,Randell Poelgeest,15,19.0
+3122,Nathalie Plateel,2,19.0
+3667,Blaine Bush,11,19.0
+4061,Rogelio Duran,2,19.0
+4412,Ashlie Lam,3,19.0
+931,Adella Sutton,0,19.0
+1975,Donn Vermijn,1,19.0
+2215,Michael Nicholson,0,19.0
+2323,Eddy Holmes,6,19.0
+2588,Miles Nort,7,19.0
+4480,Marya Kalt,4,19.0
+4489,Ernie Guzman,0,19.0
+4628,Sheena Richardson,3,19.0
+3675,Retta Witt,5,19.0
+3733,Claud Donaldson,9,19.0
+4284,Donetta Michael,10,19.0
+99,Violette Mills,5,19.0
+236,Jerry Maldonado,0,19.0
+394,Vivienne Arias,0,19.0
+1922,Arnold Ratliff,2,19.0
+2098,Merrilee Meyers,2,19.0
+2289,Sherwood Bradley,0,19.0
+3405,Zulma Morales,10,19.0
+3462,Ciara Newton,9,19.0
+3845,Shawn Henckes,12,19.0
+3992,Elmira Stevens,9,19.0
+4307,Felice Yu,1,19.0
+4370,Darell Lubbert,6,19.0
+4548,Mckinley Kool,12,19.0
+1890,Harry Langley,12,19.0
+2075,Jerrell Denhartog,0,19.0
+2721,Enoch van Son,14,19.0
+2912,Kenyatta Chayah,5,19.0
+4788,Thelma Kars,9,19.0
+164,Yetta Liu,8,19.0
+1968,Ebony de Heus,11,19.0
+2354,Dusti Beach,3,19.0
+4104,Joseph Anthonisz,2,19.0
+4222,Laurice Voogd,8,19.0
+4366,Bert Black,9,19.0
+4521,Ignacio Tegelaar,10,19.0
+1326,Luther Voogd,3,19.0
+3524,Moses Arnold,2,19.0
+4651,Quiana Avery,9,19.0
+642,Janean Montgomery,14,19.0
+795,Rudy Ray,15,19.0
+996,Sherilyn de Rooy,4,19.0
+1370,Henrietta Ferdinandus,5,19.0
+1588,Torrie Bauw,13,19.0
+1622,Darlene Duyn,9,19.0
+1971,Mark Witt,9,19.0
+2833,Mary Cote,9,19.0
+3331,Orval de Vos,11,19.0
+4947,Tim van der Maden,11,19.0
+4954,Olive Flips,8,19.0
+57,Alix Carr,6,18.0
+337,Luba Melissen,3,18.0
+1019,Derek Vesters,0,18.0
+1260,Dudley Wynn,14,18.0
+1319,Layne van Leersum,2,18.0
+1322,Jennine Hampton,6,18.0
+1731,Estefana Harvey,12,18.0
+2792,Pei de Rek,14,18.0
+3311,Jamie Waller,11,18.0
+3642,Lindy van der Helm,13,18.0
+4340,Marcelo van Kleef,8,18.0
+4978,Johnsie Petersen,1,18.0
+373,Haywood Witt,4,18.0
+1404,Gil Houston,3,18.0
+2564,Delfina Blankenship,5,18.0
+2629,Rickie Hurst,11,18.0
+2802,Kenny Irwin,13,18.0
+3037,Ashly Huynh,12,18.0
+3279,Benjamin Castillo,2,18.0
+3375,Latonya Martinez,12,18.0
+4607,Eunice van Gemeren,7,18.0
+4699,Leigh Davis,9,18.0
+328,Tandra Petty,2,18.0
+1250,Cathie Mathis,7,18.0
+1778,Ulysses Jensen,13,18.0
+2177,Reed Manning,0,18.0
+2232,Louis van Hoorn,13,18.0
+2874,Quinton de Lang,12,18.0
+3699,Latonya Witt,15,18.0
+3743,Donald Mcmahon,12,18.0
+4519,Gaynelle Salazar,13,18.0
+4898,Jong Sheppard,3,18.0
+4974,Scott Bleeker,4,18.0
+289,Dexter Farmer,5,18.0
+619,Alejandro Villegas,7,18.0
+1003,Mickey Gendringen,10,18.0
+1271,Alene Gaines,1,18.0
+1376,Chase van Ooyen,6,18.0
+1459,Fredia Herring,9,18.0
+1891,Helga Blok,11,18.0
+2672,Cher Roeder,7,18.0
+3087,Lorretta Hack,13,18.0
+3704,Arnulfo Barron,0,18.0
+4197,Alberta Whitley,3,18.0
+525,Roosevelt Nielsen,8,18.0
+853,Cheryl Kortland,12,18.0
+903,Damon Miles,13,18.0
+1041,Art Tillman,10,18.0
+1596,Hector Mueller,13,18.0
+2298,Shiela Buckner,13,18.0
+2670,Brittny Curry,1,18.0
+2822,Phillip Hurley,5,18.0
+3199,Blake Gay,14,18.0
+3216,Chante Nedermyer,4,18.0
+4499,Mack Limmink,7,18.0
+4693,Pierre Rietveld,7,18.0
+110,Gricelda Chan,15,18.0
+1013,Thersa Kent,10,18.0
+1655,Mike Klapmuts,5,18.0
+2391,Pierre de Jonge,5,18.0
+4295,Caroll Jimenez,4,18.0
+864,Joaquina van Riemsdijk,0,18.0
+892,Eric Smith,4,18.0
+1108,Rafael Keith,3,18.0
+1417,Genia Rowe,14,18.0
+1775,Alec Pael,13,18.0
+2182,Maricela Jenkins,5,18.0
+2359,Cornell Holland,14,18.0
+2569,Ellamae Booker,1,18.0
+2948,Colin Morales,6,18.0
+4698,Cassidy Krause,3,18.0
+4951,Kendall Glover,15,18.0
+4987,Emil Merritt,11,18.0
+435,Jeanice Ortiz,15,18.0
+668,Kristofer Kirkland,3,18.0
+698,Chery Bleijenberg,2,18.0
+760,Stefanie Bolton,5,18.0
+970,Alfonso Howard,12,18.0
+1515,Joel Leonard,10,18.0
+2022,Samuel Delgado,4,18.0
+3506,Anja Hansen,0,18.0
+3569,Jan Larsen,6,18.0
+3641,Janita van Kouwenhove,3,18.0
+3646,Alton Dircks,2,18.0
+3674,Jimmy Ho,12,18.0
+4432,Shaun Hodge,11,18.0
+4962,Eliseo Morris,2,18.0
+240,Dale Ochoa,7,18.0
+2518,Loralee Claes,14,18.0
+3269,Erik Vandersmissen,4,18.0
+201,Barton Lorentz,14,18.0
+1078,Brett Holden,14,18.0
+2618,Chet Arroyo,8,18.0
+3465,Sabrina Roger,6,18.0
+4755,Alla Heukels,2,18.0
+4866,Lincoln Wassall,5,18.0
+245,Marshall Keith,14,18.0
+581,Rhiannon Russo,14,18.0
+1504,Earl Oosthuijzen,6,18.0
+2785,Estell Leon,15,18.0
+3242,Karie van Triest,2,18.0
+3536,Davis Rijnfrank,5,18.0
+3669,Ned Richard,11,18.0
+4276,Susann Everaars,2,18.0
+39,Miki Darvill,15,18.0
+1468,Melania Pittman,12,18.0
+3673,Darryl van Liefland,12,18.0
+4872,Vicente van Haarlem,10,18.0
+134,Tomas Bosschaert,0,18.0
+460,Donetta Browning,4,18.0
+986,Raymundo Oliver,13,18.0
+1094,Suzie Hammond,15,18.0
+2058,Janet Bauw,10,18.0
+3085,Frank Blackwell,9,18.0
+3922,Deetta van Deijl,10,18.0
+447,Jannette Shah,10,18.0
+452,Rae Langley,3,18.0
+1156,Shyla Richmond,1,18.0
+2761,Steve Pace,0,18.0
+3162,Myrl Gilliam,5,18.0
+4930,Raquel Yates,1,18.0
+95,Kylee Brown,0,18.0
+2066,Marceline Clark,8,18.0
+2724,Tobias van Ekelenburg,10,18.0
+3073,Minh Christian,1,18.0
+3207,Diego Werps,6,18.0
+3443,Jamaal van der Griend,12,18.0
+4177,Bernard Lorgion,0,18.0
+349,Effie Graves,2,18.0
+757,Trinidad Bass,1,18.0
+1235,Galen Archer,8,18.0
+1313,Brigid van Waay,2,18.0
+1810,Hana Frederick,10,18.0
+2628,Hal Mcneil,1,18.0
+2752,Grover Cornelisgroeneveld,2,18.0
+2852,Andres Watkins,9,18.0
+194,Queen Green,3,17.0
+296,Corie Morales,7,17.0
+979,Shane Ferguson,13,17.0
+1362,William Peterson,4,17.0
+4127,Carletta Feikes,3,17.0
+4333,Reuben Romero,14,17.0
+4483,Zachery Norton,12,17.0
+4722,Spencer Carson,14,17.0
+1823,Deanne de Rochefort,5,17.0
+2068,Carley Bass,12,17.0
+2866,Lorenzo Miranda,2,17.0
+3451,Fermin Gerrits,0,17.0
+4767,Monica Gardner,11,17.0
+4971,Dominga Melendez,1,17.0
+429,Shaina Levy,1,17.0
+458,Tristan Pietersen,8,17.0
+559,Maxima Francis,8,17.0
+1090,Armand Swanson,1,17.0
+1201,Tamra Creelman,0,17.0
+1332,Avis Wermeskerken,10,17.0
+1563,Bernardo Orozco,4,17.0
+2170,Liza Bengen,7,17.0
+2310,Joanne Chayah,5,17.0
+2383,Marcus de Moor,5,17.0
+3696,James Sharp,13,17.0
+4246,Don Berendse,1,17.0
+4675,Lacie Bartens,0,17.0
+4943,Graig Booth,13,17.0
+686,Ellan Hughes,3,17.0
+1064,Lorinda van Wermeskerken,10,17.0
+3963,Porter Gentry,1,17.0
+4288,Rana Hopkins,6,17.0
+4612,Donnie Curtis,1,17.0
+465,Otha Cross,10,17.0
+739,Ismael Weber,5,17.0
+2161,Liana Morgan,6,17.0
+2639,Lizabeth Beard,3,17.0
+4427,Alejandro de Graeff,5,17.0
+4516,Nanci de Vries,3,17.0
+423,Markus Mays,10,17.0
+968,Ezequiel Wiertz,1,17.0
+1016,Mac Short,9,17.0
+1661,Madelene Huizing,8,17.0
+2203,Reuben Sellers,11,17.0
+2648,Shenika Brock,1,17.0
+2775,Israel Patel,8,17.0
+3490,Lawrence Chang,13,17.0
+3612,Lorilee Hampton,2,17.0
+4261,Elbert Louris,0,17.0
+4688,Bill Rodriguez,10,17.0
+4736,Nell Oneil,3,17.0
+284,Erin Slot,6,17.0
+2031,Faye Holmes,15,17.0
+2345,Minnie Frost,3,17.0
+3595,Johnie Hendrickx,5,17.0
+3879,Vernia Boyd,13,17.0
+3983,Eduardo Soto,11,17.0
+4533,Galen van Lunsen,5,17.0
+4573,Danica Forfar,6,17.0
+200,Dannette de Ridder,8,17.0
+703,Antwan van der Meijden,4,17.0
+1381,Piedad Dixon,11,17.0
+1472,Titus Langer,14,17.0
+1481,Timothy Holder,11,17.0
+1641,Tenisha Otway,10,17.0
+1941,Oliver de Jong,7,17.0
+2935,Rickie Koks,3,17.0
+3284,Jacquelin George,15,17.0
+3998,Lavona Koopman,1,17.0
+4251,Neal Schmitt,4,17.0
+318,Stepanie Huijgens,6,17.0
+1122,Les Jongejans,10,17.0
+1145,Kenny Weber,8,17.0
+1414,Ronni Hensley,1,17.0
+1509,Gaylord Mijzen,5,17.0
+1815,Mickey van Brummelen,13,17.0
+2012,Krystina Ashley,7,17.0
+2464,Neta Navarro,1,17.0
+2521,Holly Valdez,14,17.0
+2587,Ivonne van Lynden,10,17.0
+3549,Cassandra Budding,11,17.0
+133,Henry Estes,2,17.0
+454,Merrill van der Linden,8,17.0
+984,Caron West,5,17.0
+2268,Kenton Lynn,9,17.0
+2740,Jamel Buchanan,8,17.0
+3496,Monte van Triest,4,17.0
+3573,Leanne Phillips,11,17.0
+4134,Daniel Rose,1,17.0
+4423,Dedra Richmond,10,17.0
+4807,Lorenzo Kramer,5,17.0
+311,Quincy Rijnfrank,8,17.0
+436,Lisha Guzman,13,17.0
+526,Conchita Mooney,5,17.0
+738,Lakeesha Felt,15,17.0
+1040,Scottie Koks,2,17.0
+1918,Kristine Collier,4,17.0
+1953,Ward Barry,1,17.0
+2041,Ute Shah,7,17.0
+2669,Pam Griffith,6,17.0
+2917,Usha Jennings,3,17.0
+3192,Mariano Drinhuijzen,2,17.0
+3263,Tonette Riley,4,17.0
+4371,Alva Verrips,6,17.0
+4654,Moira Velde,1,17.0
+181,Jarrett Proctor,10,17.0
+926,Latoyia Oranje,14,17.0
+980,Julius Boogaard,15,17.0
+3108,Otelia Benaerde,2,17.0
+3411,Beau Hill,2,17.0
+3444,Adan Thomas,1,17.0
+3711,Bert Morgan,10,17.0
+4273,Shirleen Sam,12,17.0
+4522,Herschel Tillman,4,17.0
+4716,Aubrey Hopkins,9,17.0
+4835,Pura Eaton,1,17.0
+1929,Wilbur van Beusichem,11,17.0
+2212,Cheree Blom,11,17.0
+2468,Babette England,12,17.0
+2667,Lucius van Steenis,7,17.0
+3799,Delinda Leenards,4,17.0

@@ -263,7 +263,7 @@ def write_to_csv(dataframe, path):
     """Write a DataFrame to a CSV file."""
     dataframe.coalesce(1).write.mode("overwrite").csv(path, header=True)
 
-# Write the Spark DataFrames to CSV files using the new function. cnahe the direvtory to your own azure storage account directory
+# Write the Spark DataFrames to CSV files using the new function. change the direvtory to your own azure storage account directory
 write_to_csv(student_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/students_raw/')
 write_to_csv(courese_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/courses_raw/')
 write_to_csv(jobs_dataset, 'abfss://pcpart@neweggdb.dfs.core.windows.net/subcriber_calculation/jobs_raw/')
