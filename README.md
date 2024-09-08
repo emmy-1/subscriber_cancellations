@@ -88,7 +88,6 @@ By following these steps, you can ensure that your sensitive information remains
 -Spark usually copies the CSV files with random names and files. Every time the script runs, it gives a different name. That's why I created the `copy_to_csv` and `find_csv_file` functions. Their main job is to find any file that ends with .csv in a given path, and then copy the file to another destination.
 
 
-## :mag_right: File Descriptions
 <details>
     <summary> Subscriber cancellation dlt.sql </summary>
 
