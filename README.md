@@ -87,6 +87,7 @@ By following these steps, you can ensure that your sensitive information remains
 - The `write_to_csv` function handles the writing process, and you only need to provide the path where you want the CSV file to be saved.
 -Spark usually copies the CSV files with random names and files. Every time the script runs, it gives a different name. That's why I created the `copy_to_csv` and `find_csv_file` functions. Their main job is to find any file that ends with .csv in a given path, and then copy the file to another destination.
 
+</details>
 
 <details>
     <summary> Subscriber cancellation dlt.sql </summary>
