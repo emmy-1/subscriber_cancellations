@@ -29,9 +29,27 @@ The `Database connection.py` file is responsible for establishing connections to
 ### Key Functionalities
 
 1. **Environment Setup**
-   - Loads environment variables from a `.env` file using the `dotenv` library.
-   - Sets the working directory based on the `WORKING_DIR` environment variable.
+   - Loads environment variables from a `.env` file using the `dotenv` library. 
+   - Sets the working directory based on the `WORKING_DIR` environment variable. 
    - Retrieves the Azure storage account key from environment variables for potential use in data storage.
+    
+### Instructions
+
+1. **WORKING_DIR**: Replace `/path/to/your/working/directory` with the actual path where your project files are located. For example:
+   ```
+   WORKING_DIR=/Workspace/Users/your_email@example.com/subscriber_cancellations/Database/dev/
+   ```
+
+2. **AZURE_STORAGE_ACCOUNT_KEY**: Replace `your_azure_storage_account_key` with your actual Azure Storage Account Key. Ensure that this key is kept confidential and not shared publicly.
+
+### Important Note
+- Make sure to add the `.env` file to your `.gitignore` to prevent it from being tracked by Git:
+  ```
+  # .gitignore
+  .env
+  ```
+
+By following these steps, you can ensure that your sensitive information remains secure while allowing your project to function correctly.
 
 2. **Database Connection Functions**
    - **`change_directory(file_path)`**: Changes the current working directory to the specified file path. It handles exceptions and returns the current directory or `None` if an error occurs.
