@@ -302,4 +302,4 @@ Please take note of the following:
 2. Expanding on the first point, this setup has resulted in a messy code base, with some scripts only functioning in Databricks and others only in a normal integrated development environment (IDE). The aim is to refactor the code to function exclusively in a personal IDE without the need to transition to Databricks.
 3. There is a pressing need to rewrite the read me, as it may be difficult for beginners to understand.
 4. Finally, there is a need to learn how to organize the code into a single container so that everything functions in one location. Docker will be utilized for this purpose in the future.
-
+5. I plan to move the dataset to a public database so it can be accessible to everyone. The current setup only stores the data in Databricks, limiting accessibility.
