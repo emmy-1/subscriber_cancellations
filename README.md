@@ -37,12 +37,12 @@ The Dataset used will be based on a frictional education company called Cademyco
 - Execute the `Database connection.py` script to establish connections and perform data transformations. please note you will have to change the directory to your azure storage account directory.
 - you can create a job run to schedule the script.
  #### 4. Run the Airflow DAG
-- Start Apache Airflow using the Astronomer CLI:
+- Move to your personal IDE and start Apache Airflow using the Astronomer CLI:
   ```bash
   astro dev start
   ```
 - Access the Airflow UI at `http://localhost:8080/` and log in with the default credentials (`admin` for both username and password).
-- Trigger the DAG from the Airflow UI to start the dbt pipeline.
+- Trigger the DAG from the Airflow UI to start the dbt pipeline. this assumes you have set up a connection to your data bricks warehouse.
 
 #### 5. Run dbt Models
 - Ensure that your dbt project is correctly set up in the `airflow/dags/dbt/subcriber_pipline` directory.
@@ -297,5 +297,9 @@ I also grasped the significance of writing tests for programs. Programs may not 
 ## :mag_right: Future Work
 There are some few changes and implementation i would work on in the future, hiwever i will mention them here and tell you why. this future work are based on how the program is build 
 
-1. ocretration are triggeredd in 2 places: in databricks :that is the file `Datebase connection.py` and dbt models in airflow. in future work i plan to move all orchestration into airflow. so that a centrailsed view of the pipline will be done.
+Please take note of the following:
+1. Orchestrations are currently being triggered in two places: in Databricks (specifically in the file `Database connection.py` and `Subscriber cancellation dlt`) and in DBT models in Airflow. In the future, the plan is to transition all orchestrations to Airflow to create a centralized view of the pipeline.
+2. Expanding on the first point, this setup has resulted in a messy code base, with some scripts only functioning in Databricks and others only in a normal integrated development environment (IDE). The aim is to refactor the code to function exclusively in a personal IDE without the need to transition to Databricks.
+3. There is a pressing need to rewrite the read me, as it may be difficult for beginners to understand.
+4. Finally, there is a need to learn how to organize the code into a single container so that everything functions in one location. Docker will be utilized for this purpose in the future.
 
