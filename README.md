@@ -20,39 +20,46 @@ The Dataset used will be based on a frictional education company called Cademyco
 <details>
     <summary> Database connection.py </summary>
 
-Overview
-The Database connection.py file is responsible for establishing a connection to an SQLite database, loading environment variables, and performing various data transformation and extraction tasks related to student data.
-Key Components
-Imports:
-The file imports necessary libraries such as os, pandas, numpy, json, dotenv, sqlite3, and logging.
-2. Load Environment Variables:
-The load_dotenv() function loads environment variables from a .env file, allowing the script to access configuration settings like the working directory and Azure storage account key.
-Change Working Directory:
-The change_directory(file_path) function attempts to change the current working directory to the specified file_path. If successful, it returns the new working directory; otherwise, it prints an error message.
-Database Connection Functions:
-create_connection(db_name): This function creates a connection to the specified SQLite database. It returns the connection object or prints an error message if the connection fails.
-connect_to_database(): This function calls create_connection() with a hardcoded database name (cademycode.db) and handles any exceptions.
-Reading Tables:
-read_tables(table_name, con_name): This function reads a specified table from the database and returns it as a Pandas DataFrame. It handles exceptions and returns an empty DataFrame in case of an error.
-Data Transformation Functions:
-parse_contact_info(df, column_name, char1, char2): Parses JSON-like strings in a specified column and creates new columns based on the parsed data.
-get_missing_rows(df, column): Returns a DataFrame containing rows with missing values in a specified column.
-drop_missing_rows(df, column): Returns a DataFrame with rows that do not have missing values in a specified column.
-concat_into_db(df1, df2): Concatenates two DataFrames along the rows and returns the result.
-fill_np_zero(dataset, column_name): Replaces NaN values in a specified column with 0.
-drop_colums(dataset, column_name): Drops a specified column from the DataFrame.
-not_applicable(dataset, career_id, career_name, hours): Adds a new row to the DataFrame with specified values.
-Transformation Logic:
-Run_Transfomer(Dataset): This function orchestrates the data transformation process. It applies various transformation functions to clean and prepare the student data, handling missing values and creating a final dataset.
-Database Updates:
-The script updates the courses and jobs tables by calling the not_applicable() function and dropping duplicates from the jobs DataFrame.
-Writing to SQL:
-The write_to_sql(dataframe, table_name, connection) function writes a DataFrame to the specified SQL table, replacing existing data if necessary.
-Creating Spark DataFrames:
-The script creates Spark DataFrames from the Pandas DataFrames for further processing or analysis.
-Writing to CSV:
-The write_to_csv(dataframe, path) function writes a Spark DataFrame to a specified CSV file path.
-12. Copying CSV Files:
-The script defines functions to copy CSV files from source to destination paths, iterating over datasets to perform the copy operation.
-Summary
-Overall, the Database connection.py file serves as a comprehensive script for connecting to an SQLite database, performing data extraction and transformation, and managing the data flow between different formats (Pandas DataFrames, Spark DataFrames, and CSV files). It is designed to facilitate data processing for student-related information, ensuring that the data is clean, structured, and ready for analysis.
+### Database connection.py
+
+## Database Connection Script
+
+The `Database connection.py` file is responsible for establishing connections to a SQLite database and performing various data transformation tasks. Below is a breakdown of its key components and functionalities:
+
+### Key Functionalities
+
+1. **Environment Setup**
+   - Loads environment variables from a `.env` file using the `dotenv` library.
+   - Sets the working directory based on the `WORKING_DIR` environment variable.
+   - Retrieves the Azure storage account key from environment variables for potential use in data storage.
+
+2. **Database Connection Functions**
+   - **`change_directory(file_path)`**: Changes the current working directory to the specified file path. It handles exceptions and returns the current directory or `None` if an error occurs.
+   - **`create_connection(db_name)`**: Creates a connection to the specified SQLite database. It returns the connection object or `None` if an error occurs.
+   - **`connect_to_database()`**: Connects to the SQLite database named `cademycode.db` and returns the connection object.
+
+3. **Data Reading Functions**
+   - **`read_tables(table_name, con_name)`**: Reads a specified table from the database and returns it as a Pandas DataFrame. It handles exceptions and returns an empty DataFrame if an error occurs.
+
+4. **Data Transformation Functions**
+   - **`parse_contact_info(df, column_name, char1, char2)`**: Parses JSON-like strings in a specified column and creates new columns in the DataFrame.
+   - **`get_missing_rows(df, column)`**: Returns a DataFrame containing rows with missing values in a specified column.
+   - **`drop_missing_rows(df, column)`**: Returns a DataFrame with rows that do not have missing values in a specified column.
+   - **`concat_into_db(df1, df2)`**: Concatenates two DataFrames along the rows and handles exceptions.
+   - **`fill_np_zero(dataset, column_name)`**: Replaces NaN values in a specified column with 0.
+   - **`drop_colums(dataset, column_name)`**: Drops a specified column from the DataFrame.
+   - **`not_applicable(dataset, career_id, career_name, hours)`**: Adds a new row to the DataFrame with specified values.
+
+5. **Data Processing Logic**
+   - The script runs a transformation function `Run_Transfomer(Dataset)` that processes the student data, handling missing values and preparing the final dataset for analysis.
+   - It updates the courses and jobs tables with new information.
+
+6. **Data Writing Functions**
+   - **`write_to_sql(dataframe, table_name, connection)`**: Writes a DataFrame to a specified SQL table, replacing existing data if necessary.
+   - **`write_to_csv(dataframe, path)`**: Writes a DataFrame to a CSV file.
+
+7. **Data Export**
+   - The script exports processed DataFrames to both SQL and CSV formats, ensuring that the data is stored and accessible for further analysis.
+
+### Summary
+This script serves as a crucial component for managing database connections, reading and transforming data, and exporting the results for analysis. It leverages Pandas for data manipulation and SQLite for data storage, making it a versatile tool for data processing tasks.
