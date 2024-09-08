@@ -16,6 +16,6 @@ The Dataset used will be based on a frictional education company called Cademyco
 ![Architecture - page 1 (2)](https://github.com/user-attachments/assets/c711cd82-ab2d-48e1-ab1a-ada3758e2ae8)
 
 
-## File Descriptions
+## :mag_right: File Descriptions
 <details>
     <summary> Database connection.py </summary>
