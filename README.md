@@ -24,13 +24,13 @@ The Dataset used will be based on a frictional education company called Cademyco
 
 ## Database Connection Script
 
-The `Database connection.py` file is responsible for establishing connections to a SQLite database and performing various data transformation tasks. Below is a breakdown of its key components and functionalities:
+The `Database connection.py` file establishes connections to a SQLite database called `cademycode.db` and performs various data transformation tasks. Below is a breakdown of its key components and functionalities:
 
 ### Key Functionalities
 
 1. **Environment Setup**
    - Loads environment variables from a `.env` file using the `dotenv` library.
-   - Sets the working directory based on the `WORKING_DIR` environment variable. 
+   - Sets the working directory based on the `WORKING_DIR` environment variable to the location where the `cademycode.db` database is located. 
    - Retrieves the Azure storage account key from environment variables for potential use in data storage.
     
 
